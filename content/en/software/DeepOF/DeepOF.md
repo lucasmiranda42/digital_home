@@ -66,6 +66,6 @@ visualization tools. Below you can see the SHAP results, as well as video snippe
 
 That's all for now. All in all, DeepOF is a versatile tool that can help you extract meaningful information from your animal behavior data, and we hope you find it as useful as we do!
 
-### Where fo I go next?
+### Where do I go next?
 
 DeepOF is available on [GitHub](https://github.com/mlfpm/deepof) and [PyPI](https://pypi.org/project/deepof/). You can detailed installation instructions, as well as documentation and tutorials [here](https://deepof.readthedocs.io/en/latest/). Moreover, there are two publications you can read! One about the [software itself](https://joss.theoj.org/papers/10.21105/joss.05394), and another one in which we used to [characterize a mouse model of chronic stress](https://www.nature.com/articles/s41467-023-40040-3), for which there is also a [blog post]()!.
