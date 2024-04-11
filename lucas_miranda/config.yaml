@@ -1,0 +1,97 @@
+languageCode: en-us, es-es
+theme: PaperMod
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    title : "Home"
+    disabled: false
+    languageName: "English"
+    contentDir: content/en
+    languageCode: en-us
+    weight: 1
+    params:
+      languageAltTitle: English
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About me
+          url: about/
+          weight: 10
+        - name: Search
+          url: search/
+          weight: 15
+        - name: Publications
+          url: refs/
+          weight: 20
+        - name: Software
+          url: software/
+          weight: 25
+        # - name: Blog
+        #   url: blog/
+        #   weight: 30
+
+  es:
+    title : "Inicio"
+    disabled: false
+    languageName: "Español"
+    contentDir: content/es
+    languageCode: es-es
+    weight: 2
+    params:
+      languageAltTitle: Pasame un mate!
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Sobre mí
+          url: about/
+          weight: 10
+        - name: Búsqueda
+          url: search/
+          weight: 15
+        - name: Publicaciones
+          url: refs/
+          weight: 20
+        - name: Software
+          url: software/
+          weight: 25
+        # - name: Blog
+        #   url: blog/
+        #   weight: 30
+
+params:
+      env: production # to enable google analytics, opengraph, twitter-cards and schema.
+      profileMode:
+        enabled: true
+        title: Lucas Miranda
+        subtitle: "Postdoctoral researcher on Machine Learning and Systems Biology | An ape in awe"
+        imageUrl: "profile.png"
+        imageTitle: ProfileMode image
+        imageWidth: 180
+        imageHeight: 180
+      SocialIcons:
+        - name: github
+          url: "https://github.com/lucasmiranda42"
+        - name: LinkedIn
+          url: "https://www.linkedin.com/in/lucasmiranda42/"
+        - name: X
+          url: "https://twitter.com/lucasmiranda422"
+        - name: GoogleScholar
+          url: "https://scholar.google.com/citations?user=IVorpyEAAAAJ&hl=en"
+        - name: ORCID
+          url: "https://orcid.org/0000-0002-5484-6744"
+        - name: email
+          url: "mailto:miranda@biochem.mpg.de"
+
+outputs: 
+  home:   
+    - HTML   
+    - RSS   
+    - JSON

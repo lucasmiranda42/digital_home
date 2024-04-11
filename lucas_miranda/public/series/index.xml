@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Lucas Miranda&#39;s workspace</title>
+    <link>//localhost:1313/series/</link>
+    <description>Recent content in Series on Lucas Miranda&#39;s workspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMR</title>
+      <link>//localhost:1313/series/amr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/amr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Behavior</title>
+      <link>//localhost:1313/series/behavior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/behavior/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conferences</title>
+      <link>//localhost:1313/series/conferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>//localhost:1313/series/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/series/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mahine Learning</title>
+      <link>//localhost:1313/series/mahine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/mahine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medical Informatics</title>
+      <link>//localhost:1313/series/medical-informatics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/medical-informatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeurIPS</title>
+      <link>//localhost:1313/series/neurips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/neurips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuroscience</title>
+      <link>//localhost:1313/series/neuroscience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/neuroscience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Orleans</title>
+      <link>//localhost:1313/series/new-orleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/new-orleans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>//localhost:1313/series/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/papers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteomics</title>
+      <link>//localhost:1313/series/proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/proteomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/series/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Summer School</title>
+      <link>//localhost:1313/series/summer-school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/summer-school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>//localhost:1313/series/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USA</title>
+      <link>//localhost:1313/series/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/series/usa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Englishes on Lucas Miranda&#39;s workspace</title>
+    <link>//localhost:1313/en/english/</link>
+    <description>Recent content in Englishes on Lucas Miranda&#39;s workspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jan 2024 15:48:40 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/en/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My personal blog</title>
+      <link>//localhost:1313/en/english/blog/</link>
+      <pubDate>Sat, 06 Jan 2024 15:48:40 +0100</pubDate>
+      <guid>//localhost:1313/en/english/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About me </title>
+      <link>//localhost:1313/en/english/about/</link>
+      <pubDate>Sat, 06 Jan 2024 15:48:02 +0100</pubDate>
+      <guid>//localhost:1313/en/english/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>//localhost:1313/en/english/refs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/english/refs/</guid>
+      <description>2024 J Bordes, T Bajaj, L Miranda, L van Doeselaar, L Brix, S Narayan, H Yang, S Mitra, V Kovarova, M Springer, K Kleigrewe, B Müller-Myhsok, N Gassen, MV Schmidt. &amp;ldquo;Sex-specific fear acquisition following early life stress is linked to amygdala glutamate metabolism.&amp;rdquo;, preprint in bioRxiv. Link to paper. 2023 A Kos &amp;amp; JP Lopez et al. &amp;ldquo;Early life adversity shapes social subordination and cell type–specific transcriptomic patterning in the ventral hippocampus&amp;rdquo;, in Science Advances.</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>//localhost:1313/en/english/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/english/search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/en/english/soft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/english/soft/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
