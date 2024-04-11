@@ -9,13 +9,6 @@
     <lastBuildDate>Sat, 06 Jan 2024 15:48:08 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automatically annotated motion tracking identifies a distinct social behavioral profile following chronic social defeat stress</title>
-      <link>//localhost:1313/es/blog/csds_ncomms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/blog/csds_ncomms/</guid>
-      <description>Here, we used our DeepOF software to gain novel insights into the social behavior of mice following chronic social defeat stress.</description>
-    </item>
-    <item>
       <title>DeepOF</title>
       <link>//localhost:1313/es/software/deepof/deepof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,7 +41,7 @@
       <link>//localhost:1313/es/about/</link>
       <pubDate>Sat, 06 Jan 2024 15:48:08 +0100</pubDate>
       <guid>//localhost:1313/es/about/</guid>
-      <description>¡Hola! Bienvenido mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (pronto) entradas de blog de interés general.
+      <description>¡Hola! Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (pronto) entradas de blog de interés general.
 Mi nombre es Lucas Miranda. Nací y crecí en Buenos Aires, Argentina, donde estudié biología molecular y bioinformática en la Universidad de Buenos Aires. Recientemente completé mi doctorado en la Universidad Técnica de Munich, dirigido por Bertram Müller-Myhsok en el Instituto Max Planck de Psiquiatría.</description>
     </item>
     <item>
