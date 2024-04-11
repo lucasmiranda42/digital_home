@@ -6,7 +6,7 @@ draft = false
 
 ---
 
-¡Hola! Bienvenido mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (pronto) entradas de blog de interés general.
+¡Hola! Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (pronto) entradas de blog de interés general.
 
 ---
 
