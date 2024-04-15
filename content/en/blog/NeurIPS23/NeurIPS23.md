@@ -6,9 +6,9 @@ weight: 1
 aliases: ["/blog/NeurIPS23/"]
 tags: ["Conferences", "NeurIPS", "Travel", "Machine Learning", "Deep Learning", "USA", "New Orleans"]
 author: ["Lucas Miranda"]
-# cover:
-#   image: neurips_coder.png
-#   alt: "NeurIPS23 logo"
+cover:
+  image: neurips_logo.png
+  alt: "NeurIPS23 logo"
 ---
 
 ### General impressions
