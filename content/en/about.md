@@ -14,7 +14,7 @@ My name is Lucas Miranda. I was born and raised in [Buenos Aires, Argentina](htt
 
 Since June 2023, I work as a postdoctoral researcher at the [Max Planck Institute of Biochemistry](https://www.biochem.mpg.de/en) in Munich, Germany, as part of the [Machine Learning and Systems Biology research group](https://www.biochem.mpg.de/borgwardt). My current research focuses on representation learning of biological and medical data, with a particular interest in clinical proteomics and medical time series, including electronic health records and intensive care unit trajectories.
 
-We live in exciting times, where machine learning models are becoming better by the day in many domains. My goal is to contribute my bit to the development of this technology in the medical field, which can ultimately benefit billions of people. Thank you for tuning in, and I hope you find something useful!
+We live in exciting times, where machine learning models are becoming better by the day in many domains. My goal is to contribute my bit to the development of this technology in the medical field, which can ultimately benefit us all. Thank you for tuning in, and I hope you find something useful!
 
 ---
 

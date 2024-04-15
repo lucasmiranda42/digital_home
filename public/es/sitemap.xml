@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/es/blog/csds_ncomms/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/csds_ncomms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/blog/csds_ncomms/"
-                />
-  </url><url>
     <loc>//localhost:1313/es/software/deepof/deepof/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,40 +15,10 @@
                 />
   </url><url>
     <loc>//localhost:1313/es/blog/amr_multimodal/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/amr_multimodal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/blog/amr_multimodal/"
-                />
   </url><url>
     <loc>//localhost:1313/es/blog/neurips23/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/neurips23/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/blog/neurips23/"
-                />
   </url><url>
     <loc>//localhost:1313/es/blog/probai24/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/probai24/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/blog/probai24/"
-                />
   </url><url>
     <loc>//localhost:1313/es/</loc>
     <lastmod>2024-01-06T15:48:08+01:00</lastmod>
@@ -110,30 +68,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/series/amr/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/tags/behavior/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/behavior/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/behavior/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/series/behavior/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/series/behavior/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/series/behavior/"
                 />
   </url><url>
     <loc>//localhost:1313/es/blog/</loc>
@@ -234,18 +168,6 @@
                 href="//localhost:1313/es/tags/deep-learning/"
                 />
   </url><url>
-    <loc>//localhost:1313/es/series/deep-learning/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/series/deep-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/series/deep-learning/"
-                />
-  </url><url>
     <loc>//localhost:1313/es/tags/deeplabcut/</loc>
     <xhtml:link
                 rel="alternate"
@@ -292,18 +214,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/machine-learning/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/series/machine-learning/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/series/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/series/machine-learning/"
                 />
   </url><url>
     <loc>//localhost:1313/es/series/mahine-learning/</loc>
@@ -378,30 +288,6 @@
                 href="//localhost:1313/es/series/neurips/"
                 />
   </url><url>
-    <loc>//localhost:1313/es/tags/neuroscience/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/neuroscience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/neuroscience/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/series/neuroscience/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/series/neuroscience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/series/neuroscience/"
-                />
-  </url><url>
     <loc>//localhost:1313/es/tags/new-orleans/</loc>
     <xhtml:link
                 rel="alternate"
@@ -451,18 +337,6 @@
                 />
   </url><url>
     <loc>//localhost:1313/es/tags/postprocesado/</loc>
-  </url><url>
-    <loc>//localhost:1313/es/tags/postprocessing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/postprocessing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/postprocessing/"
-                />
   </url><url>
     <loc>//localhost:1313/es/tags/probabilistic-ai/</loc>
     <xhtml:link
@@ -536,18 +410,6 @@
                 href="//localhost:1313/es/tags/rio-de-janeiro/"
                 />
   </url><url>
-    <loc>//localhost:1313/es/tags/rodents/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/rodents/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/rodents/"
-                />
-  </url><url>
     <loc>//localhost:1313/es/tags/roedores/</loc>
   </url><url>
     <loc>//localhost:1313/es/series/</loc>
@@ -574,18 +436,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/sleap/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/tags/social-defeat-stress/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/social-defeat-stress/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/social-defeat-stress/"
                 />
   </url><url>
     <loc>//localhost:1313/es/tags/software/</loc>
@@ -658,18 +508,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/tags/time-series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/time-series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/time-series/"
                 />
   </url><url>
     <loc>//localhost:1313/es/tags/travel/</loc>
