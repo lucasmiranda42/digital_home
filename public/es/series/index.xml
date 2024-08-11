@@ -8,31 +8,24 @@
     <language>es-es</language>
     <atom:link href="//localhost:1313/es/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AMR</title>
-      <link>//localhost:1313/es/series/amr/</link>
+      <title>Aprendizaje Automático</title>
+      <link>//localhost:1313/es/series/aprendizaje-autom%C3%A1tico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/amr/</guid>
+      <guid>//localhost:1313/es/series/aprendizaje-autom%C3%A1tico/</guid>
       <description></description>
     </item>
     <item>
-      <title>Conferences</title>
-      <link>//localhost:1313/es/series/conferences/</link>
+      <title>Conferencias</title>
+      <link>//localhost:1313/es/series/conferencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/conferences/</guid>
+      <guid>//localhost:1313/es/series/conferencias/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mahine Learning</title>
-      <link>//localhost:1313/es/series/mahine-learning/</link>
+      <title>EE.UU.</title>
+      <link>//localhost:1313/es/series/ee.uu./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/mahine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Medical Informatics</title>
-      <link>//localhost:1313/es/series/medical-informatics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/medical-informatics/</guid>
+      <guid>//localhost:1313/es/series/ee.uu./</guid>
       <description></description>
     </item>
     <item>
@@ -43,24 +36,10 @@
       <description></description>
     </item>
     <item>
-      <title>New Orleans</title>
-      <link>//localhost:1313/es/series/new-orleans/</link>
+      <title>Nueva Orleans</title>
+      <link>//localhost:1313/es/series/nueva-orleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/new-orleans/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Papers</title>
-      <link>//localhost:1313/es/series/papers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/papers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proteomics</title>
-      <link>//localhost:1313/es/series/proteomics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/proteomics/</guid>
+      <guid>//localhost:1313/es/series/nueva-orleans/</guid>
       <description></description>
     </item>
     <item>
@@ -71,24 +50,10 @@
       <description></description>
     </item>
     <item>
-      <title>Summer School</title>
-      <link>//localhost:1313/es/series/summer-school/</link>
+      <title>Viajes</title>
+      <link>//localhost:1313/es/series/viajes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/summer-school/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>//localhost:1313/es/series/travel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/travel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>USA</title>
-      <link>//localhost:1313/es/series/usa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/series/usa/</guid>
+      <guid>//localhost:1313/es/series/viajes/</guid>
       <description></description>
     </item>
   </channel>

@@ -8,24 +8,17 @@
     <language>es-es</language>
     <atom:link href="//localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AMR</title>
-      <link>//localhost:1313/es/tags/amr/</link>
+      <title>Aprendizaje Automático</title>
+      <link>//localhost:1313/es/tags/aprendizaje-autom%C3%A1tico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/amr/</guid>
+      <guid>//localhost:1313/es/tags/aprendizaje-autom%C3%A1tico/</guid>
       <description></description>
     </item>
     <item>
-      <title>Brazil</title>
-      <link>//localhost:1313/es/tags/brazil/</link>
+      <title>Aprendizaje Profundo</title>
+      <link>//localhost:1313/es/tags/aprendizaje-profundo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/brazil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Clinical</title>
-      <link>//localhost:1313/es/tags/clinical/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/clinical/</guid>
+      <guid>//localhost:1313/es/tags/aprendizaje-profundo/</guid>
       <description></description>
     </item>
     <item>
@@ -36,10 +29,10 @@
       <description></description>
     </item>
     <item>
-      <title>Conferences</title>
-      <link>//localhost:1313/es/tags/conferences/</link>
+      <title>Conferencias</title>
+      <link>//localhost:1313/es/tags/conferencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/conferences/</guid>
+      <guid>//localhost:1313/es/tags/conferencias/</guid>
       <description></description>
     </item>
     <item>
@@ -64,6 +57,13 @@
       <description></description>
     </item>
     <item>
+      <title>EE.UU.</title>
+      <link>//localhost:1313/es/tags/ee.uu./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/ee.uu./</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Jupyter</title>
       <link>//localhost:1313/es/tags/jupyter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -78,20 +78,6 @@
       <description></description>
     </item>
     <item>
-      <title>Medical Informatics</title>
-      <link>//localhost:1313/es/tags/medical-informatics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/medical-informatics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Multimodal</title>
-      <link>//localhost:1313/es/tags/multimodal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/multimodal/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>NeurIPS</title>
       <link>//localhost:1313/es/tags/neurips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,17 +85,10 @@
       <description></description>
     </item>
     <item>
-      <title>New Orleans</title>
-      <link>//localhost:1313/es/tags/new-orleans/</link>
+      <title>Nueva Orleans</title>
+      <link>//localhost:1313/es/tags/nueva-orleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/new-orleans/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Papers</title>
-      <link>//localhost:1313/es/tags/papers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/papers/</guid>
+      <guid>//localhost:1313/es/tags/nueva-orleans/</guid>
       <description></description>
     </item>
     <item>
@@ -120,31 +99,10 @@
       <description></description>
     </item>
     <item>
-      <title>Probabilistic AI</title>
-      <link>//localhost:1313/es/tags/probabilistic-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/probabilistic-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proteomics</title>
-      <link>//localhost:1313/es/tags/proteomics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/proteomics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Python</title>
       <link>//localhost:1313/es/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rio De Janeiro</title>
-      <link>//localhost:1313/es/tags/rio-de-janeiro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/rio-de-janeiro/</guid>
       <description></description>
     </item>
     <item>
@@ -176,31 +134,10 @@
       <description></description>
     </item>
     <item>
-      <title>Summer School</title>
-      <link>//localhost:1313/es/tags/summer-school/</link>
+      <title>Viajes</title>
+      <link>//localhost:1313/es/tags/viajes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/summer-school/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>//localhost:1313/es/tags/travel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/travel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tropical</title>
-      <link>//localhost:1313/es/tags/tropical/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/tropical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>USA</title>
-      <link>//localhost:1313/es/tags/usa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/usa/</guid>
+      <guid>//localhost:1313/es/tags/viajes/</guid>
       <description></description>
     </item>
     <item>

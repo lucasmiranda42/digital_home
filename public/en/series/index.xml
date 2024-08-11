@@ -15,10 +15,31 @@
       <description></description>
     </item>
     <item>
+      <title>Austria</title>
+      <link>//localhost:1313/en/series/austria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/austria/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Conferences</title>
       <link>//localhost:1313/en/series/conferences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/series/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICML</title>
+      <link>//localhost:1313/en/series/icml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/icml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMPRS-TP</title>
+      <link>//localhost:1313/en/series/imprs-tp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/imprs-tp/</guid>
       <description></description>
     </item>
     <item>
@@ -29,10 +50,31 @@
       <description></description>
     </item>
     <item>
+      <title>Max Planck</title>
+      <link>//localhost:1313/en/series/max-planck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/max-planck/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Medical Informatics</title>
       <link>//localhost:1313/en/series/medical-informatics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/series/medical-informatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mental Health</title>
+      <link>//localhost:1313/en/series/mental-health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/mental-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MPI-P</title>
+      <link>//localhost:1313/en/series/mpi-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/mpi-p/</guid>
       <description></description>
     </item>
     <item>
@@ -50,6 +92,13 @@
       <description></description>
     </item>
     <item>
+      <title>Outreach</title>
+      <link>//localhost:1313/en/series/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/outreach/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Papers</title>
       <link>//localhost:1313/en/series/papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,6 +110,13 @@
       <link>//localhost:1313/en/series/proteomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/series/proteomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychiatry</title>
+      <link>//localhost:1313/en/series/psychiatry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/psychiatry/</guid>
       <description></description>
     </item>
     <item>
@@ -89,6 +145,13 @@
       <link>//localhost:1313/en/series/usa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/series/usa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vienna</title>
+      <link>//localhost:1313/en/series/vienna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/vienna/</guid>
       <description></description>
     </item>
   </channel>

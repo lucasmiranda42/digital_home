@@ -31,9 +31,9 @@ languages:
         - name: Software
           url: software/
           weight: 25
-        # - name: Blog
-        #   url: blog/
-        #   weight: 30
+        - name: Blog
+          url: blog/
+          weight: 30
 
   es:
     title : "Inicio"
@@ -62,12 +62,28 @@ languages:
         - name: Software
           url: software/
           weight: 25
-        # - name: Blog
-        #   url: blog/
-        #   weight: 30
+        - name: Blog
+          url: blog/
+          weight: 30
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
 
 params:
       env: production # to enable google analytics, opengraph, twitter-cards and schema.
+      math: false
       profileMode:
         enabled: true
         title: Lucas Miranda
