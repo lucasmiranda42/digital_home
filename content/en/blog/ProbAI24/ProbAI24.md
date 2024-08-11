@@ -6,7 +6,7 @@ weight: 1
 aliases: ["/blog/ProbAI24/"]
 tags: ["Conferences", "Summer School", "Travel", "Probabilistic AI", "Machine Learning", "Deep Learning", "Tropical", "Brazil", "Rio de Janeiro"]
 author: ["Lucas Miranda"]
-# cover:
-#   image: probai24_cover.png
-#   alt: "ProbAI24 logo"
+cover:
+  image: probai24_cover.png
+  alt: "ProbAI24 logo"
 ---
