@@ -9,4 +9,5 @@ author: ["Lucas Miranda"]
 cover:
   image: AMR_multimodal.png
   alt: "AMR main figure"
+draft: true
 ---
