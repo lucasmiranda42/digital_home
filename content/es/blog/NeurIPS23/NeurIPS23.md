@@ -17,7 +17,7 @@ params:
 
 En diciembre pasado, tuve el placer de asistir a la edición 2023 de la conferencia *Neural Information Processing Systems* (NeurIPS) en Nueva Orleans. Era la primera vez que asistía a un evento tan grande, y debo admitir que me sentí un poco abrumado por la cantidad de personas y la inmensa cantidad de información disponible. Sin embargo, obtuve mucha información valiosa de las varias charlas interesantes y sesiones de póster a las que logré asistir, y me gustaría compartir algunos de mis fragmentos favoritos con quien esté interesado!. Abajo un resumen de los tres artículos que encontré más interesantes para mi investigación actual, así como un bonus track sobre un proyecto increíble que me retrotrajo a mis días de doctorado.
 
-### Contrast Everything (COMET)
+### Contrastando todo (COMET)
 
 El primer artículo en la lista presenta [COMET](https://proceedings.neurips.cc/paper_files/paper/2023/file/ae7d9c77b5ff9e3b7833a68523b880f2-Paper-Conference.pdf), un marco de aprendizaje por contraste para aprender representaciones de series temporales médicas de manera auto-supervisada. La principal contribución que los autores presentan es un esquema de entrenamiento jerárquico para codificadores de series temporales, con una función de coste que consta de cuatro niveles de contraste, con el fin de explotar y aprender de diferentes niveles de consistencia de datos que de otro modo podrían perderse. Para todos los niveles, utilizan variantes de función de coste InfoNCE (*Information Noise Contrastive Estimation*, en inglés), donde los pares positivos y negativos se obtienen enmascarando observaciones al azar en el input a los modelos.
 
