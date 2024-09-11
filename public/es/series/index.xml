@@ -22,10 +22,38 @@
       <description></description>
     </item>
     <item>
+      <title>Divulgación</title>
+      <link>//localhost:1313/es/series/divulgaci%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/divulgaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>EE.UU.</title>
       <link>//localhost:1313/es/series/ee.uu./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/series/ee.uu./</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMPRS-TP</title>
+      <link>//localhost:1313/es/series/imprs-tp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/imprs-tp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Max Planck</title>
+      <link>//localhost:1313/es/series/max-planck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/max-planck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MPI-P</title>
+      <link>//localhost:1313/es/series/mpi-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/mpi-p/</guid>
       <description></description>
     </item>
     <item>
@@ -40,6 +68,20 @@
       <link>//localhost:1313/es/series/nueva-orleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/series/nueva-orleans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psiquiatría</title>
+      <link>//localhost:1313/es/series/psiquiatr%C3%ADa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/psiquiatr%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salud Mental</title>
+      <link>//localhost:1313/es/series/salud-mental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/salud-mental/</guid>
       <description></description>
     </item>
     <item>

@@ -57,10 +57,24 @@
       <description></description>
     </item>
     <item>
+      <title>Divulgación</title>
+      <link>//localhost:1313/es/tags/divulgaci%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/divulgaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>EE.UU.</title>
       <link>//localhost:1313/es/tags/ee.uu./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/tags/ee.uu./</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMPRS-TP</title>
+      <link>//localhost:1313/es/tags/imprs-tp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/imprs-tp/</guid>
       <description></description>
     </item>
     <item>
@@ -75,6 +89,20 @@
       <link>//localhost:1313/es/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Max Planck</title>
+      <link>//localhost:1313/es/tags/max-planck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/max-planck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MPI-P</title>
+      <link>//localhost:1313/es/tags/mpi-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/mpi-p/</guid>
       <description></description>
     </item>
     <item>
@@ -99,6 +127,13 @@
       <description></description>
     </item>
     <item>
+      <title>Psiquiatría</title>
+      <link>//localhost:1313/es/tags/psiquiatr%C3%ADa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/psiquiatr%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Python</title>
       <link>//localhost:1313/es/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,6 +145,13 @@
       <link>//localhost:1313/es/tags/roedores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/tags/roedores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salud Mental</title>
+      <link>//localhost:1313/es/tags/salud-mental/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/salud-mental/</guid>
       <description></description>
     </item>
     <item>

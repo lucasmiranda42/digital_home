@@ -26,6 +26,18 @@
                 href="//localhost:1313/es/blog/neurips23/neurips23/"
                 />
   </url><url>
+    <loc>//localhost:1313/es/blog/psycomm/psycomm_booklet/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/psycomm/psycomm_booklet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/blog/psycomm/psycomm_booklet/"
+                />
+  </url><url>
     <loc>//localhost:1313/es/</loc>
     <lastmod>2024-01-06T15:48:08+01:00</lastmod>
     <xhtml:link
@@ -136,9 +148,37 @@
                 href="//localhost:1313/es/tags/deepof/"
                 />
   </url><url>
+    <loc>//localhost:1313/es/tags/divulgaci%C3%B3n/</loc>
+  </url><url>
+    <loc>//localhost:1313/es/series/divulgaci%C3%B3n/</loc>
+  </url><url>
     <loc>//localhost:1313/es/tags/ee.uu./</loc>
   </url><url>
     <loc>//localhost:1313/es/series/ee.uu./</loc>
+  </url><url>
+    <loc>//localhost:1313/es/tags/imprs-tp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/imprs-tp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/imprs-tp/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/series/imprs-tp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/imprs-tp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/imprs-tp/"
+                />
   </url><url>
     <loc>//localhost:1313/es/tags/jupyter/</loc>
     <xhtml:link
@@ -162,6 +202,54 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/machine-learning/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/max-planck/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/max-planck/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/max-planck/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/series/max-planck/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/max-planck/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/max-planck/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/mpi-p/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/mpi-p/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/mpi-p/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/series/mpi-p/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/mpi-p/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/mpi-p/"
                 />
   </url><url>
     <loc>//localhost:1313/es/tags/neurips/</loc>
@@ -194,6 +282,10 @@
   </url><url>
     <loc>//localhost:1313/es/tags/postprocesado/</loc>
   </url><url>
+    <loc>//localhost:1313/es/tags/psiquiatr%C3%ADa/</loc>
+  </url><url>
+    <loc>//localhost:1313/es/series/psiquiatr%C3%ADa/</loc>
+  </url><url>
     <loc>//localhost:1313/es/refs/</loc>
     <xhtml:link
                 rel="alternate"
@@ -219,6 +311,10 @@
                 />
   </url><url>
     <loc>//localhost:1313/es/tags/roedores/</loc>
+  </url><url>
+    <loc>//localhost:1313/es/tags/salud-mental/</loc>
+  </url><url>
+    <loc>//localhost:1313/es/series/salud-mental/</loc>
   </url><url>
     <loc>//localhost:1313/es/series/</loc>
     <xhtml:link

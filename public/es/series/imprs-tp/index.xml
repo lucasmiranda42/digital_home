@@ -8,11 +8,11 @@
     <language>es-es</language>
     <atom:link href="//localhost:1313/es/series/imprs-tp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mental health, explained for everyone</title>
+      <title>Salud mental, explicada para todos</title>
       <link>//localhost:1313/es/blog/psycomm/psycomm_booklet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/blog/psycomm/psycomm_booklet/</guid>
-      <description>As part of the science communication group within the Max Planck Institute of Psychiatry, we wrote and released a booklet on mental health and mental health research for children. Come and check it out!</description>
+      <description>Como parte del grupo de comunicación científica del Instituto Max Planck de Psiquiatría, escribimos y publicamos un folleto sobre salud mental e investigación en salud mental para niños. ¡Ven y échale un vistazo!</description>
     </item>
   </channel>
 </rss>
