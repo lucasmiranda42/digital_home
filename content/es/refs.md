@@ -7,7 +7,7 @@ draft = false
 
 * L Miranda. "*Deep clustering of animal motion tracking data: software development and applications to psychiatric preclinical research*". PhD thesis, Technische Universität München. [Enlace a la tesis](https://mediatum.ub.tum.de/?id=1713444).
 
-* J Bordes, T Bajaj, L Miranda, L van Doeselaar, L Brix, S Narayan, H Yang, S Mitra, V Kovarova, M Springer, K Kleigrewe, B Müller-Myhsok, N Gassen, MV Schmidt. *"Sex-specific fear acquisition following early life stress is linked to amygdala glutamate metabolism."*, preprint in *bioRxiv*. [Enlace al artículo](https://www.biorxiv.org/content/10.1101/2024.02.15.580479v1).
+* J Bordes, T Bajaj, L Miranda, L van Doeselaar, L Brix, S Narayan, H Yang, S Mitra, V Kovarova, M Springer, K Kleigrewe, B Müller-Myhsok, N Gassen, MV Schmidt. *"Sex-specific fear acquisition following early life stress is linked to amygdala and hippocampal purine and glutamate metabolism"*, in *Communications biology*. [Enlace al artículo](https://www.nature.com/articles/s42003-024-07396-8).
 
 ### 2023
 

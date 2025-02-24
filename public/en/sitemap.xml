@@ -15,6 +15,16 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/blog/icml24/icml24/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/blog/icml24/icml24/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/icml24/icml24/"
+                />
   </url><url>
     <loc>//localhost:1313/en/blog/psycomm/psycomm_booklet/</loc>
     <xhtml:link
@@ -75,8 +85,28 @@
     <loc>//localhost:1313/en/series/amr/</loc>
   </url><url>
     <loc>//localhost:1313/en/tags/austria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/austria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/austria/"
+                />
   </url><url>
     <loc>//localhost:1313/en/series/austria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/austria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/austria/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/behavior/</loc>
   </url><url>
@@ -149,8 +179,28 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/icml/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/icml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/icml/"
+                />
   </url><url>
     <loc>//localhost:1313/en/series/icml/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/icml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/icml/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/imprs-tp/</loc>
     <xhtml:link

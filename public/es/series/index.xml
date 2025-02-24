@@ -15,6 +15,13 @@
       <description></description>
     </item>
     <item>
+      <title>Austria</title>
+      <link>//localhost:1313/es/series/austria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/austria/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Conferencias</title>
       <link>//localhost:1313/es/series/conferencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,6 +40,13 @@
       <link>//localhost:1313/es/series/ee.uu./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/series/ee.uu./</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICML</title>
+      <link>//localhost:1313/es/series/icml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/icml/</guid>
       <description></description>
     </item>
     <item>
@@ -96,6 +110,13 @@
       <link>//localhost:1313/es/series/viajes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/series/viajes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Viena</title>
+      <link>//localhost:1313/es/series/viena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/series/viena/</guid>
       <description></description>
     </item>
   </channel>
