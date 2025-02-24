@@ -15,7 +15,7 @@ params:
 
 ### General impressions
 
-Last December, I had the pleasure to attend the 2023 edition of the Neural Information Processing Systems (NeurIPS) conference in New Orleans. It was my first time in such a large venue, and I must admit I was slightly overwhelmed by the number of people and the sheer amount of information available. However, I got a lot of insight from the several interesting talks and poster sessions I managed to attend, and I would like to share some of my favourite snippets with you. Below the three papers I found most interesting for my current research, as well as a bonus track on an amazing project that calls back to my PhD days. Off we go!
+Last December, I had the pleasure of attending the 2023 edition of the Neural Information Processing Systems (NeurIPS) conference in New Orleans. It was my first time in such a large venue, and I must admit I was slightly overwhelmed by the number of people and the sheer amount of information available. However, I got a lot of insight from the several interesting talks and poster sessions I managed to attend, and I would like to share some of my favourite snippets with whoever is interested. Below the three papers I found most interesting for my current research, as well as a bonus track on an amazing project that calls back to my PhD days.
 
 ### Contrast Everything: A Hierarchical Contrastive Framework for Medical Time-Series
 

@@ -15,7 +15,7 @@ params:
 
 ### Impresiones generales
 
-De nuevo en un evento multitudinario. Esta vez en Viena, Austria, para la Conferencia Internacional sobre Aprendizaje Automático (ICML). Organicé mi agenda mucho mejor que [la última vez](https://lucasmiranda42.github.io/digital_home/es/blog/neurips23/neurips23/), y obtuve mucha información sobre los nuevos avances en varias áreas que me interesan, como la representación de series temporales, la informática médica y la biología computacional de proteínas. Abajo vas a encontrar mi humilde selección de artículos favoritos. Espero que encuentres algo interesante.
+Esta vez escribo desde Viena, Austria, ciudad que visité con motivo de la Conferencia Internacional sobre Aprendizaje Automático (ICML). Organicé mi agenda mucho mejor que [la última vez](https://lucasmiranda42.github.io/digital_home/es/blog/neurips23/neurips23/), y obtuve mucha información sobre los nuevos avances en varias áreas que me interesan, como la representación de series temporales, la informática médica y la biología computacional de proteínas. Abajo mi humilde selección de artículos favoritos. Espero que encuentres algo interesante.
 
 ### Aprendizaje por contraste para la predicción de resultados clínicos con fuentes de datos parciales
 
