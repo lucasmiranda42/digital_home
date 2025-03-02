@@ -22,17 +22,17 @@ languages:
         - name: About me
           url: about/
           weight: 10
-        - name: Search
-          url: search/
-          weight: 15
         - name: Publications
           url: refs/
-          weight: 20
+          weight: 15
         - name: Software
           url: software/
-          weight: 25
+          weight: 20
         - name: Blog
           url: blog/
+          weight: 25
+        - name: Search
+          url: search/
           weight: 30
 
   es:
@@ -53,17 +53,17 @@ languages:
         - name: Sobre mí
           url: about/
           weight: 10
-        - name: Búsqueda
-          url: search/
-          weight: 15
         - name: Publicaciones
           url: refs/
-          weight: 20
+          weight: 15
         - name: Software
           url: software/
-          weight: 25
+          weight: 20
         - name: Blog
           url: blog/
+          weight: 25
+        - name: Búsqueda
+          url: search/
           weight: 30
 
 markup:
