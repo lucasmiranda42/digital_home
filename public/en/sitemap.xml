@@ -78,21 +78,9 @@
                 href="//localhost:1313/en/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/amr/</loc>
-  </url><url>
     <loc>//localhost:1313/en/series/amr/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/austria/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/austria/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/austria/"
-                />
+    <loc>//localhost:1313/en/tags/amr/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/austria/</loc>
     <xhtml:link
@@ -104,6 +92,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/series/austria/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/austria/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/austria/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/austria/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/behavior/</loc>
@@ -134,9 +134,9 @@
   </url><url>
     <loc>//localhost:1313/en/tags/clinical/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/conferences/</loc>
-  </url><url>
     <loc>//localhost:1313/en/series/conferences/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/conferences/</loc>
   </url><url>
     <loc>//localhost:1313/en/tags/deep-learning/</loc>
     <xhtml:link
@@ -174,18 +174,6 @@
                 href="//localhost:1313/en/tags/deepof/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/icml/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/icml/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/icml/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/series/icml/</loc>
     <xhtml:link
                 rel="alternate"
@@ -198,16 +186,16 @@
                 href="//localhost:1313/en/series/icml/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/imprs-tp/</loc>
+    <loc>//localhost:1313/en/tags/icml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/es/tags/imprs-tp/"
+                href="//localhost:1313/es/tags/icml/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/imprs-tp/"
+                href="//localhost:1313/en/tags/icml/"
                 />
   </url><url>
     <loc>//localhost:1313/en/series/imprs-tp/</loc>
@@ -220,6 +208,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/series/imprs-tp/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/imprs-tp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/imprs-tp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/imprs-tp/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/jupyter/</loc>
@@ -248,18 +248,6 @@
   </url><url>
     <loc>//localhost:1313/en/series/mahine-learning/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/max-planck/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/max-planck/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/max-planck/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/series/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
@@ -272,25 +260,25 @@
                 href="//localhost:1313/en/series/max-planck/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/medical-informatics/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/series/medical-informatics/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/mental-health/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/series/mental-health/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/mpi-p/</loc>
+    <loc>//localhost:1313/en/tags/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/es/tags/mpi-p/"
+                href="//localhost:1313/es/tags/max-planck/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/mpi-p/"
+                href="//localhost:1313/en/tags/max-planck/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/medical-informatics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/medical-informatics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/mental-health/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/mental-health/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/mpi-p/</loc>
     <xhtml:link
@@ -304,19 +292,19 @@
                 href="//localhost:1313/en/series/mpi-p/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/multimodal/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/neurips/</loc>
+    <loc>//localhost:1313/en/tags/mpi-p/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/es/tags/neurips/"
+                href="//localhost:1313/es/tags/mpi-p/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/neurips/"
+                href="//localhost:1313/en/tags/mpi-p/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/multimodal/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/neurips/</loc>
     <xhtml:link
@@ -330,27 +318,39 @@
                 href="//localhost:1313/en/series/neurips/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/new-orleans/</loc>
+    <loc>//localhost:1313/en/tags/neurips/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/neurips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/neurips/"
+                />
   </url><url>
     <loc>//localhost:1313/en/series/new-orleans/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/outreach/</loc>
+    <loc>//localhost:1313/en/tags/new-orleans/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/outreach/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/papers/</loc>
+    <loc>//localhost:1313/en/tags/outreach/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/papers/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/postprocessing/</loc>
+    <loc>//localhost:1313/en/tags/papers/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/proteomics/</loc>
+    <loc>//localhost:1313/en/tags/postprocessing/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/proteomics/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/psychiatry/</loc>
+    <loc>//localhost:1313/en/tags/proteomics/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/psychiatry/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/psychiatry/</loc>
   </url><url>
     <loc>//localhost:1313/en/refs/</loc>
     <xhtml:link
@@ -414,18 +414,6 @@
                 href="//localhost:1313/en/tags/sleap/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/software/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/software/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/series/software/</loc>
     <xhtml:link
                 rel="alternate"
@@ -450,6 +438,18 @@
                 href="//localhost:1313/en/software/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/tags/software/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/software/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -464,13 +464,13 @@
   </url><url>
     <loc>//localhost:1313/en/tags/time-series/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/travel/</loc>
-  </url><url>
     <loc>//localhost:1313/en/series/travel/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/usa/</loc>
+    <loc>//localhost:1313/en/tags/travel/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/usa/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/usa/</loc>
   </url><url>
     <loc>//localhost:1313/en/tags/videos/</loc>
     <xhtml:link
@@ -484,8 +484,8 @@
                 href="//localhost:1313/en/tags/videos/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/vienna/</loc>
-  </url><url>
     <loc>//localhost:1313/en/series/vienna/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/vienna/</loc>
   </url>
 </urlset>

@@ -3,6 +3,8 @@ theme: PaperMod
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
+defaultTheme: light
+enableEmoji: true
 languages:
   en:
     title : "Home"
@@ -12,7 +14,7 @@ languages:
     languageCode: en-us
     weight: 1
     params:
-      languageAltTitle: English
+      languageAltTitle: 🇬🇧
     taxonomies:
       category: categories
       tag: tags
@@ -43,7 +45,7 @@ languages:
     languageCode: es-es
     weight: 2
     params:
-      languageAltTitle: Pasame un mate!
+      languageAltTitle: 🧉
     taxonomies:
       category: categories
       tag: tags
@@ -97,14 +99,16 @@ params:
           url: "https://github.com/lucasmiranda42"
         - name: LinkedIn
           url: "https://www.linkedin.com/in/lucasmiranda42/"
-        - name: X
-          url: "https://twitter.com/lucasmiranda422"
+        - name: bluesky
+          url: "https://bsky.app/profile/lucasmiranda42.bsky.social"
         - name: GoogleScholar
           url: "https://scholar.google.com/citations?user=IVorpyEAAAAJ&hl=en"
         - name: ORCID
           url: "https://orcid.org/0000-0002-5484-6744"
         - name: email
           url: "mailto:miranda@biochem.mpg.de"
+        - name: deezer
+          url: "https://www.deezer.com/de/profile/6343103503"
 
 outputs: 
   home:   

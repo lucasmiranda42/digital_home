@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Inicio</title>
     <link>//localhost:1313/es/</link>
     <description>Recent content on Inicio</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 06 Jan 2024 15:48:08 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
@@ -41,16 +41,25 @@
       <link>//localhost:1313/es/about/</link>
       <pubDate>Sat, 06 Jan 2024 15:48:08 +0100</pubDate>
       <guid>//localhost:1313/es/about/</guid>
-      <description>Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (de vez en cuando) entradas de blog de interés general.
-Mi nombre es Lucas Miranda. Nací y crecí en Buenos Aires, Argentina, donde estudié biología molecular y bioinformática en la Universidad de Buenos Aires. Recientemente completé mi doctorado en la Universidad Técnica de Munich, dirigido por Bertram Müller-Myhsok en el Instituto Max Planck de Psiquiatría.</description>
+      <description>&lt;hr&gt;
+&lt;p&gt;Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (de vez en cuando) entradas de blog de interés general.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Mi nombre es Lucas Miranda. Nací y crecí en &lt;a href=&#34;https://www.youtube.com/watch?v=Pb9Hv9lw5Tw&#34;&gt;Buenos Aires, Argentina&lt;/a&gt;, donde estudié biología molecular y bioinformática en la &lt;a href=&#34;https://www.uba.ar/&#34;&gt;Universidad de Buenos Aires&lt;/a&gt;. Recientemente completé mi doctorado en la &lt;a href=&#34;https://www.tum.de/en/&#34;&gt;Universidad Técnica de Munich&lt;/a&gt;, dirigido por Bertram Müller-Myhsok en el &lt;a href=&#34;https://www.psych.mpg.de/1495975/mueller_myhsok&#34;&gt;Instituto Max Planck de Psiquiatría&lt;/a&gt;. Si te interesa, podés leer mi tesis (en inglés) &lt;a href=&#34;https://mediatum.ub.tum.de/?id=1713444&#34;&gt;acá&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publicaciones</title>
       <link>//localhost:1313/es/refs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/refs/</guid>
-      <description>Acá podés encontrar una lista con todas mis publicaciones, ordenadas por fecha. Hay enlaces a todos los artículos. Cuando corresponda, también vas a ver enlaces directos a código y a publicaciones en el blog. El símbolo ‘‡’ indica igual contribución entre primeros autores. Para más detalles, podés visitar mi perfil de Google Scholar.
-2025 N Corvelo Benz‡, Lucas Miranda‡, D Chen, J Sattler, K Borgwardt. &amp;ldquo;Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction&amp;rdquo;.</description>
+      <description>&lt;p&gt;Acá podés encontrar una lista con todas mis publicaciones, ordenadas por fecha. Hay enlaces a todos los artículos. Cuando corresponda, también vas a ver enlaces directos a código y a publicaciones en el blog. El símbolo ‘‡’ indica igual contribución entre primeros autores. Para más detalles, podés visitar mi &lt;a href=&#34;https://scholar.google.com/citations?user=IVorpyEAAAAJ&amp;amp;hl=en&#34;&gt;perfil de Google Scholar&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;N Corvelo Benz‡, &lt;strong&gt;Lucas Miranda&lt;/strong&gt;‡, D Chen, J Sattler, K Borgwardt. &amp;ldquo;&lt;em&gt;Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction&lt;/em&gt;&amp;rdquo;. 29th Conference on Research in Computational Molecular Biology, 2025 (accepted, publication pending). &lt;a href=&#34;https://github.com/BorgwardtLab/ConformalAMR&#34;&gt;Enlace al código&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;L Miranda&lt;/strong&gt;. &amp;ldquo;&lt;em&gt;Deep clustering of animal motion tracking data: software development and applications to psychiatric preclinical research&lt;/em&gt;&amp;rdquo;. PhD thesis, Technische Universität München. &lt;a href=&#34;https://mediatum.ub.tum.de/?id=1713444&#34;&gt;Link to thesis&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

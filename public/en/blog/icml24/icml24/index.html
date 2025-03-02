@@ -10,7 +10,7 @@
 <meta name="description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.">
 <meta name="author" content="Lucas Miranda">
 <link rel="canonical" href="//localhost:1313/en/blog/icml24/icml24/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2d50b1531bd1b3146d65c5543bd298f7f982786aadee4c223cb3a1cb51906106.css" integrity="sha256-LVCxUxvRsxRtZcVUO9KY9/mCeGqt7kwiPLOhy1GQYQY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
@@ -56,25 +56,27 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="International Conference on Machine Learning 2024" />
-<meta property="og:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="//localhost:1313/en/blog/icml24/icml24/" />
-<meta property="og:image" content="//localhost:1313/ICML_logo.png" /><meta property="article:section" content="blog" />
-
-
-<meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/" />
-
-<meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/" />
-
-
-
-
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="//localhost:1313/ICML_logo.png" />
-<meta name="twitter:title" content="International Conference on Machine Learning 2024"/>
-<meta name="twitter:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna."/>
+</noscript><meta property="og:url" content="//localhost:1313/en/blog/icml24/icml24/">
+  <meta property="og:site_name" content="Home">
+  <meta property="og:title" content="International Conference on Machine Learning 2024">
+  <meta property="og:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:tag" content="Conferences">
+    <meta property="article:tag" content="ICML">
+    <meta property="article:tag" content="Travel">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="article:tag" content="Deep Learning">
+    <meta property="article:tag" content="Austria">
+    <meta property="og:image" content="//localhost:1313/ICML_logo.png">
+      <meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/">
+      <meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/">
+      <meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="//localhost:1313/ICML_logo.png">
+<meta name="twitter:title" content="International Conference on Machine Learning 2024">
+<meta name="twitter:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.">
 
 
 <script type="application/ld+json">
@@ -149,7 +151,7 @@
         <div class="logo">
             <a href="//localhost:1313/en/" accesskey="h" title="Home (Alt + H)">Home</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -171,7 +173,7 @@
                 </button>
                 <ul class="lang-switch"><li>|</li>
                     <li>
-                        <a href="//localhost:1313/es/" title="Pasame un mate!"
+                        <a href="//localhost:1313/es/" title="🧉"
                             aria-label="Español">Es</a>
                     </li>
                 </ul>
@@ -230,8 +232,7 @@
 <p>Back to a massive venue. This time in Vienna, Austria, for the International Conference in Machine Learning (ICML). I organised my schedule much better than <a href="https://lucasmiranda42.github.io/digital_home/en/blog/neurips23/neurips23/">last time</a>, and I got a lot of insight on new developments in several areas I am interested in, such as time series representation learning, medical informatics, and protein computational biology. Below my humble selection of favourite papers. Hope you find something interesting!</p>
 <h3 id="contrastive-learning-for-clinical-outcome-prediction-with-partial-data-sources">Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources<a hidden class="anchor" aria-hidden="true" href="#contrastive-learning-for-clinical-outcome-prediction-with-partial-data-sources">#</a></h3>
 <p>We start with a <a href="https://openreview.net/pdf?id=elCOPIm4Xw">significant contribution</a> to the field of medical informatics. As electronic health records (EHR) become more and more common around the world, we see new methods to process, represent, and predict from them becoming increasignly important. In this case, the authors present <strong>CLOPPS</strong> (Contrastive Learning for clinical Outcome Prediction with Partial data Sources), which aims to capture information across different data sources from the same patients, and align them during training using contrastive learning. Importantly, they do it in a way in which not all modalities are necessary at inference time, which is a common limitation in many models.</p>
-<p><img loading="lazy" src="../../../../contrastive_med_align.png" alt="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources"  title="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources"  />
-</p>
+<p><img alt="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources" loading="lazy" src="../../../../contrastive_med_align.png" title="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources"></p>
 <p>The figure above represents the pretraining workflow envisioned for CLOPPS: given two longitudinal observations, the attention-based decoder on the left produces representations for each modality, which are then contrastively aligned in the latent space. The total loss used in the paper is a combination of two InfoNCE terms, that follow separate positive/negative pair sampling strategies, and a forecasting term. The first one, \(L_M\), is based on time matching. Here, the assumption is that different sources collectively and complementary represent health status at that moment in time, thus making samples with the same time stamp across sources the only positive positive pairs. Secondly, the model incorporates a quite original local similarity term (\(L_L\)), based on a Kaplan-Meier (KM) estimator for the outcome of interest. The idea is simple: if the patient is healthy, not so much changes in a short period of time, and the width of the local neighbourhood to sample positive pairs from can be larger. If a patient is sick in a particular way, the KM curve is steeper, and the neighbourhood to sample positive pairs from is smaller. While \(L_M\) takes care of strictly aligning the data sources across time, \(L_L\) focuses on regions of rapid change, corresponding with worse outcomes as predicted by the KM estimator. I think it&rsquo;s a wonderful idea, which the included ablation studies show is relevant! Finally, the third term, \(L_F\), is a forecasting loss trained per modality independently.</p>
 <hr>
 <p>For a review of the basic InfoNCE loss, feel free to visit <a href="https://lucasmiranda42.github.io/digital_home/en/blog/neurips23/neurips23/">this</a> earlier post!</p>
@@ -240,16 +241,14 @@
 <h3 id="timesfm-a-decoder-only-foundation-model-for-time-series-forecasting">TimesFM: A decoder-only foundation model for time series forecasting.<a hidden class="anchor" aria-hidden="true" href="#timesfm-a-decoder-only-foundation-model-for-time-series-forecasting">#</a></h3>
 <p>This is a paper that, as many other coming from Google, was all over the internet when it came out. I was really looking forward to the poster, and I&rsquo;m glad I managed to pass by and chat with the authors! As the title indicates, <a href="https://arxiv.org/pdf/2310.10688">TimesFM</a> is a decoder-only foundation model for univariate time series forecasting, trained on both Google trends and wikimedia access statistics.</p>
 <p>Data are tokenised across time, and the architecture matches a standard decoder-only transformer, where &rsquo;tokens&rsquo; are passed through a residual block instead of obtained from a lookup table (as in language models, for example) since the data is continuous. The model is trained to minimise the mean squared error loss between each token and another one, obtained at a horizon \(h\) in the future.</p>
-<p><img loading="lazy" src="../../../../timesfm.png" alt="TimesFM"  title="TimesFM"  />
-</p>
+<p><img alt="TimesFM" loading="lazy" src="../../../../timesfm.png" title="TimesFM"></p>
 <p>The figure above includes an illustration of the TimesFM model architecture during training, where an input time-series of a specific length is be broken down into input patches. As mentioned above, each patch is then processed into a vector by a residual block to the model dimension of the transformer layers. The vector is then added to sinusoidal positional encodings, and fed into a set of stacked transformer layers with multi-headed causal attention. The length of the patches and the horizon \(h\) vary during training, to prevent the model from overfitting to a single rigid setting.</p>
 <p>The paper includes a series of experiments that explore different patching schemes on different benchmarks, reaching SOTA zero-shot performance in many of them. While this is definitely a paper to keep an eye on, one of its main limitations is the focus on univariate time series only. While training representation models on multivariate time series is a much harder problem, there are several recent works that look into this issue already. For example, <a href="https://arxiv.org/abs/2310.06625">iTransformer</a> inverts the encoding strategy by tokenizing each feature independently across the entire time dimension, with self-attention focusing on feature interactions. Another interesting endeavour, which reaches SOTA performance in many benchmarks and leverages data from multiple sources, is <a href="https://arxiv.org/abs/2403.00131">UniTS</a>. This model has separate attention mechanisms that work both across features and across time, and includes different sets of tokens to specify one of several tasks, including forecasting, imputation, and anomaly detection.</p>
 <h3 id="2bits-of-protein-efficient-protein-language-models-at-the-scale-of-2-bits">2Bits of Protein: Efficient Protein Language Models at the scale of 2-Bits<a hidden class="anchor" aria-hidden="true" href="#2bits-of-protein-efficient-protein-language-models-at-the-scale-of-2-bits">#</a></h3>
 <p>Finally, we shift gears a bit and move on to protein language models. <a href="https://openreview.net/pdf?id=bVQjzz3ABw">This is a paper</a> that was presented during the workshops on the last day of the conference, which builds on the <a href="https://arxiv.org/pdf/2402.17764">recent idea</a> of training language models with ternary weights that can be set to either zero, one, or minus one. This is a really relevant topic at the time of writing, since it has been extensively shown that models whose weights are mapped to ternary values can retain most of the precision of their full-precision counterparts, while being much more efficient in terms of memory and computation. This has huge implications for small and mid-size businesses, as well as for research labs that do not have access to the same computational resources as the big players in the field. Moreover, the ability to train and run models locally promises advantages in terms of privacy and data security, which is important in any health-related application (among others, of course).</p>
 <p>In this work, the authors investigate training an encoder-only pLM using a ternary architecture, and benchmark it against ESM2 (with full-precision) using an extensive set of tasks from ProteinGym. While the ternary model is not as good as the full-precision one, it is still competitive in many tasks, and much more efficient. Authors also claim that based on the foundational work in the field, one can expect the ternary model to outperform ESM-2 once model size is scaled up. This remains to be seen!</p>
 <p>Here is a snippet taken from the results:</p>
-<p><img loading="lazy" src="../../../../2bitplm.png" alt="2Bits of Protein"  title="2Bits of Protein"  />
-</p>
+<p><img alt="2Bits of Protein" loading="lazy" src="../../../../2bitplm.png" title="2Bits of Protein"></p>
 <p>All in all, I think the impact of this set of approaches can be huge for both small and large players. For once, it allows actors without SOTA hardware to train and use better models, but it also allows big companies to train much larger models than they would be able to otherwise. We&rsquo;ll see if these practices become mainstream in the next few years.</p>
 
 
@@ -270,7 +269,8 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="//localhost:1313/en/">Home</a></span>
+        <span>&copy; 2025 <a href="//localhost:1313/en/">Home</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -340,20 +340,3 @@
 </body>
 
 </html>
-
-<head>
-    ...
-    
-      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    }
-  };
-</script>
-    
-    ...
-  </head>
-  
