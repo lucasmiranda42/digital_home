@@ -44,18 +44,11 @@
       <description>My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.</description>
     </item>
     <item>
-      <title>Tropical Probabilistic AI summer school 2024</title>
-      <link>//localhost:1313/en/blog/probai24/probai24/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/blog/probai24/probai24/</guid>
-      <description>My impressions and thoughts on the Tropical Probabilistic AI summer school 2024, which I had the pleasure to attend in person!</description>
-    </item>
-    <item>
       <title>About me </title>
       <link>//localhost:1313/en/about/</link>
       <pubDate>Sat, 06 Jan 2024 15:48:02 +0100</pubDate>
       <guid>//localhost:1313/en/about/</guid>
-      <description>Hey there! You have reached my digital home. Here you&amp;rsquo;ll find content about my professional life, including scientific publications, projects, software, and (soon) general interest blog entries.
+      <description>You have reached my digital home. Here you&amp;rsquo;ll find content about my professional life, including scientific publications, projects, software, and (some) general interest blog entries.
 My name is Lucas Miranda. I was born and raised in Buenos Aires, Argentina, where I studied molecular biology and bioinformatics at the University of Buenos Aires. I recently completed my doctorate at the Technical University of Munich, directed by Bertram Müller-Myhsok at the Max Planck Institute of Psychiatry.</description>
     </item>
     <item>
@@ -63,8 +56,8 @@ My name is Lucas Miranda. I was born and raised in Buenos Aires, Argentina, wher
       <link>//localhost:1313/en/refs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/refs/</guid>
-      <description>2024 L Miranda. &amp;ldquo;Deep clustering of animal motion tracking data: software development and applications to psychiatric preclinical research&amp;rdquo;. PhD thesis, Technische Universität München. Link to thesis.
-J Bordes, T Bajaj, L Miranda, L van Doeselaar, L Brix, S Narayan, H Yang, S Mitra, V Kovarova, M Springer, K Kleigrewe, B Müller-Myhsok, N Gassen, MV Schmidt. &amp;ldquo;Sex-specific fear acquisition following early life stress is linked to amygdala glutamate metabolism.&amp;rdquo;, preprint in bioRxiv.</description>
+      <description>Here you can find a list with all my publications, sorted by date. Links to all papers are available. Direct links to code and blog posts are also provided when applicable. &amp;lsquo;‡&amp;rsquo; indicates equal contribution. For more details, feel free to visit my Google Scholar profile.
+2025 N Corvelo Benz‡, Lucas Miranda‡, D Chen, J Sattler, K Borgwardt. &amp;ldquo;Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction&amp;rdquo;.</description>
     </item>
   </channel>
 </rss>

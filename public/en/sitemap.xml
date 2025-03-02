@@ -52,8 +52,6 @@
                 href="//localhost:1313/en/blog/neurips23/neurips23/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/probai24/probai24/</loc>
-  </url><url>
     <loc>//localhost:1313/en/about/</loc>
     <lastmod>2024-01-06T15:48:02+01:00</lastmod>
     <xhtml:link
@@ -121,8 +119,6 @@
                 hreflang="en-us"
                 href="//localhost:1313/en/blog/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/tags/brazil/</loc>
   </url><url>
     <loc>//localhost:1313/en/categories/</loc>
     <xhtml:link
@@ -348,8 +344,6 @@
   </url><url>
     <loc>//localhost:1313/en/tags/postprocessing/</loc>
   </url><url>
-    <loc>//localhost:1313/en/tags/probabilistic-ai/</loc>
-  </url><url>
     <loc>//localhost:1313/en/tags/proteomics/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/proteomics/</loc>
@@ -381,8 +375,6 @@
                 hreflang="en-us"
                 href="//localhost:1313/en/tags/python/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/tags/rio-de-janeiro/</loc>
   </url><url>
     <loc>//localhost:1313/en/tags/rodents/</loc>
   </url><url>
@@ -458,10 +450,6 @@
                 href="//localhost:1313/en/software/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/summer-school/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/series/summer-school/</loc>
-  </url><url>
     <loc>//localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -479,8 +467,6 @@
     <loc>//localhost:1313/en/tags/travel/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/travel/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/tropical/</loc>
   </url><url>
     <loc>//localhost:1313/en/tags/usa/</loc>
   </url><url>
