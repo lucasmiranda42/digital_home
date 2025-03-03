@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lucas Miranda</title>
-    <link>//localhost:1313/es/</link>
+    <link>//localhost:63438/es/</link>
     <description>Recent content on Lucas Miranda</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 06 Jan 2024 15:48:08 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:63438/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DeepOF</title>
-      <link>//localhost:1313/es/software/deepof/deepof/</link>
+      <link>//localhost:63438/es/software/deepof/deepof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/software/deepof/deepof/</guid>
+      <guid>//localhost:63438/es/software/deepof/deepof/</guid>
       <description>DeepOF es una herramienta de postprocesado para series temporales de datos de comportamiento animal, obtenidas a través de DeepLabCut o SLEAP.</description>
     </item>
     <item>
       <title>International Conference on Machine Learning 2024</title>
-      <link>//localhost:1313/es/blog/icml24/icml24/</link>
+      <link>//localhost:63438/es/blog/icml24/icml24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/blog/icml24/icml24/</guid>
+      <guid>//localhost:63438/es/blog/icml24/icml24/</guid>
       <description>Mis impresiones, pensamientos y artículos favoritos sobre la edición 2024 de ICML, a la que asistí en persona en Viena.</description>
     </item>
     <item>
       <title>Neural Information Processing Systems 2023</title>
-      <link>//localhost:1313/es/blog/neurips23/neurips23/</link>
+      <link>//localhost:63438/es/blog/neurips23/neurips23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/blog/neurips23/neurips23/</guid>
+      <guid>//localhost:63438/es/blog/neurips23/neurips23/</guid>
       <description>Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans.</description>
     </item>
     <item>
       <title>Salud mental, explicada para todos</title>
-      <link>//localhost:1313/es/blog/psycomm/psycomm_booklet/</link>
+      <link>//localhost:63438/es/blog/psycomm/psycomm_booklet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/blog/psycomm/psycomm_booklet/</guid>
+      <guid>//localhost:63438/es/blog/psycomm/psycomm_booklet/</guid>
       <description>Como parte del grupo de comunicación científica del Instituto Max Planck de Psiquiatría, escribimos y publicamos un folleto sobre salud mental e investigación en salud mental para niños. ¡Ven y échale un vistazo!</description>
     </item>
     <item>
       <title>Sobre mí</title>
-      <link>//localhost:1313/es/about/</link>
+      <link>//localhost:63438/es/about/</link>
       <pubDate>Sat, 06 Jan 2024 15:48:08 +0100</pubDate>
-      <guid>//localhost:1313/es/about/</guid>
+      <guid>//localhost:63438/es/about/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (de vez en cuando) entradas de blog de interés general.&lt;/p&gt;
 &lt;hr&gt;
@@ -48,9 +48,9 @@
     </item>
     <item>
       <title>Publicaciones</title>
-      <link>//localhost:1313/es/refs/</link>
+      <link>//localhost:63438/es/refs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/refs/</guid>
+      <guid>//localhost:63438/es/refs/</guid>
       <description>&lt;p&gt;Acá podés encontrar una lista con todas mis publicaciones, ordenadas por fecha. Hay enlaces a todos los artículos. Cuando corresponda, también vas a ver enlaces directos a código y a publicaciones en el blog. El símbolo ‘‡’ indica igual contribución entre primeros autores. Para más detalles, podés visitar mi &lt;a href=&#34;https://scholar.google.com/citations?user=IVorpyEAAAAJ&amp;amp;hl=en&#34;&gt;perfil de Google Scholar&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ul&gt;
