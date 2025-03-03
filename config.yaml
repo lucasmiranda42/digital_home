@@ -1,13 +1,43 @@
 languageCode: en-us, es-es
-theme: PaperMod
+theme: PaperModAcademics
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
-defaultTheme: light
 enableEmoji: true
+
+params:
+  profileMode:
+    enabled: false
+    title: Lucas Miranda
+  homeInfoParams:
+    Title: Lucas Miranda
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  math: false
+  ShowOnlySelectedPubs: false
+  ShowReadingTime: true
+  description: "Postdoctoral researcher"
+  keywords: ["Machine Learning", "Medical Informatics", "Bioinformatics"]
+  author: Me
+  assets:
+    favicon: "/assets/favicon.ico"
+
+  SocialIcons:
+    - name: github
+      url: "https://github.com/lucasmiranda42"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/lucasmiranda42/"
+    - name: bluesky
+      url: "https://bsky.app/profile/lucasmiranda42.bsky.social"
+    - name: GoogleScholar
+      url: "https://scholar.google.com/citations?user=IVorpyEAAAAJ&hl=en"
+    - name: email
+      url: "mailto:miranda@biochem.mpg.de"
+    - name: deezer
+      url: "https://www.deezer.com/de/profile/6343103503"
+
 languages:
   en:
-    title : "Home"
+    title : "Lucas Miranda"
     disabled: false
     languageName: "English"
     contentDir: content/en
@@ -15,13 +45,24 @@ languages:
     weight: 1
     params:
       languageAltTitle: 🇬🇧
+      homeInfoParams:
+        Title: Lucas Miranda
+        Content: >
+          I am a postdoctoral researcher at the [Max Planck Institute of Biochemistry](https://www.biochem.mpg.de/en) in Munich, Germany. 
+          I currently work at the [Machine Learning and Systems Biology](https://www.biochem.mpg.de/borgwardt) (MLSB) department, directed by Karsten Borgwardt.
+          Previously, I obtained my PhD in 2024 from the Technical University of Munich (TUM), under the supervision of Bertram Müller Myhsok. 
+          My research focuses on the development of machine learning methods for biochemical and medical informatics problems.
+        imageUrl: "profile.png"
+        imageTitle: ProfileMode image
+        imageWidth: 180
+        imageHeight: 180
     taxonomies:
       category: categories
       tag: tags
       series: series
     menu:
       main:
-        - name: About me
+        - name: Bio
           url: about/
           weight: 10
         - name: Publications
@@ -38,7 +79,7 @@ languages:
           weight: 30
 
   es:
-    title : "Inicio"
+    title : "Lucas Miranda"
     disabled: false
     languageName: "Español"
     contentDir: content/es
@@ -46,13 +87,25 @@ languages:
     weight: 2
     params:
       languageAltTitle: 🧉
+      homeInfoParams:
+        Title: Lucas Miranda
+        Content: >
+          Soy investigador postdoctoral en el [Instituto Max Planck de Bioquímica](https://www.biochem.mpg.de/en) en Munich, Alemania. 
+          Actualmente trabajo en el departamento de [aprendizaje automático y biología de sistemas](https://www.biochem.mpg.de/borgwardt) (MLSB, por sus siglas en inglés), dirigido por Karsten Borgwardt.
+          Obtuve mi doctorado en 2024 de la Universidad Técnica de Munich (TUM), bajo la supervisión de Bertram Müller Myhsok. 
+          Mi investigación se centra en el desarrollo de métodos de aprendizaje automático para problemas de bioinformática y medicina.
+        imageUrl: "profile.png"
+        imageTitle: ProfileMode image
+        imageWidth: 180
+        imageHeight: 180
+
     taxonomies:
       category: categories
       tag: tags
       series: series
     menu:
       main:
-        - name: Sobre mí
+        - name: Bio
           url: about/
           weight: 10
         - name: Publicaciones
@@ -82,33 +135,6 @@ markup:
           - - \(
             - \)
         enable: true
-
-params:
-      env: production # to enable google analytics, opengraph, twitter-cards and schema.
-      math: false
-      profileMode:
-        enabled: true
-        title: Lucas Miranda
-        subtitle: "Postdoctoral researcher on Machine Learning and Systems Biology | An ape in awe"
-        imageUrl: "profile.png"
-        imageTitle: ProfileMode image
-        imageWidth: 180
-        imageHeight: 180
-      SocialIcons:
-        - name: github
-          url: "https://github.com/lucasmiranda42"
-        - name: LinkedIn
-          url: "https://www.linkedin.com/in/lucasmiranda42/"
-        - name: bluesky
-          url: "https://bsky.app/profile/lucasmiranda42.bsky.social"
-        - name: GoogleScholar
-          url: "https://scholar.google.com/citations?user=IVorpyEAAAAJ&hl=en"
-        - name: ORCID
-          url: "https://orcid.org/0000-0002-5484-6744"
-        - name: email
-          url: "mailto:miranda@biochem.mpg.de"
-        - name: deezer
-          url: "https://www.deezer.com/de/profile/6343103503"
 
 outputs: 
   home:   
