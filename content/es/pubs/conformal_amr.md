@@ -1,7 +1,7 @@
 ---
 title: "Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction"
 date: 2025-01-01
-venue: RECOMB, 2025 (RECOMB, 2025 (aceptado, pendiente de publicación)
+venue: RECOMB, 2025 (aceptado, pendiente de publicación)
 authors:
   - name: N Corvelo Benz‡
   - name: <strong>L Miranda‡</strong>
