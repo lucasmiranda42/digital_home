@@ -50,7 +50,7 @@ languages:
         Content: >
           I am a postdoctoral researcher at the [Max Planck Institute of Biochemistry](https://www.biochem.mpg.de/en) in Munich, Germany. 
           I currently work at the [Machine Learning and Systems Biology](https://www.biochem.mpg.de/borgwardt) (MLSB) department, directed by Karsten Borgwardt.
-          Previously, I obtained my PhD in 2024 from the Technical University of Munich (TUM), under the supervision of Bertram Müller Myhsok. 
+          Previously, I obtained my PhD in 2024 from the Technical University of Munich (TUM), under the supervision of Bertram Müller-Myhsok. 
           My research focuses on the development of machine learning methods for biochemical and medical informatics problems.
         imageUrl: "profile.png"
         imageTitle: ProfileMode image
@@ -66,7 +66,7 @@ languages:
           url: about/
           weight: 10
         - name: Publications
-          url: refs/
+          url: pubs/
           weight: 15
         - name: Software
           url: software/
@@ -92,7 +92,7 @@ languages:
         Content: >
           Soy investigador postdoctoral en el [Instituto Max Planck de Bioquímica](https://www.biochem.mpg.de/en) en Munich, Alemania. 
           Actualmente trabajo en el departamento de [aprendizaje automático y biología de sistemas](https://www.biochem.mpg.de/borgwardt) (MLSB, por sus siglas en inglés), dirigido por Karsten Borgwardt.
-          Obtuve mi doctorado en 2024 de la Universidad Técnica de Munich (TUM), bajo la supervisión de Bertram Müller Myhsok. 
+          Obtuve mi doctorado en 2024 de la Universidad Técnica de Munich (TUM), bajo la supervisión de Bertram Müller-Myhsok. 
           Mi investigación se centra en el desarrollo de métodos de aprendizaje automático para problemas de bioinformática y medicina.
         imageUrl: "profile.png"
         imageTitle: ProfileMode image
