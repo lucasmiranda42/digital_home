@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IMPRS-TP on Lucas Miranda</title>
+    <link>//localhost:1313/es/series/imprs-tp/</link>
+    <description>Recent content in IMPRS-TP on Lucas Miranda</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>es-es</language>
+    <atom:link href="//localhost:1313/es/series/imprs-tp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salud mental, explicada para todos</title>
+      <link>//localhost:1313/es/blog/psycomm/psycomm_booklet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/psycomm/psycomm_booklet/</guid>
+      <description>Como parte del grupo de comunicación científica del Instituto Max Planck de Psiquiatría, escribimos y publicamos un folleto sobre salud mental e investigación en salud mental para niños. ¡Ven y échale un vistazo!</description>
+    </item>
+  </channel>
+</rss>

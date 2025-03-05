@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Neural Information Processing Systems 2023 | Lucas Miranda</title>
+<meta name="keywords" content="Conferencias, NeurIPS, Viajes, Aprendizaje Automático, Aprendizaje Profundo, EE.UU., Nueva Orleans">
+<meta name="description" content="Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans.">
+<meta name="author" content="Lucas Miranda">
+<link rel="canonical" href="//localhost:1313/es/blog/neurips23/neurips23/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1f0c81ce7797be919c6536baf557152f60cccb49e7a37ce74f7fd3fd705259f6.css" integrity="sha256-HwyBzneXvpGcZTa69VcVL2DMy0nno3znT3/T/XBSWfY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/neurips23/neurips23/">
+<link rel="alternate" hreflang="es" href="//localhost:1313/es/blog/neurips23/neurips23/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Neural Information Processing Systems 2023" />
+<meta property="og:description" content="Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/es/blog/neurips23/neurips23/" />
+<meta property="og:image" content="//localhost:1313/NeurIPS_logo.png" /><meta property="article:section" content="blog" />
+
+
+<meta property="og:see_also" content="//localhost:1313/es/blog/icml24/icml24/" />
+
+<meta property="og:see_also" content="//localhost:1313/es/blog/icml24/icml24/" />
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="//localhost:1313/NeurIPS_logo.png" />
+<meta name="twitter:title" content="Neural Information Processing Systems 2023"/>
+<meta name="twitter:description" content="Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "//localhost:1313/es/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Neural Information Processing Systems 2023",
+      "item": "//localhost:1313/es/blog/neurips23/neurips23/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Neural Information Processing Systems 2023",
+  "name": "Neural Information Processing Systems 2023",
+  "description": "Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans.",
+  "keywords": [
+    "Conferencias", "NeurIPS", "Viajes", "Aprendizaje Automático", "Aprendizaje Profundo", "EE.UU.", "Nueva Orleans"
+  ],
+  "articleBody": "Impresiones Generales En diciembre pasado, tuve el placer de asistir a la edición 2023 de la conferencia Neural Information Processing Systems (NeurIPS) en Nueva Orleans. Era la primera vez que asistía a un evento tan grande, y debo admitir que me sentí un poco abrumado por la cantidad de personas y la inmensa cantidad de información disponible. Sin embargo, obtuve mucha información valiosa de las varias charlas interesantes y sesiones de póster a las que logré asistir, y me gustaría compartir algunos de mis fragmentos favoritos con quien esté interesado!. Abajo un resumen de los tres artículos que encontré más interesantes para mi investigación actual, así como un bonus track sobre un proyecto increíble que me retrotrajo a mis días de doctorado.\nContrastando todo (COMET) El primer artículo en la lista presenta COMET, un marco de aprendizaje por contraste para aprender representaciones de series temporales médicas de manera auto-supervisada. La principal contribución que los autores presentan es un esquema de entrenamiento jerárquico para codificadores de series temporales, con una función de coste que consta de cuatro niveles de contraste, con el fin de explotar y aprender de diferentes niveles de consistencia de datos que de otro modo podrían perderse. Para todos los niveles, utilizan variantes de función de coste InfoNCE (Information Noise Contrastive Estimation, en inglés), donde los pares positivos y negativos se obtienen enmascarando observaciones al azar en el input a los modelos.\nComo resumen, empecemos por describir la función InfoNCE más típica. Dado un conjunto de muestras \\(x_i\\) y un conjunto diferente \\(x_j\\), la InfoNCE se define como:\n$$ \\mathcal{L}_{\\text{InfoNCE}} = -\\frac{1}{N} \\sum_{i=1}^{N} \\log \\frac{\\exp(\\text{sim}(x_i, x_i^+))}{\\sum_{j=1}^{K} \\exp(\\text{sim}(x_i, x_j^-))} $$donde \\(x_i^+\\) es una muestra positiva, \\(x_j^-\\) una muestra negativa, y \\(\\text{sim}\\) una función de similitud (típicamente el producto escalar entre las representaciones, pero podría ser cualquier otra cosa). La idea es maximizar la similitud entre las representaciones de pares positivos, mientras se minimiza para pares negativos (¡noten el signo \\(-\\)!). Pero, ¿cómo definimos pares positivos y negativos? Bueno, aquí es donde COMET brilla…\nLos cuatro niveles que mencioné arriba se definen de la siguiente manera:\nNivel de Observación: Primero, las observaciones aumentadas del mismo punto en el tiempo se tratan como pares positivos \\((x_{i,t}, \\tilde{x}_{i,t})\\), mientras que las observaciones reales y aumentadas de diferentes puntos en el tiempo se tratan como negativas \\((x_{i,t}, x_{i,-t})\\) y \\((x_{i,t}, \\tilde{x}_{i,-t})\\), donde \\(x\\) es una muestra dada, \\(\\tilde{x}\\) una muestra aumentada, \\(i\\) el índice de muestra y \\(t\\) el índice temporal.\nNivel de Muestra: En segundo lugar, las observaciones aumentadas de la misma muestra se tratan como pares positivos \\((x_{i}, \\tilde{x}_{i})\\), mientras que las observaciones reales y aumentadas de diferentes muestras se tratan como negativas \\((x_{i}, x_{j})\\) y \\((x_{i}, \\tilde{x}_{j})\\).\nNivel de Ensayo: Como las series temporales pueden ser arbitrariamente largas, COMET contempla subdividir las muestras en el tiempo en pedazos (llamados trials en el paper original). En este término de la función de coste, aplicamos la misma función mencionada arriba, pero a una representación agregada de todo el trial en lugar de las representaciones de observaciones individuales. De los cuatro niveles, es el único que surge como un artefacto de las limitaciones del hardware, en lugar de las verdaderas consistencias en los datos. No está claro si esto sería necesario si el hardware no es un límite.\nNivel de Paciente: por último, pero no menos importante, repetimos el paso 3, pero ahora con los trials agrupados en función de si pertenecen al mismo paciente o no. Las series temporales diferentes muestreadas de los mismos individuos se consideran pares positivos, y como negativos en caso contrario.\nAl entrenar el codificador con estos cuatro niveles de pérdida por contraste, los autores buscan aprender representaciones que sean invariantes a los diferentes niveles de consistencia de datos.\nEl flujo de trabajo principal se ve así (chequeá el artículo completo para más detalles):\nLos experimentos en el paper se centran en datos de EEG (electroencefalograma) muestreados regularmente con pocos o ningún valor faltante. Sin embargo, el método parece ser un excelente punto de partida para el aprendizaje a partir de datos muestreados irregularmente (como las series temporales de UCI) también. A fin de cuentas, superaron varias líneas base de auto-supervisión de series temporales en la detección de infarto de miocardio y enfermedad de Parkinson.\nSeries Temporales como Imágenes: Transformer de Visión para Series Temporales Muestreadas Irregularmente Ahora pasamos a un artículo que llamó mi atención debido al pensamiento lateral en juego. Series Temporales como Imágenes presenta una forma peculiar de procesar series temporales muestreadas irregularmente para el aprendizaje supervisado, basada en la representación de los valores recopilados como imágenes y su procesamiento utilizando un transformer de visión swin preentrenado. Los autores realizan varios experimentos poco ortodoxos sobre cómo diferentes estilos de representación afectan el rendimiento, como marcadores, interpolación, orden de las variables, y colores. Además, incluyen varios experimentos en datos de unidades de cuidados intensivos, e incluyen comparaciones directas con muchas líneas base, incluido SeFT del laboratorio Borgwardt (donde trabajo). Alcanzan un rendimiento de SOTA en varias tareas, incluida la predicción de septicemia y mortalidad en datos de los desafíos PhysioNet 2019 y 2012, respectivamente. Entrenan los modelos con una simple función de coste para clasificación binaria (entropía cruzada binaria), mientras aumentan la clase minoritaria. Curiosamente, también incluyeron información estática (edad, altura, peso, sexo, demografía) como un párrafo representado con un modelo de lenguaje solo encoder… Las representaciones de series temporales y texto se concatenaron antes de la clasificación. Verdaderamente poco ortodoxo, ¡pero parece funcionar!\nEl flujo de trabajo principal se ve así (de nuevo, chequeá el artículo para más detalles):\nEn general, este artículo demuestra claramente las capacidades de generalización de los grandes modelos de visión, pero queda por ver si sus ideas se pueden extender para hacer modelos de series temporales generalizables.\nUn Marco Iterativo de Auto-Aprendizaje para la Generalización en el Dominio Médico Finalmente, el tercer trabajo en este resumen presenta un enfoque para mitigar el cambio de distribución en datos de registros médicos electrónicos (EHR), denominado SLDG (Generalización de Dominio de Auto-Aprendizaje, por sus siglas en inglés). En resumen, el enfoque comienza agrupando las características semánticamente en diferentes clases (como estáticas, síntomas, tratamientos e historia médica). Cada subconjunto de características se representa con un codificador entrenado en un espacio latente individual, y se recupera una serie de dominios latentes para cada modalidad utilizando clustering jerárquico, con el número de clústeres seleccionado automáticamente en función del silhouette score. Esto facilita la detección de clústeres realmente específicos como la intersección de grupos no tan raros de características específicas (como un clúster de pacientes mayores de edad con antecedentes de tabaquismo y diabetes tipo 2, que se puede descomponer en mayor, masculino, fumador y diabetes tipo 2). Por último, se entrenan clasificadores individuales para una variable objetivo dada para cada una de estas clases de características, con clústeres recalculados cada 20 épocas.\nSus experimentos se centran en la predicción de readmisión a 15 días y mortalidad tanto en MIMIC-IV como en eICU, con divisiones de datos que maximizan las brechas temporales y espaciales entre las muestras, siendo la última basada en la ubicación geográfica de los hospitales. Superaron varias líneas base de generalización de dominio en todas las tareas y métricas, lo cual suena prometedor. Curiosamente, no proporcionan métricas de generalización entre eICU y MIMIC-IV; solo dentro de cada conjunto de datos individualmente.\nEn general, parece un enfoque inteligente para agrupar eficientemente representaciones basadas en el conocimiento previo sobre las distintas variables en juego, lo cual puede tener un impacto positivo en tareas de adaptación de dominio.\nBonus track: AmadeusGPT: una interfaz de lenguaje natural para el análisis interactivo del comportamiento animal Durante mi doctorado, trabajé mucho con datos de seguimiento de movimientos provenientes de experimentos con animales. El estado absoluto del arte, tanto en términos de rendimiento como de soporte al usuario, para el seguimiento de movimientos en biología, es DeepLabCut. Sin embargo, el software principal no es el más amigable para el usuario y puede ser bastante engorroso para los biólogos de laboratorio que lo usan habitualmente. Acá es donde entra en juego (¿o en canción?) AmadeusGPT. Aprovechando varios hitos del laboratorio Mathis, como DLC super animal (un modelo que permite el seguimiento de animales sin entrenamiento previo), segmentación de objetos usando SAM y llamadas API a ChatGPT, los autores (¡también el equipo de DeepLabCut!) presentan una interfaz de lenguaje natural para el análisis interactivo del comportamiento animal, donde el usuario puede hacer preguntas sobre los datos en inglés, y el sistema devuelve la información relevante.\nAl momento de escribir esto, el sistema sólo está disponible previa solicitud (lo cual es comprensible, dado el costo de las llamadas API de ChatGPT a gran escala), pero parece un gran paso adelante para hacer que la tecnología de vanguardia sea más accesible al público en general. ¡Veremos cómo evoluciona este proyecto!\n",
+  "wordCount" : "1465",
+  "inLanguage": "es",
+  "image":"//localhost:1313/NeurIPS_logo.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Lucas Miranda"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/es/blog/neurips23/neurips23/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lucas Miranda",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/assets/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/es/" accesskey="h" title="Lucas Miranda (Alt + H)">Lucas Miranda</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="//localhost:1313/en/" title="🇬🇧"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/es/about/" title="Bio">
+                    <span>Bio</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/es/pubs/" title="Publicaciones">
+                    <span>Publicaciones</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/es/software/" title="Software">
+                    <span>Software</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/es/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/es/search/" title="Búsqueda">
+                    <span>Búsqueda</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Neural Information Processing Systems 2023
+    </h1>
+    <div class="post-meta">7 min&nbsp;·&nbsp;Lucas Miranda&nbsp;|&nbsp;Traducciones:
+<ul class="i18n_list">
+    <li>
+        <a href="//localhost:1313/en/blog/neurips23/neurips23/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="//localhost:1313/NeurIPS_logo.png" alt="Logo de NeurIPS23">
+        
+</figure>
+  <div class="post-content"><h3 id="impresiones-generales">Impresiones Generales<a hidden class="anchor" aria-hidden="true" href="#impresiones-generales">#</a></h3>
+<p>En diciembre pasado, tuve el placer de asistir a la edición 2023 de la conferencia <em>Neural Information Processing Systems</em> (NeurIPS) en Nueva Orleans. Era la primera vez que asistía a un evento tan grande, y debo admitir que me sentí un poco abrumado por la cantidad de personas y la inmensa cantidad de información disponible. Sin embargo, obtuve mucha información valiosa de las varias charlas interesantes y sesiones de póster a las que logré asistir, y me gustaría compartir algunos de mis fragmentos favoritos con quien esté interesado!. Abajo un resumen de los tres artículos que encontré más interesantes para mi investigación actual, así como un bonus track sobre un proyecto increíble que me retrotrajo a mis días de doctorado.</p>
+<h3 id="contrastando-todo-comet">Contrastando todo (COMET)<a hidden class="anchor" aria-hidden="true" href="#contrastando-todo-comet">#</a></h3>
+<p>El primer artículo en la lista presenta <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/ae7d9c77b5ff9e3b7833a68523b880f2-Paper-Conference.pdf">COMET</a>, un marco de aprendizaje por contraste para aprender representaciones de series temporales médicas de manera auto-supervisada. La principal contribución que los autores presentan es un esquema de entrenamiento jerárquico para codificadores de series temporales, con una función de coste que consta de cuatro niveles de contraste, con el fin de explotar y aprender de diferentes niveles de consistencia de datos que de otro modo podrían perderse. Para todos los niveles, utilizan variantes de función de coste InfoNCE (<em>Information Noise Contrastive Estimation</em>, en inglés), donde los pares positivos y negativos se obtienen enmascarando observaciones al azar en el input a los modelos.</p>
+<p>Como resumen, empecemos por describir la función InfoNCE más típica. Dado un conjunto de muestras \(x_i\) y un conjunto diferente \(x_j\), la InfoNCE se define como:</p>
+$$
+\mathcal{L}_{\text{InfoNCE}} = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{\exp(\text{sim}(x_i, x_i^+))}{\sum_{j=1}^{K} \exp(\text{sim}(x_i, x_j^-))}
+$$<p>donde \(x_i^+\) es una muestra positiva, \(x_j^-\) una muestra negativa, y \(\text{sim}\) una función de similitud (típicamente el producto escalar entre las representaciones, pero podría ser cualquier otra cosa). La idea es maximizar la similitud entre las representaciones de pares positivos, mientras se minimiza para pares negativos (¡noten el signo \(-\)!). Pero, ¿cómo definimos pares positivos y negativos? Bueno, aquí es donde COMET brilla&hellip;</p>
+<p>Los cuatro niveles que mencioné arriba se definen de la siguiente manera:</p>
+<ol>
+<li>
+<p><strong>Nivel de Observación:</strong> Primero, las observaciones aumentadas del <em>mismo punto en el tiempo</em> se tratan como pares positivos \((x_{i,t}, \tilde{x}_{i,t})\), mientras que las observaciones reales y aumentadas de diferentes puntos en el tiempo se tratan como negativas \((x_{i,t}, x_{i,-t})\) y \((x_{i,t}, \tilde{x}_{i,-t})\), donde \(x\) es una muestra dada, \(\tilde{x}\) una muestra aumentada, \(i\) el índice de muestra y \(t\) el índice temporal.</p>
+</li>
+<li>
+<p><strong>Nivel de Muestra:</strong> En segundo lugar, las observaciones aumentadas de la misma muestra se tratan como pares positivos \((x_{i}, \tilde{x}_{i})\), mientras que las observaciones reales y aumentadas de diferentes muestras se tratan como negativas \((x_{i}, x_{j})\) y \((x_{i}, \tilde{x}_{j})\).</p>
+</li>
+<li>
+<p><strong>Nivel de Ensayo:</strong> Como las series temporales pueden ser arbitrariamente largas, COMET contempla subdividir las muestras en el tiempo en pedazos (llamados <em>trials</em> en el paper original). En este término de la función de coste, aplicamos la misma función mencionada arriba, pero a una representación agregada de todo el <em>trial</em> en lugar de las representaciones de observaciones individuales. De los cuatro niveles, es el único que surge como un artefacto de las limitaciones del hardware, en lugar de las verdaderas consistencias en los datos. No está claro si esto sería necesario si el hardware no es un límite.</p>
+</li>
+<li>
+<p><strong>Nivel de Paciente:</strong> por último, pero no menos importante, repetimos el paso 3, pero ahora con los <em>trials</em> agrupados en función de si pertenecen al mismo paciente o no. Las series temporales diferentes muestreadas de los mismos individuos se consideran pares positivos, y como negativos en caso contrario.</p>
+</li>
+</ol>
+<p>Al entrenar el codificador con estos cuatro niveles de pérdida por contraste, los autores buscan aprender representaciones que sean invariantes a los diferentes niveles de consistencia de datos.</p>
+<p>El flujo de trabajo principal se ve así (chequeá el artículo completo para más detalles):</p>
+<p><img loading="lazy" src="../../../../COMET.png" alt="Flujo de trabajo de COMET"  title="Flujo de trabajo de COMET"  />
+</p>
+<p>Los experimentos en el paper se centran en datos de EEG (electroencefalograma) muestreados regularmente con pocos o ningún valor faltante. Sin embargo, el método parece ser un excelente punto de partida para el aprendizaje a partir de datos muestreados irregularmente (como las series temporales de UCI) también. A fin de cuentas, superaron varias líneas base de auto-supervisión de series temporales en la detección de infarto de miocardio y enfermedad de Parkinson.</p>
+<h3 id="series-temporales-como-imágenes-transformer-de-visión-para-series-temporales-muestreadas-irregularmente">Series Temporales como Imágenes: Transformer de Visión para Series Temporales Muestreadas Irregularmente<a hidden class="anchor" aria-hidden="true" href="#series-temporales-como-imágenes-transformer-de-visión-para-series-temporales-muestreadas-irregularmente">#</a></h3>
+<p>Ahora pasamos a un artículo que llamó mi atención debido al pensamiento lateral en juego. <a href="https://arxiv.org/pdf/2303.12799">Series Temporales como Imágenes</a> presenta una forma peculiar de procesar series temporales muestreadas irregularmente para el aprendizaje supervisado, basada en la representación de los valores recopilados como imágenes y su procesamiento utilizando un transformer de visión <a href="https://arxiv.org/abs/2103.14030">swin</a> preentrenado. Los autores realizan varios experimentos poco ortodoxos sobre cómo diferentes estilos de representación afectan el rendimiento, como marcadores, interpolación, orden de las variables, y colores.
+Además, incluyen varios experimentos en datos de unidades de cuidados intensivos, e incluyen comparaciones directas con muchas líneas base, incluido <a href="https://arxiv.org/abs/1909.12064">SeFT</a> del laboratorio Borgwardt (donde trabajo). Alcanzan un rendimiento de SOTA en varias tareas, incluida la predicción de septicemia y mortalidad en datos de los desafíos PhysioNet 2019 y 2012, respectivamente. Entrenan los modelos con una simple función de coste para clasificación binaria (entropía cruzada binaria), mientras aumentan la clase minoritaria. Curiosamente, también incluyeron información estática (edad, altura, peso, sexo, demografía) como un párrafo representado con un modelo de lenguaje solo encoder&hellip; Las representaciones de series temporales y texto se concatenaron antes de la clasificación. Verdaderamente poco ortodoxo, ¡pero parece funcionar!</p>
+<p>El flujo de trabajo principal se ve así (de nuevo, chequeá el artículo para más detalles):</p>
+<p><img loading="lazy" src="../../../../tsViT.png" alt="Flujo de trabajo de tsViT"  title="Flujo de trabajo principal"  />
+</p>
+<p>En general, este artículo demuestra claramente las capacidades de generalización de los grandes modelos de visión, pero queda por ver si sus ideas se pueden extender para hacer modelos de series temporales generalizables.</p>
+<h3 id="un-marco-iterativo-de-auto-aprendizaje-para-la-generalización-en-el-dominio-médico">Un Marco Iterativo de Auto-Aprendizaje para la Generalización en el Dominio Médico<a hidden class="anchor" aria-hidden="true" href="#un-marco-iterativo-de-auto-aprendizaje-para-la-generalización-en-el-dominio-médico">#</a></h3>
+<p>Finalmente, el tercer trabajo en este resumen presenta un enfoque para mitigar el cambio de distribución en datos de registros médicos electrónicos (EHR), denominado <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/ac0035c349f3fe8af6a93fe44697b5bd-Paper-Conference.pdf">SLDG</a> (Generalización de Dominio de Auto-Aprendizaje, por sus siglas en inglés). En resumen, el enfoque comienza agrupando las características semánticamente en diferentes clases (como estáticas, síntomas, tratamientos e historia médica). Cada subconjunto de características se representa con un codificador entrenado en un espacio latente individual, y se recupera una serie de <em>dominios latentes</em> para cada modalidad utilizando clustering jerárquico, con el número de clústeres seleccionado automáticamente en función del <em>silhouette score</em>. Esto facilita la detección de clústeres realmente específicos como la intersección de grupos no tan raros de características específicas (como un clúster de <em>pacientes mayores de edad con antecedentes de tabaquismo y diabetes tipo 2</em>, que se puede descomponer en <em>mayor</em>, <em>masculino</em>, <em>fumador</em> y <em>diabetes tipo 2</em>). Por último, se entrenan clasificadores individuales para una variable objetivo dada para cada una de estas clases de características, con clústeres recalculados cada 20 épocas.</p>
+<p><img loading="lazy" src="../../../../MedDomainGeneralization.png" alt="Flujo de trabajo de MedDomainGeneralization"  title="Flujo de trabajo principal"  />
+</p>
+<p>Sus experimentos se centran en la predicción de readmisión a 15 días y mortalidad tanto en MIMIC-IV como en eICU, con divisiones de datos que maximizan las brechas temporales y espaciales entre las muestras, siendo la última basada en la ubicación geográfica de los hospitales. Superaron varias líneas base de generalización de dominio en todas las tareas y métricas, lo cual suena prometedor. Curiosamente, no proporcionan métricas de generalización entre eICU y MIMIC-IV; solo dentro de cada conjunto de datos individualmente.</p>
+<p>En general, parece un enfoque inteligente para agrupar eficientemente representaciones basadas en el conocimiento previo sobre las distintas variables en juego, lo cual puede tener un impacto positivo en tareas de adaptación de dominio.</p>
+<h2 id="bonus-track">Bonus track:<a hidden class="anchor" aria-hidden="true" href="#bonus-track">#</a></h2>
+<h3 id="amadeusgpt-una-interfaz-de-lenguaje-natural-para-el-análisis-interactivo-del-comportamiento-animal">AmadeusGPT: una interfaz de lenguaje natural para el análisis interactivo del comportamiento animal<a hidden class="anchor" aria-hidden="true" href="#amadeusgpt-una-interfaz-de-lenguaje-natural-para-el-análisis-interactivo-del-comportamiento-animal">#</a></h3>
+<p>Durante mi doctorado, trabajé mucho con datos de seguimiento de movimientos provenientes de experimentos con animales. El estado absoluto del arte, tanto en términos de rendimiento como de soporte al usuario, para el seguimiento de movimientos en biología, es <a href="https://www.mackenziemathislab.org/deeplabcut">DeepLabCut</a>. Sin embargo, el software principal no es el más amigable para el usuario y puede ser bastante engorroso para los biólogos de laboratorio que lo usan habitualmente. Acá es donde entra en juego (¿o en canción?) <a href="https://arxiv.org/abs/2307.04858">AmadeusGPT</a>. Aprovechando varios hitos del laboratorio Mathis, como <a href="https://www.nature.com/articles/s41467-024-48792-2">DLC super animal</a> (un modelo que permite el seguimiento de animales sin entrenamiento previo), segmentación de objetos usando <a href="https://segment-anything.com/">SAM</a> y llamadas API a ChatGPT, los autores (¡también el equipo de DeepLabCut!) presentan una interfaz de lenguaje natural para el análisis interactivo del comportamiento animal, donde el usuario puede hacer preguntas sobre los datos en inglés, y el sistema devuelve la información relevante.</p>
+<p><img loading="lazy" src="../../../../AmadeusGPT.png" alt="Flujo de trabajo de AmadeusGPT"  title="Flujo de trabajo de AmadeusGPT"  />
+</p>
+<p>Al momento de escribir esto, el sistema sólo está disponible previa solicitud (lo cual es comprensible, dado el costo de las llamadas API de ChatGPT a gran escala), pero parece un gran paso adelante para hacer que la tecnología de vanguardia sea más accesible al público en general. ¡Veremos cómo evoluciona este proyecto!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/es/tags/conferencias/">Conferencias</a></li>
+      <li><a href="//localhost:1313/es/tags/neurips/">NeurIPS</a></li>
+      <li><a href="//localhost:1313/es/tags/viajes/">Viajes</a></li>
+      <li><a href="//localhost:1313/es/tags/aprendizaje-autom%C3%A1tico/">Aprendizaje Automático</a></li>
+      <li><a href="//localhost:1313/es/tags/aprendizaje-profundo/">Aprendizaje Profundo</a></li>
+      <li><a href="//localhost:1313/es/tags/ee.uu./">EE.UU.</a></li>
+      <li><a href="//localhost:1313/es/tags/nueva-orleans/">Nueva Orleans</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/es/">Lucas Miranda</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/shinying/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

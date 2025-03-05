@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>International Conference on Machine Learning 2024 | Lucas Miranda</title>
+<meta name="keywords" content="Conferences, ICML, Travel, Machine Learning, Deep Learning, Austria, Vienna">
+<meta name="description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.">
+<meta name="author" content="Lucas Miranda">
+<link rel="canonical" href="//localhost:1313/en/blog/icml24/icml24/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1f0c81ce7797be919c6536baf557152f60cccb49e7a37ce74f7fd3fd705259f6.css" integrity="sha256-HwyBzneXvpGcZTa69VcVL2DMy0nno3znT3/T/XBSWfY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/icml24/icml24/">
+<link rel="alternate" hreflang="es" href="//localhost:1313/es/blog/icml24/icml24/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="International Conference on Machine Learning 2024" />
+<meta property="og:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/en/blog/icml24/icml24/" />
+<meta property="og:image" content="//localhost:1313/ICML_logo.png" /><meta property="article:section" content="blog" />
+
+
+<meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/" />
+
+<meta property="og:see_also" content="//localhost:1313/en/blog/neurips23/neurips23/" />
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="//localhost:1313/ICML_logo.png" />
+<meta name="twitter:title" content="International Conference on Machine Learning 2024"/>
+<meta name="twitter:description" content="My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "//localhost:1313/en/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "International Conference on Machine Learning 2024",
+      "item": "//localhost:1313/en/blog/icml24/icml24/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "International Conference on Machine Learning 2024",
+  "name": "International Conference on Machine Learning 2024",
+  "description": "My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.",
+  "keywords": [
+    "Conferences", "ICML", "Travel", "Machine Learning", "Deep Learning", "Austria", "Vienna"
+  ],
+  "articleBody": "General impressions Back to a massive venue. This time in Vienna, Austria, for the International Conference in Machine Learning (ICML). I organised my schedule much better than last time, and I got a lot of insight on new developments in several areas I am interested in, such as time series representation learning, medical informatics, and protein computational biology. Below my humble selection of favourite papers. Hope you find something interesting!\nContrastive Learning for Clinical Outcome Prediction with Partial Data Sources We start with a significant contribution to the field of medical informatics. As electronic health records (EHR) become more and more common around the world, we see new methods to process, represent, and predict from them becoming increasignly important. In this case, the authors present CLOPPS (Contrastive Learning for clinical Outcome Prediction with Partial data Sources), which aims to capture information across different data sources from the same patients, and align them during training using contrastive learning. Importantly, they do it in a way in which not all modalities are necessary at inference time, which is a common limitation in many models.\nThe figure above represents the pretraining workflow envisioned for CLOPPS: given two longitudinal observations, the attention-based decoder on the left produces representations for each modality, which are then contrastively aligned in the latent space. The total loss used in the paper is a combination of two InfoNCE terms, that follow separate positive/negative pair sampling strategies, and a forecasting term. The first one, \\(L_M\\), is based on time matching. Here, the assumption is that different sources collectively and complementary represent health status at that moment in time, thus making samples with the same time stamp across sources the only positive positive pairs. Secondly, the model incorporates a quite original local similarity term (\\(L_L\\)), based on a Kaplan-Meier (KM) estimator for the outcome of interest. The idea is simple: if the patient is healthy, not so much changes in a short period of time, and the width of the local neighbourhood to sample positive pairs from can be larger. If a patient is sick in a particular way, the KM curve is steeper, and the neighbourhood to sample positive pairs from is smaller. While \\(L_M\\) takes care of strictly aligning the data sources across time, \\(L_L\\) focuses on regions of rapid change, corresponding with worse outcomes as predicted by the KM estimator. I think it’s a wonderful idea, which the included ablation studies show is relevant! Finally, the third term, \\(L_F\\), is a forecasting loss trained per modality independently.\nFor a review of the basic InfoNCE loss, feel free to visit this earlier post!\nWhen it comes to experiments, the authors showcase SOTA performance in a series of settings, motivated by a real-world problem where the data comes from both a dialysis provider, as well as a US-national data system –the United States Renal Data System (USRDS)–. Here, as data from the national stream is not always available, it is crucial to develop a model that can still make predictions when some data is missing.\nTimesFM: A decoder-only foundation model for time series forecasting. This is a paper that, as many other coming from Google, was all over the internet when it came out. I was really looking forward to the poster, and I’m glad I managed to pass by and chat with the authors! As the title indicates, TimesFM is a decoder-only foundation model for univariate time series forecasting, trained on both Google trends and wikimedia access statistics.\nData are tokenised across time, and the architecture matches a standard decoder-only transformer, where ’tokens’ are passed through a residual block instead of obtained from a lookup table (as in language models, for example) since the data is continuous. The model is trained to minimise the mean squared error loss between each token and another one, obtained at a horizon \\(h\\) in the future.\nThe figure above includes an illustration of the TimesFM model architecture during training, where an input time-series of a specific length is be broken down into input patches. As mentioned above, each patch is then processed into a vector by a residual block to the model dimension of the transformer layers. The vector is then added to sinusoidal positional encodings, and fed into a set of stacked transformer layers with multi-headed causal attention. The length of the patches and the horizon \\(h\\) vary during training, to prevent the model from overfitting to a single rigid setting.\nThe paper includes a series of experiments that explore different patching schemes on different benchmarks, reaching SOTA zero-shot performance in many of them. While this is definitely a paper to keep an eye on, one of its main limitations is the focus on univariate time series only. While training representation models on multivariate time series is a much harder problem, there are several recent works that look into this issue already. For example, iTransformer inverts the encoding strategy by tokenizing each feature independently across the entire time dimension, with self-attention focusing on feature interactions. Another interesting endeavour, which reaches SOTA performance in many benchmarks and leverages data from multiple sources, is UniTS. This model has separate attention mechanisms that work both across features and across time, and includes different sets of tokens to specify one of several tasks, including forecasting, imputation, and anomaly detection.\n2Bits of Protein: Efficient Protein Language Models at the scale of 2-Bits Finally, we shift gears a bit and move on to protein language models. This is a paper that was presented during the workshops on the last day of the conference, which builds on the recent idea of training language models with ternary weights that can be set to either zero, one, or minus one. This is a really relevant topic at the time of writing, since it has been extensively shown that models whose weights are mapped to ternary values can retain most of the precision of their full-precision counterparts, while being much more efficient in terms of memory and computation. This has huge implications for small and mid-size businesses, as well as for research labs that do not have access to the same computational resources as the big players in the field. Moreover, the ability to train and run models locally promises advantages in terms of privacy and data security, which is important in any health-related application (among others, of course).\nIn this work, the authors investigate training an encoder-only pLM using a ternary architecture, and benchmark it against ESM2 (with full-precision) using an extensive set of tasks from ProteinGym. While the ternary model is not as good as the full-precision one, it is still competitive in many tasks, and much more efficient. Authors also claim that based on the foundational work in the field, one can expect the ternary model to outperform ESM-2 once model size is scaled up. This remains to be seen!\nHere is a snippet taken from the results:\nAll in all, I think the impact of this set of approaches can be huge for both small and large players. For once, it allows actors without SOTA hardware to train and use better models, but it also allows big companies to train much larger models than they would be able to otherwise. We’ll see if these practices become mainstream in the next few years.\n",
+  "wordCount" : "1214",
+  "inLanguage": "en",
+  "image":"//localhost:1313/ICML_logo.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Lucas Miranda"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/en/blog/icml24/icml24/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lucas Miranda",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/assets/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/en/" accesskey="h" title="Lucas Miranda (Alt + H)">Lucas Miranda</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="//localhost:1313/es/" title="🧉"
+                            aria-label="Español">Es</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/en/about/" title="Bio">
+                    <span>Bio</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/pubs/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/software/" title="Software">
+                    <span>Software</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      International Conference on Machine Learning 2024
+    </h1>
+    <div class="post-meta">6 min&nbsp;·&nbsp;Lucas Miranda&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="//localhost:1313/es/blog/icml24/icml24/">Es</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="//localhost:1313/ICML_logo.png" alt="ICML24 logo">
+        
+</figure>
+  <div class="post-content"><h3 id="general-impressions">General impressions<a hidden class="anchor" aria-hidden="true" href="#general-impressions">#</a></h3>
+<p>Back to a massive venue. This time in Vienna, Austria, for the International Conference in Machine Learning (ICML). I organised my schedule much better than <a href="https://lucasmiranda42.github.io/digital_home/en/blog/neurips23/neurips23/">last time</a>, and I got a lot of insight on new developments in several areas I am interested in, such as time series representation learning, medical informatics, and protein computational biology. Below my humble selection of favourite papers. Hope you find something interesting!</p>
+<h3 id="contrastive-learning-for-clinical-outcome-prediction-with-partial-data-sources">Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources<a hidden class="anchor" aria-hidden="true" href="#contrastive-learning-for-clinical-outcome-prediction-with-partial-data-sources">#</a></h3>
+<p>We start with a <a href="https://openreview.net/pdf?id=elCOPIm4Xw">significant contribution</a> to the field of medical informatics. As electronic health records (EHR) become more and more common around the world, we see new methods to process, represent, and predict from them becoming increasignly important. In this case, the authors present <strong>CLOPPS</strong> (Contrastive Learning for clinical Outcome Prediction with Partial data Sources), which aims to capture information across different data sources from the same patients, and align them during training using contrastive learning. Importantly, they do it in a way in which not all modalities are necessary at inference time, which is a common limitation in many models.</p>
+<p><img loading="lazy" src="../../../../contrastive_med_align.png" alt="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources"  title="Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources"  />
+</p>
+<p>The figure above represents the pretraining workflow envisioned for CLOPPS: given two longitudinal observations, the attention-based decoder on the left produces representations for each modality, which are then contrastively aligned in the latent space. The total loss used in the paper is a combination of two InfoNCE terms, that follow separate positive/negative pair sampling strategies, and a forecasting term. The first one, \(L_M\), is based on time matching. Here, the assumption is that different sources collectively and complementary represent health status at that moment in time, thus making samples with the same time stamp across sources the only positive positive pairs. Secondly, the model incorporates a quite original local similarity term (\(L_L\)), based on a Kaplan-Meier (KM) estimator for the outcome of interest. The idea is simple: if the patient is healthy, not so much changes in a short period of time, and the width of the local neighbourhood to sample positive pairs from can be larger. If a patient is sick in a particular way, the KM curve is steeper, and the neighbourhood to sample positive pairs from is smaller. While \(L_M\) takes care of strictly aligning the data sources across time, \(L_L\) focuses on regions of rapid change, corresponding with worse outcomes as predicted by the KM estimator. I think it&rsquo;s a wonderful idea, which the included ablation studies show is relevant! Finally, the third term, \(L_F\), is a forecasting loss trained per modality independently.</p>
+<hr>
+<p>For a review of the basic InfoNCE loss, feel free to visit <a href="https://lucasmiranda42.github.io/digital_home/en/blog/neurips23/neurips23/">this</a> earlier post!</p>
+<hr>
+<p>When it comes to experiments, the authors showcase SOTA performance in a series of settings, motivated by a real-world problem where the data comes from both a dialysis provider, as well as a US-national data system –the United States Renal Data System (USRDS)–. Here, as data from the national stream is not always available, it is crucial to develop a model that can still make predictions when some data is missing.</p>
+<h3 id="timesfm-a-decoder-only-foundation-model-for-time-series-forecasting">TimesFM: A decoder-only foundation model for time series forecasting.<a hidden class="anchor" aria-hidden="true" href="#timesfm-a-decoder-only-foundation-model-for-time-series-forecasting">#</a></h3>
+<p>This is a paper that, as many other coming from Google, was all over the internet when it came out. I was really looking forward to the poster, and I&rsquo;m glad I managed to pass by and chat with the authors! As the title indicates, <a href="https://arxiv.org/pdf/2310.10688">TimesFM</a> is a decoder-only foundation model for univariate time series forecasting, trained on both Google trends and wikimedia access statistics.</p>
+<p>Data are tokenised across time, and the architecture matches a standard decoder-only transformer, where &rsquo;tokens&rsquo; are passed through a residual block instead of obtained from a lookup table (as in language models, for example) since the data is continuous. The model is trained to minimise the mean squared error loss between each token and another one, obtained at a horizon \(h\) in the future.</p>
+<p><img loading="lazy" src="../../../../timesfm.png" alt="TimesFM"  title="TimesFM"  />
+</p>
+<p>The figure above includes an illustration of the TimesFM model architecture during training, where an input time-series of a specific length is be broken down into input patches. As mentioned above, each patch is then processed into a vector by a residual block to the model dimension of the transformer layers. The vector is then added to sinusoidal positional encodings, and fed into a set of stacked transformer layers with multi-headed causal attention. The length of the patches and the horizon \(h\) vary during training, to prevent the model from overfitting to a single rigid setting.</p>
+<p>The paper includes a series of experiments that explore different patching schemes on different benchmarks, reaching SOTA zero-shot performance in many of them. While this is definitely a paper to keep an eye on, one of its main limitations is the focus on univariate time series only. While training representation models on multivariate time series is a much harder problem, there are several recent works that look into this issue already. For example, <a href="https://arxiv.org/abs/2310.06625">iTransformer</a> inverts the encoding strategy by tokenizing each feature independently across the entire time dimension, with self-attention focusing on feature interactions. Another interesting endeavour, which reaches SOTA performance in many benchmarks and leverages data from multiple sources, is <a href="https://arxiv.org/abs/2403.00131">UniTS</a>. This model has separate attention mechanisms that work both across features and across time, and includes different sets of tokens to specify one of several tasks, including forecasting, imputation, and anomaly detection.</p>
+<h3 id="2bits-of-protein-efficient-protein-language-models-at-the-scale-of-2-bits">2Bits of Protein: Efficient Protein Language Models at the scale of 2-Bits<a hidden class="anchor" aria-hidden="true" href="#2bits-of-protein-efficient-protein-language-models-at-the-scale-of-2-bits">#</a></h3>
+<p>Finally, we shift gears a bit and move on to protein language models. <a href="https://openreview.net/pdf?id=bVQjzz3ABw">This is a paper</a> that was presented during the workshops on the last day of the conference, which builds on the <a href="https://arxiv.org/pdf/2402.17764">recent idea</a> of training language models with ternary weights that can be set to either zero, one, or minus one. This is a really relevant topic at the time of writing, since it has been extensively shown that models whose weights are mapped to ternary values can retain most of the precision of their full-precision counterparts, while being much more efficient in terms of memory and computation. This has huge implications for small and mid-size businesses, as well as for research labs that do not have access to the same computational resources as the big players in the field. Moreover, the ability to train and run models locally promises advantages in terms of privacy and data security, which is important in any health-related application (among others, of course).</p>
+<p>In this work, the authors investigate training an encoder-only pLM using a ternary architecture, and benchmark it against ESM2 (with full-precision) using an extensive set of tasks from ProteinGym. While the ternary model is not as good as the full-precision one, it is still competitive in many tasks, and much more efficient. Authors also claim that based on the foundational work in the field, one can expect the ternary model to outperform ESM-2 once model size is scaled up. This remains to be seen!</p>
+<p>Here is a snippet taken from the results:</p>
+<p><img loading="lazy" src="../../../../2bitplm.png" alt="2Bits of Protein"  title="2Bits of Protein"  />
+</p>
+<p>All in all, I think the impact of this set of approaches can be huge for both small and large players. For once, it allows actors without SOTA hardware to train and use better models, but it also allows big companies to train much larger models than they would be able to otherwise. We&rsquo;ll see if these practices become mainstream in the next few years.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/en/tags/conferences/">Conferences</a></li>
+      <li><a href="//localhost:1313/en/tags/icml/">ICML</a></li>
+      <li><a href="//localhost:1313/en/tags/travel/">Travel</a></li>
+      <li><a href="//localhost:1313/en/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="//localhost:1313/en/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="//localhost:1313/en/tags/austria/">Austria</a></li>
+      <li><a href="//localhost:1313/en/tags/vienna/">Vienna</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/en/">Lucas Miranda</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/shinying/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

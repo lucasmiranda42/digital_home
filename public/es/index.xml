@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lucas Miranda</title>
+    <link>//localhost:1313/es/</link>
+    <description>Recent content on Lucas Miranda</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepOF</title>
+      <link>//localhost:1313/es/software/deepof/deepof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/software/deepof/deepof/</guid>
+      <description>DeepOF es una herramienta de postprocesado para series temporales de datos de comportamiento animal, obtenidas a través de DeepLabCut o SLEAP.</description>
+    </item>
+    <item>
+      <title>International Conference on Machine Learning 2024</title>
+      <link>//localhost:1313/es/blog/icml24/icml24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/icml24/icml24/</guid>
+      <description>Mis impresiones, pensamientos y artículos favoritos sobre la edición 2024 de ICML, a la que asistí en persona en Viena.</description>
+    </item>
+    <item>
+      <title>Neural Information Processing Systems 2023</title>
+      <link>//localhost:1313/es/blog/neurips23/neurips23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/neurips23/neurips23/</guid>
+      <description>Mis impresiones, pensamientos y artículos favoritos sobre la edición 2023 de NeurIPS, a la que asistí en persona en Nueva Orleans.</description>
+    </item>
+    <item>
+      <title>Salud mental, explicada para todos</title>
+      <link>//localhost:1313/es/blog/psycomm/psycomm_booklet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/psycomm/psycomm_booklet/</guid>
+      <description>Como parte del grupo de comunicación científica del Instituto Max Planck de Psiquiatría, escribimos y publicamos un folleto sobre salud mental e investigación en salud mental para niños. ¡Ven y échale un vistazo!</description>
+    </item>
+    <item>
+      <title>Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction</title>
+      <link>//localhost:1313/es/pubs/conformal_amr/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/conformal_amr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sex-specific fear acquisition following early life stress is linked to amygdala and hippocampal purine and glutamate metabolism</title>
+      <link>//localhost:1313/es/pubs/early_life_stress_metabolism/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/early_life_stress_metabolism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep clustering of animal motion tracking data: software development and applications to psychiatric preclinical research</title>
+      <link>//localhost:1313/es/pubs/phd_thesis/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/phd_thesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sobre mí</title>
+      <link>//localhost:1313/es/about/</link>
+      <pubDate>Sat, 06 Jan 2024 15:48:08 +0100</pubDate>
+      <guid>//localhost:1313/es/about/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Este es mi espacio digital. Acá vas a encontrar contenido sobre mi vida profesional, incluyendo publicaciones científicas, proyectos, software, y (de vez en cuando) entradas de blog de interés general.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Mi nombre es Lucas Miranda. Nací y crecí en &lt;a href=&#34;https://www.youtube.com/watch?v=Pb9Hv9lw5Tw&#34;&gt;Buenos Aires, Argentina&lt;/a&gt;, donde estudié biología molecular y bioinformática en la &lt;a href=&#34;https://www.uba.ar/&#34;&gt;Universidad de Buenos Aires&lt;/a&gt;. Recientemente completé mi doctorado en la &lt;a href=&#34;https://www.tum.de/en/&#34;&gt;Universidad Técnica de Munich&lt;/a&gt;, dirigido por Bertram Müller-Myhsok en el &lt;a href=&#34;https://www.psych.mpg.de/1495975/mueller_myhsok&#34;&gt;Instituto Max Planck de Psiquiatría&lt;/a&gt;. Si te interesa, podés leer mi tesis (en inglés) &lt;a href=&#34;https://mediatum.ub.tum.de/?id=1713444&#34;&gt;acá&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Early life adversity shapes social subordination and cell type–specific transcriptomic patterning in the ventral hippocampus</title>
+      <link>//localhost:1313/es/pubs/early_life_stress_hippocampus/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/early_life_stress_hippocampus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance prediction models with chemical information</title>
+      <link>//localhost:1313/es/pubs/multimodal_amr/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/multimodal_amr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advancing social behavioral neuroscience by integrating ethology and comparative psychology methods through machine learning</title>
+      <link>//localhost:1313/es/pubs/social_beh_ns_review/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/social_beh_ns_review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automatically annotated motion tracking identifies a distinct social behavioral profile following chronic social defeat stress</title>
+      <link>//localhost:1313/es/pubs/deepof_ncomms/</link>
+      <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/deepof_ncomms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepOF: A Python package for supervised and unsupervised pattern recognition in mice motion tracking data</title>
+      <link>//localhost:1313/es/pubs/deepof_joss/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/deepof_joss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>miRNAs associated with endoplasmic reticulum stress and unfolded protein response during decidualization</title>
+      <link>//localhost:1313/es/pubs/mirnas_uba/</link>
+      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/mirnas_uba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Increasing resolution in stress neurobiology: from single cells to complex group behaviors</title>
+      <link>//localhost:1313/es/pubs/stress_commentary/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/stress_commentary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systematic review of functional MRI applications for psychiatric disease subtyping</title>
+      <link>//localhost:1313/es/pubs/fmri_review/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/fmri_review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comprehensive identification of pathogenic gene variants in patients with neuroendocrine disorders</title>
+      <link>//localhost:1313/es/pubs/mips_uba/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/mips_uba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The transcription factor NF-kB mediates thyrotropin-stimulated expression of thyroid differentiation markers</title>
+      <link>//localhost:1313/es/pubs/nfkb_uba/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/nfkb_uba/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

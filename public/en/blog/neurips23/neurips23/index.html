@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Neural Information Processing Systems 2023 | Lucas Miranda</title>
+<meta name="keywords" content="Conferences, NeurIPS, Travel, Machine Learning, Deep Learning, USA, New Orleans">
+<meta name="description" content="My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.">
+<meta name="author" content="Lucas Miranda">
+<link rel="canonical" href="//localhost:1313/en/blog/neurips23/neurips23/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1f0c81ce7797be919c6536baf557152f60cccb49e7a37ce74f7fd3fd705259f6.css" integrity="sha256-HwyBzneXvpGcZTa69VcVL2DMy0nno3znT3/T/XBSWfY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/neurips23/neurips23/">
+<link rel="alternate" hreflang="es" href="//localhost:1313/es/blog/neurips23/neurips23/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Neural Information Processing Systems 2023" />
+<meta property="og:description" content="My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/en/blog/neurips23/neurips23/" />
+<meta property="og:image" content="//localhost:1313/NeurIPS_logo.png" /><meta property="article:section" content="blog" />
+
+
+<meta property="og:see_also" content="//localhost:1313/en/blog/icml24/icml24/" />
+
+<meta property="og:see_also" content="//localhost:1313/en/blog/icml24/icml24/" />
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="//localhost:1313/NeurIPS_logo.png" />
+<meta name="twitter:title" content="Neural Information Processing Systems 2023"/>
+<meta name="twitter:description" content="My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "//localhost:1313/en/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Neural Information Processing Systems 2023",
+      "item": "//localhost:1313/en/blog/neurips23/neurips23/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Neural Information Processing Systems 2023",
+  "name": "Neural Information Processing Systems 2023",
+  "description": "My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.",
+  "keywords": [
+    "Conferences", "NeurIPS", "Travel", "Machine Learning", "Deep Learning", "USA", "New Orleans"
+  ],
+  "articleBody": "General impressions Last December, I had the pleasure of attending the 2023 edition of the Neural Information Processing Systems (NeurIPS) conference in New Orleans. It was my first time in such a large venue, and I must admit I was slightly overwhelmed by the number of people and the sheer amount of information available. However, I got a lot of insight from the several interesting talks and poster sessions I managed to attend, and I would like to share some of my favourite snippets with whoever is interested. Below the three papers I found most interesting for my current research, as well as a bonus track on an amazing project that calls back to my PhD days.\nContrast Everything: A Hierarchical Contrastive Framework for Medical Time-Series The first paper in the list introduces COMET, a contrastive learning framework to learn representations of medical time series in a self-supervised manner. The main contribution the authors present is a hierarchical training scheme for time series encoders that has four main contrastive loss terms, aiming to contrast single observations, trials, samples, and patients, exploiting and learning from different levels of data consistency that may be lost otherwise. For all levels, they use variants of the InfoNCE (Information Noise Contrastive Estimation) loss, where positive and negative pairs are sampled using a masking-based augmentation procedure.\nAs a recap, let’s start with the regular InfoNCE loss. Given a set of samples (/x_i/) and a different set /(x_j/), the InfoNCE loss is defined as:\n$$ \\mathcal{L}_{\\text{InfoNCE}} = -\\frac{1}{N} \\sum_{i=1}^{N} \\log \\frac{\\exp(\\text{sim}(x_i, x_i^+))}{\\sum_{j=1}^{K} \\exp(\\text{sim}(x_i, x_j^-))} $$where \\(x_i^+\\) is a positive sample, \\(x_j^-\\) a negative sample, and \\(\\text{sim}\\) a similarity function (typically the dot product between the embeddings or cosine similarity, but it could be anything else). The idea is to maximise the similarity between the encoder and projection head for positive pairs, while minimising it for negative pairs (notice the \\(-\\) sign!). But how do we define positive and negative pairs? Well, this is where COMET shines…\nThe four levels I mentioned above are defined as follows:\nObservation level: First, augmented observations of the same time point are treated as positive pairs \\((x_{i,t}, \\tilde{x}_{i,t})\\), while real and augmented observations of different time points are treated as negative \\((x_{i,t}, x_{i,-t}\\) and \\((x_{i,t}, \\tilde{x}_{i,-t})\\), where \\(x\\) is a given sample, \\(\\tilde{x}\\) an augmented sample, \\(i\\) the sample index, and \\(t\\) the time index.\nSample level: Second, augmented observations of the same sample are treated as positive pairs \\((x_{i}, \\tilde{x}_{i})\\), while real and augmented observations of different samples are treated as negative \\((x_{i}, x_{j}\\) and \\((x_{i}, \\tilde{x}_{j})\\).\nTrial level: We now take subsets of each time series into account for memory purposes, and group observations belonging to the same subset in to trials. We apply the same basic loss, but to an aggregated representation of the entire trial instead of the observation-level embeddings. Of all four, it’s the only one that comes as an artefact of hardware limitations, rather than from real consistencies in the data themselves. It’s unclear if this would be necessary in a more powerful hardware setup.\nPatient level: last but not least, we repeat step 3, but now with trials grouped into belonging to the same patient or not. Different time series sampled from the same individuals are regarded as positive pairs, and as negative otherwise. This is really interesting because it’s the only level that takes into account the patient’s identity, which can be crucial for generalisation in medical data.\nBy training the encoder with these four levels of contrastive loss, the authors aim to learn representations that are invariant to the different levels of data consistency.\nThe main workflow looks like this (check the paper for more details!):\nThe experiments in the paper focus on regularly sampled EEG data with little to no missing values. However, their contrastive framework seems like a great starting point for multi-level learning for irregularly sample data (such as ICU time series) as well. They beat several time series self-supervised baselines in detecting myocardial infarction and Parkinson’s disease.\nTime Series as Images: Vision Transformer for Irregularly Sampled Time Series We now move to a paper that caught my attention because of the lateral thinking in place. Time Series as Images presents a peculiar way of processing irregularly sampled time series for supervised learning, based on plotting the collected values as images and processing them using a pretrained vision swin transformer. The authors run several unorthodox experiments on how different styles of plotting influence performance, such as markers, interpolation, variable order, and colours. Moreover, they include several experiments on intensive care unit data, and provide direct comparisons with many baselines, including SeFT from the Borgwardt lab where I work. They reach SOTA performance in various tasks, including sepsis and mortality prediction on physionet 2019 and 2012 challenge data, respectively. They train the models with a simple binary cross-entropy loss, while upsampling the minority class. Interestingly, they also included static information (age, height, weight, sex, demographics) as a paragraph embedded with an encoder-only language model. Time series and static text embeddings were concatenated prior to classification. Truly unorthodox, but it seems to work!\nThe main workflow looks like this (check the paper for more details!):\nAll in all, this article clearly demonstrates the generalising capabilities of large vision models, but whether their ideas can be extended to make generalizable time series models remains to be seen.\nAn Iterative Self-Learning Framework for Medical Domain Generalization Finally, the third work in this summary presents an approach to mitigate distribution shift in electronic health record (EHR) data, named SLDG (Self-Learning Domain Generalization). In a nutshell, the approach starts by grouping the features semantically in different classes (such as statics, symptoms, treatments, and medical history). Each feature subset is embedded with a trained encoder to an individual latent space, and a series of latent domains are retrieved for each modality using hierarchical clustering, with the number of clusters selected automatically based on the silhouette score. This makes it easier to unravel really specific clusters as the intersection of not-so-rare groups of specific features (such as a cluster of older male patients with a history of smoking and type 2 diabetes, which can be decomposed in older, male, smoking, and type 2 diabetes). Lastly, individual classifiers for a given target variable are trained for each of these feature classes, with clusters recomputed every 20 epochs.\nTheir experiments focus on 15-day readmission and mortality prediction on both MIMIC-IV and eICU, with data splits maximising the temporal and spatial gaps between samples, the latter based on the geographical location of the hospitals. They beat several domain generalization baselines on all tasks and metrics, which sounds promising. Interestingly, they do not provide generalization metrics between eICU and MIMIC-IV; only within each dataset individually.\nAll in all, this seems like a smart approach to efficiently group representations based on prior knowledge about the features, which can have a positive impact on domain shift.\nBonus track: AmadeusGPT: a natural language interface for interactive animal behavioral analysis During my PhD, I worked a lot with motion-tracking data coming from animal experiments. The absolute state-of-the-art, both in terms of performance and user support, for motion tracking in biology, is DeepLabCut. However, the main software is not the most user-friendly, and it can be quite cumbersome to use for wet-lab biologists. This is where AmadeusGPT comes in. By leveraging several milestones from the Mathis lab, such as DLC super animal (a model that enables zero-shot tracking), object segmentation using SAM, and API calls to ChatGPT, the authors (also the DeepLabCut team!) present a natural language interface for interactive animal behavioral analysis, where the user can ask questions about the data in plain English, and the system will return the relevant information.\nAt the time of writing, the system is available upon request (which is understandable given the pricing of large-volume ChatGPT API calls), but it seems like a great step forward in making cutting-edge technology more accessible to the general public. I can’t wait to see how this project evolves!\n",
+  "wordCount" : "1335",
+  "inLanguage": "en",
+  "image":"//localhost:1313/NeurIPS_logo.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Lucas Miranda"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/en/blog/neurips23/neurips23/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lucas Miranda",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/assets/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/en/" accesskey="h" title="Lucas Miranda (Alt + H)">Lucas Miranda</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="//localhost:1313/es/" title="🧉"
+                            aria-label="Español">Es</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/en/about/" title="Bio">
+                    <span>Bio</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/pubs/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/software/" title="Software">
+                    <span>Software</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/en/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Neural Information Processing Systems 2023
+    </h1>
+    <div class="post-meta">7 min&nbsp;·&nbsp;Lucas Miranda&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="//localhost:1313/es/blog/neurips23/neurips23/">Es</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="//localhost:1313/NeurIPS_logo.png" alt="NeurIPS23 logo">
+        
+</figure>
+  <div class="post-content"><h3 id="general-impressions">General impressions<a hidden class="anchor" aria-hidden="true" href="#general-impressions">#</a></h3>
+<p>Last December, I had the pleasure of attending the 2023 edition of the Neural Information Processing Systems (NeurIPS) conference in New Orleans. It was my first time in such a large venue, and I must admit I was slightly overwhelmed by the number of people and the sheer amount of information available. However, I got a lot of insight from the several interesting talks and poster sessions I managed to attend, and I would like to share some of my favourite snippets with whoever is interested. Below the three papers I found most interesting for my current research, as well as a bonus track on an amazing project that calls back to my PhD days.</p>
+<h3 id="contrast-everything-a-hierarchical-contrastive-framework-for-medical-time-series">Contrast Everything: A Hierarchical Contrastive Framework for Medical Time-Series<a hidden class="anchor" aria-hidden="true" href="#contrast-everything-a-hierarchical-contrastive-framework-for-medical-time-series">#</a></h3>
+<p>The first paper in the list introduces <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/ae7d9c77b5ff9e3b7833a68523b880f2-Paper-Conference.pdf">COMET</a>, a contrastive learning framework to learn representations of medical time series in a self-supervised manner. The main contribution the authors present is a hierarchical training scheme for time series encoders that has four main contrastive loss terms, aiming to contrast single observations, trials, samples, and patients, exploiting and learning from different levels of data consistency that may be lost otherwise. For all levels, they use variants of the InfoNCE (Information Noise Contrastive Estimation) loss, where positive and negative pairs are sampled using a masking-based augmentation procedure.</p>
+<p>As a recap, let&rsquo;s start with the regular InfoNCE loss. Given a set of samples (/x_i/) and a different set /(x_j/), the InfoNCE loss is defined as:</p>
+$$
+\mathcal{L}_{\text{InfoNCE}} = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{\exp(\text{sim}(x_i, x_i^+))}{\sum_{j=1}^{K} \exp(\text{sim}(x_i, x_j^-))}
+$$<p>where \(x_i^+\) is a positive sample, \(x_j^-\) a negative sample, and \(\text{sim}\) a similarity function (typically the dot product between the embeddings or cosine similarity, but it could be anything else). The idea is to maximise the similarity between the encoder and projection head for positive pairs, while minimising it for negative pairs (notice the \(-\) sign!). But how do we define positive and negative pairs? Well, this is where COMET shines&hellip;</p>
+<p>The four levels I mentioned above are defined as follows:</p>
+<ol>
+<li>
+<p><strong>Observation level:</strong> First, augmented observations of <em>the same time point</em> are treated as positive pairs \((x_{i,t}, \tilde{x}_{i,t})\), while real and augmented observations of different time points are treated as negative \((x_{i,t}, x_{i,-t}\) and \((x_{i,t}, \tilde{x}_{i,-t})\), where \(x\) is a given sample, \(\tilde{x}\) an augmented sample, \(i\) the sample index, and \(t\) the time index.</p>
+</li>
+<li>
+<p><strong>Sample level:</strong> Second, augmented observations of the same sample are treated as positive pairs \((x_{i}, \tilde{x}_{i})\), while real and augmented observations of different samples are treated as negative \((x_{i}, x_{j}\) and \((x_{i}, \tilde{x}_{j})\).</p>
+</li>
+<li>
+<p><strong>Trial level:</strong> We now take subsets of each time series into account for memory purposes, and group observations belonging to the same subset in to <em>trials</em>. We apply the same basic loss, but to an aggregated representation of the entire trial instead of the observation-level embeddings. Of all four, it&rsquo;s the only one that comes as an artefact of hardware limitations, rather than from real consistencies in the data themselves. It&rsquo;s unclear if this would be necessary in a more powerful hardware setup.</p>
+</li>
+<li>
+<p><strong>Patient level:</strong> last but not least, we repeat step 3, but now with trials grouped into belonging to the same patient or not. Different time series sampled from the same individuals are regarded as positive pairs, and as negative otherwise. This is really interesting because it&rsquo;s the only level that takes into account the patient&rsquo;s identity, which can be crucial for generalisation in medical data.</p>
+</li>
+</ol>
+<p>By training the encoder with these four levels of contrastive loss, the authors aim to learn representations that are invariant to the different levels of data consistency.</p>
+<p>The main workflow looks like this (check the paper for more details!):</p>
+<p><img loading="lazy" src="../../../../COMET.png" alt="COMET workflow"  title="COMET workflow"  />
+</p>
+<p>The experiments in the paper focus on regularly sampled EEG data with little to no missing values. However, their contrastive framework seems like a great starting point for multi-level learning for irregularly sample data (such as ICU time series) as well. They beat several time series self-supervised baselines in detecting myocardial infarction and Parkinson&rsquo;s disease.</p>
+<h3 id="time-series-as-images-vision-transformer-for-irregularly-sampled-time-series">Time Series as Images: Vision Transformer for Irregularly Sampled Time Series<a hidden class="anchor" aria-hidden="true" href="#time-series-as-images-vision-transformer-for-irregularly-sampled-time-series">#</a></h3>
+<p>We now move to a paper that caught my attention because of the lateral thinking in place. <a href="https://arxiv.org/pdf/2303.12799">Time Series as Images</a> presents a peculiar way of processing irregularly sampled time series for supervised learning, based on plotting the collected values as images and processing them using a pretrained vision <a href="https://arxiv.org/abs/2103.14030">swin transformer</a>. The authors run several unorthodox experiments on how different styles of plotting influence performance, such as markers, interpolation, variable order, and colours.
+Moreover, they include several experiments on intensive care unit data, and provide direct comparisons with many baselines, including <a href="https://arxiv.org/abs/1909.12064">SeFT</a> from the Borgwardt lab where I work. They reach SOTA performance in various tasks, including sepsis and mortality prediction on physionet 2019 and 2012 challenge data, respectively. They train the models with a simple binary cross-entropy loss, while upsampling the minority class. Interestingly, they also included static information (age, height, weight, sex, demographics) as a paragraph embedded with an encoder-only language model. Time series and static text embeddings were concatenated prior to classification. Truly unorthodox, but it seems to work!</p>
+<p>The main workflow looks like this (check the paper for more details!):</p>
+<p><img loading="lazy" src="../../../../tsViT.png" alt="tsViT workflow"  title="Main workflow"  />
+</p>
+<p>All in all, this article clearly demonstrates the generalising capabilities of large vision models, but whether their ideas can be extended to make generalizable time series models remains to be seen.</p>
+<h3 id="an-iterative-self-learning-framework-for-medical-domain-generalization">An Iterative Self-Learning Framework for Medical Domain Generalization<a hidden class="anchor" aria-hidden="true" href="#an-iterative-self-learning-framework-for-medical-domain-generalization">#</a></h3>
+<p>Finally, the third work in this summary presents an approach to mitigate distribution shift in electronic health record (EHR) data, named <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/ac0035c349f3fe8af6a93fe44697b5bd-Paper-Conference.pdf">SLDG (Self-Learning Domain Generalization)</a>. In a nutshell, the approach starts by grouping the features semantically in different classes (such as statics, symptoms, treatments, and medical history). Each feature subset is embedded with a trained encoder to an individual latent space, and a series of <em>latent domains</em> are retrieved for each modality using hierarchical clustering, with the number of clusters selected automatically based on the silhouette score. This makes it easier to unravel really specific clusters as the intersection of not-so-rare groups of specific features (such as a cluster of <em>older male patients with a history of smoking and type 2 diabetes</em>, which can be decomposed in <em>older</em>, <em>male</em>, <em>smoking</em>, and <em>type 2 diabetes</em>). Lastly, individual classifiers for a given target variable are trained for each of these feature classes, with clusters recomputed every 20 epochs.</p>
+<p><img loading="lazy" src="../../../../MedDomainGeneralization.png" alt="MedDomainGeneralization workflow"  title="Main workflow"  />
+</p>
+<p>Their experiments focus on 15-day readmission and mortality prediction on both MIMIC-IV and eICU, with data splits maximising the temporal and spatial gaps between samples, the latter based on the geographical location of the hospitals. They beat several domain generalization baselines on all tasks and metrics, which sounds promising. Interestingly, they do not provide generalization metrics between eICU and MIMIC-IV; only within each dataset individually.</p>
+<p>All in all, this seems like a smart approach to efficiently group representations based on prior knowledge about the features, which can have a positive impact on domain shift.</p>
+<h2 id="bonus-track">Bonus track:<a hidden class="anchor" aria-hidden="true" href="#bonus-track">#</a></h2>
+<h3 id="amadeusgpt-a-natural-language-interface-for-interactive-animal-behavioral-analysis">AmadeusGPT: a natural language interface for interactive animal behavioral analysis<a hidden class="anchor" aria-hidden="true" href="#amadeusgpt-a-natural-language-interface-for-interactive-animal-behavioral-analysis">#</a></h3>
+<p>During my PhD, I worked a lot with motion-tracking data coming from animal experiments. The absolute state-of-the-art, both in terms of performance and user support, for motion tracking in biology, is <a href="https://www.mackenziemathislab.org/deeplabcut">DeepLabCut</a>. However, the main software is not the most user-friendly, and it can be quite cumbersome to use for wet-lab biologists. This is where <a href="https://arxiv.org/abs/2307.04858">AmadeusGPT</a> comes in. By leveraging several milestones from the Mathis lab, such as <a href="https://www.nature.com/articles/s41467-024-48792-2">DLC super animal</a> (a model that enables zero-shot tracking), object segmentation using <a href="https://segment-anything.com/">SAM</a>, and API calls to ChatGPT, the authors (also the DeepLabCut team!) present a natural language interface for interactive animal behavioral analysis, where the user can ask questions about the data in plain English, and the system will return the relevant information.</p>
+<p><img loading="lazy" src="../../../../AmadeusGPT.png" alt="AmadeusGPT workflow"  title="AmadeusGPT workflow"  />
+</p>
+<p>At the time of writing, the system is available upon request (which is understandable given the pricing of large-volume ChatGPT API calls), but it seems like a great step forward in making cutting-edge technology more accessible to the general public. I can&rsquo;t wait to see how this project evolves!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/en/tags/conferences/">Conferences</a></li>
+      <li><a href="//localhost:1313/en/tags/neurips/">NeurIPS</a></li>
+      <li><a href="//localhost:1313/en/tags/travel/">Travel</a></li>
+      <li><a href="//localhost:1313/en/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="//localhost:1313/en/tags/deep-learning/">Deep Learning</a></li>
+      <li><a href="//localhost:1313/en/tags/usa/">USA</a></li>
+      <li><a href="//localhost:1313/en/tags/new-orleans/">New Orleans</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="//localhost:1313/en/">Lucas Miranda</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/shinying/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

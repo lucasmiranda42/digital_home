@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ICML on Lucas Miranda</title>
+    <link>//localhost:1313/es/series/icml/</link>
+    <description>Recent content in ICML on Lucas Miranda</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>es-es</language>
+    <atom:link href="//localhost:1313/es/series/icml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>International Conference on Machine Learning 2024</title>
+      <link>//localhost:1313/es/blog/icml24/icml24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/icml24/icml24/</guid>
+      <description>Mis impresiones, pensamientos y artículos favoritos sobre la edición 2024 de ICML, a la que asistí en persona en Viena.</description>
+    </item>
+  </channel>
+</rss>

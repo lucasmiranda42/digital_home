@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on Lucas Miranda</title>
+    <link>//localhost:1313/en/series/</link>
+    <description>Recent content in Series on Lucas Miranda</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/en/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMR</title>
+      <link>//localhost:1313/en/series/amr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/amr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Austria</title>
+      <link>//localhost:1313/en/series/austria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/austria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conferences</title>
+      <link>//localhost:1313/en/series/conferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICML</title>
+      <link>//localhost:1313/en/series/icml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/icml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMPRS-TP</title>
+      <link>//localhost:1313/en/series/imprs-tp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/imprs-tp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mahine Learning</title>
+      <link>//localhost:1313/en/series/mahine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/mahine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Max Planck</title>
+      <link>//localhost:1313/en/series/max-planck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/max-planck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medical Informatics</title>
+      <link>//localhost:1313/en/series/medical-informatics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/medical-informatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mental Health</title>
+      <link>//localhost:1313/en/series/mental-health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/mental-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MPI-P</title>
+      <link>//localhost:1313/en/series/mpi-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/mpi-p/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeurIPS</title>
+      <link>//localhost:1313/en/series/neurips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/neurips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Orleans</title>
+      <link>//localhost:1313/en/series/new-orleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/new-orleans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outreach</title>
+      <link>//localhost:1313/en/series/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/outreach/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>//localhost:1313/en/series/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/papers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteomics</title>
+      <link>//localhost:1313/en/series/proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/proteomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychiatry</title>
+      <link>//localhost:1313/en/series/psychiatry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/psychiatry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/en/series/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>//localhost:1313/en/series/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USA</title>
+      <link>//localhost:1313/en/series/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/usa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vienna</title>
+      <link>//localhost:1313/en/series/vienna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/series/vienna/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

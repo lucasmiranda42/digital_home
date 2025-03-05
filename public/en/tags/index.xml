@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Lucas Miranda</title>
+    <link>//localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on Lucas Miranda</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMR</title>
+      <link>//localhost:1313/en/tags/amr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/amr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Austria</title>
+      <link>//localhost:1313/en/tags/austria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/austria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Behavior</title>
+      <link>//localhost:1313/en/tags/behavior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/behavior/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clinical</title>
+      <link>//localhost:1313/en/tags/clinical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/clinical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conferences</title>
+      <link>//localhost:1313/en/tags/conferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>//localhost:1313/en/tags/deep-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepLabCut</title>
+      <link>//localhost:1313/en/tags/deeplabcut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/deeplabcut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepOF</title>
+      <link>//localhost:1313/en/tags/deepof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/deepof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ICML</title>
+      <link>//localhost:1313/en/tags/icml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/icml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IMPRS-TP</title>
+      <link>//localhost:1313/en/tags/imprs-tp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/imprs-tp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jupyter</title>
+      <link>//localhost:1313/en/tags/jupyter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/en/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Max Planck</title>
+      <link>//localhost:1313/en/tags/max-planck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/max-planck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Medical Informatics</title>
+      <link>//localhost:1313/en/tags/medical-informatics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/medical-informatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mental Health</title>
+      <link>//localhost:1313/en/tags/mental-health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/mental-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MPI-P</title>
+      <link>//localhost:1313/en/tags/mpi-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/mpi-p/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal</title>
+      <link>//localhost:1313/en/tags/multimodal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/multimodal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NeurIPS</title>
+      <link>//localhost:1313/en/tags/neurips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/neurips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Orleans</title>
+      <link>//localhost:1313/en/tags/new-orleans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/new-orleans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outreach</title>
+      <link>//localhost:1313/en/tags/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/outreach/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>//localhost:1313/en/tags/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/papers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postprocessing</title>
+      <link>//localhost:1313/en/tags/postprocessing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/postprocessing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteomics</title>
+      <link>//localhost:1313/en/tags/proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/proteomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychiatry</title>
+      <link>//localhost:1313/en/tags/psychiatry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/psychiatry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/en/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rodents</title>
+      <link>//localhost:1313/en/tags/rodents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/rodents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SLEAP</title>
+      <link>//localhost:1313/en/tags/sleap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/sleap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/en/tags/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Series</title>
+      <link>//localhost:1313/en/tags/time-series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/time-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>//localhost:1313/en/tags/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USA</title>
+      <link>//localhost:1313/en/tags/usa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/usa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Videos</title>
+      <link>//localhost:1313/en/tags/videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/videos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vienna</title>
+      <link>//localhost:1313/en/tags/vienna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/vienna/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
