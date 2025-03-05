@@ -109,7 +109,7 @@ languages:
           url: about/
           weight: 10
         - name: Publicaciones
-          url: refs/
+          url: pubs/
           weight: 15
         - name: Software
           url: software/

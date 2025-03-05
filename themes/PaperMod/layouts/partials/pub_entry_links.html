@@ -13,3 +13,19 @@
 {{- if .Params.video }}
 <a href="{{ .Params.video }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "youtube" }} Video</a>&nbsp;&nbsp;
 {{- end }}
+
+{{- if .Params.page_es }}
+<a href="{{ .Params.page }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "paperplane" }} Página</a>&nbsp;&nbsp;
+{{- end }}
+{{ if .Params.arxiv_es }}
+<a href="{{ .Params.arxiv }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "arxiv" }} arXiv</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.paper_es }}
+    <a href="{{ .Params.paper | absURL }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "file" }} Artículo</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.code_es }}
+<a href="{{ .Params.code }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "github" }} Código</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.video_es }}
+<a href="{{ .Params.video }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "youtube" }} Video</a>&nbsp;&nbsp;
+{{- end }}

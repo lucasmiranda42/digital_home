@@ -10,11 +10,10 @@
 
 {{- $pubs := where site.RegularPages "Type" "pubs" }}
 <div class="post-content">
-{{- if site.Params.ShowOnlySelectedPubs }}
-{{- $pubs = where $pubs "Params.selected" true }}
-<h3>Selected Publications</h3>
-{{- else }}
+{{- if eq site.Params.languageAltTitle "🇬🇧" }}
 <h3>Publications</h3>
+{{- else }}
+<h3>Publicaciones</h3>
 {{- end }}
 </div>
 {{- range $pubs }}
