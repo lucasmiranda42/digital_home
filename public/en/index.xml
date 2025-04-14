@@ -6,7 +6,7 @@
     <description>Recent content on Lucas Miranda</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DeepOF</title>
@@ -42,6 +42,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/blog/neurips23/neurips23/</guid>
       <description>My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.</description>
+    </item>
+    <item>
+      <title>Single cell spatial proteomics maps human liver zonation patterns and their vulnerability to fibrosis</title>
+      <link>//localhost:1313/en/pubs/liver_dvp/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/liver_dvp/</guid>
+      <description></description>
     </item>
     <item>
       <title>Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction</title>

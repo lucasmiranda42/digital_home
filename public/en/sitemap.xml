@@ -52,21 +52,8 @@
                 href="//localhost:1313/en/blog/neurips23/neurips23/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/pubs/conformal_amr/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/pubs/conformal_amr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/pubs/conformal_amr/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -79,7 +66,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -89,6 +76,32 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/pubs/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/liver_dvp/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/liver_dvp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/liver_dvp/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/conformal_amr/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/conformal_amr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/conformal_amr/"
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/early_life_stress_metabolism/</loc>
