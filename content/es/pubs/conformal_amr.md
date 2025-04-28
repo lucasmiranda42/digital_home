@@ -9,6 +9,7 @@ authors:
   - name: D Chen
   - name: J Sattler
   - name: K Borgwardt
+paper_es: https://link.springer.com/chapter/10.1007/978-3-031-90252-9_5
 page_es: https://recomb.org/recomb2025/index.html
 code_es: https://github.com/BorgwardtLab/ConformalAMR
 ---
