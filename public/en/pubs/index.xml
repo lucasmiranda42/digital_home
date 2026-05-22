@@ -6,13 +6,41 @@
     <description>Recent content in Publications on Lucas Miranda</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/pubs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Single cell spatial proteomics maps human liver zonation patterns and their vulnerability to fibrosis</title>
+      <title>Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture</title>
       <link>//localhost:1313/en/pubs/liver_dvp/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/pubs/liver_dvp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with MALDI-TOF Mass Spectra</title>
+      <link>//localhost:1313/en/pubs/conformal_amr_jcb/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/conformal_amr_jcb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loss of noradrenergic Fkbp5 disrupts social behavior and norepinephrine dynamics in the basolateral amygdala</title>
+      <link>//localhost:1313/en/pubs/fkbp5_amygdala/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/fkbp5_amygdala/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classification of social behavioral responses in stress and non-stress adult male mice with high precision</title>
+      <link>//localhost:1313/en/pubs/social_behavior_npp/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/social_behavior_npp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF MS and machine learning</title>
+      <link>//localhost:1313/en/pubs/ampicillin_faecium/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>

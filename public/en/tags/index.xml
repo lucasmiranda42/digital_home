@@ -29,6 +29,13 @@
       <description></description>
     </item>
     <item>
+      <title>CellPick</title>
+      <link>//localhost:1313/en/tags/cellpick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/cellpick/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Clinical</title>
       <link>//localhost:1313/en/tags/clinical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,6 +54,13 @@
       <link>//localhost:1313/en/tags/deep-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Visual Proteomics</title>
+      <link>//localhost:1313/en/tags/deep-visual-proteomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/deep-visual-proteomics/</guid>
       <description></description>
     </item>
     <item>
@@ -201,6 +215,13 @@
       <link>//localhost:1313/en/tags/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spatial Transcriptomics</title>
+      <link>//localhost:1313/en/tags/spatial-transcriptomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/tags/spatial-transcriptomics/</guid>
       <description></description>
     </item>
     <item>

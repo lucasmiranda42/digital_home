@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/en/software/cellpick/cellpick/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/software/cellpick/cellpick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/software/cellpick/cellpick/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/software/deepof/deepof/</loc>
     <xhtml:link
                 rel="alternate"
@@ -53,7 +65,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -66,7 +78,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -79,7 +91,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/liver_dvp/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
@@ -89,6 +101,58 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/pubs/liver_dvp/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/conformal_amr_jcb/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/conformal_amr_jcb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/conformal_amr_jcb/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/fkbp5_amygdala/</loc>
+    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/fkbp5_amygdala/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/fkbp5_amygdala/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/social_behavior_npp/</loc>
+    <lastmod>2025-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/social_behavior_npp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/social_behavior_npp/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/pubs/ampicillin_faecium/</loc>
+    <lastmod>2025-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/ampicillin_faecium/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/ampicillin_faecium/"
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/conformal_amr/</loc>
@@ -327,6 +391,18 @@
                 href="//localhost:1313/en/categories/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/tags/cellpick/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/cellpick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/cellpick/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/tags/clinical/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/conferences/</loc>
@@ -343,6 +419,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/tags/deep-learning/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/deep-visual-proteomics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/deep-visual-proteomics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/deep-visual-proteomics/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/deeplabcut/</loc>
@@ -631,6 +719,18 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="//localhost:1313/en/tags/software/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/spatial-transcriptomics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/spatial-transcriptomics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/spatial-transcriptomics/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/</loc>
