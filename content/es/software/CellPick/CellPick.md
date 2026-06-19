@@ -1,26 +1,35 @@
 ---
 title: "CellPick"
-summary: A cell selection tool for spatial proteomics powered by combinatorial optimization.
+summary: Una herramienta gráfica para selección estratégica y anotación espacial de células en proteómica espacial.
 series: ["Software"]
 weight: 1
 aliases: ["/software/CellPick/"]
 tags: ["Software", "CellPick", "Deep Visual Proteomics", "Spatial Transcriptomics"]
 author: ["Lucas Miranda"]
+website_es: https://cellpick.app
+docs_es: https://cellpick.readthedocs.io/en/latest/
+code_es: https://github.com/BorgwardtLab/CellPick
 cover:
-  image: workflow_step0_init_screen.png
-  alt: "CellPick landing screen"
+  image: /cellpick_cover.png
+  alt: "Logo de CellPick"
 ---
 
-### CellPick is a A cell selection tool for spatial proteomics powered by combinatorial optimization.
+### Selección estratégica y anotación posicional de células para proteómica espacial
 
-Understanding how proteins are distributed across the spatial architecture of tissues is essential to unravel the functional organization of organs in both healthy and diseased states.
-Techniques such as Deep Visual Proteomics rely on single-cell laser-capture microdissection.
-CellPick facilitates the selection of cells for laser microdissection, as it strategically selects cells from any tissue region, and endows them with spatial information with respect to landmarks of interest.
+[Sitio web](https://cellpick.app) · [Documentación](https://cellpick.readthedocs.io/en/latest/) · [Código](https://github.com/BorgwardtLab/CellPick)
 
-Laser microdissection is a technique that allows the dissection of single cells from tissues via a high- powered laser. A naive selection of the cells to be cut, such as random selection, is usually effective in contexts with abundant cells. However, it often results in the selection of contiguous shapes when applied to tissue regions with sparse cellular distribution, thereby risking damaging the cells during microdissection. To overcome this, we introduce a custom shape selection technique that employs a combinatorial optimization procedure for the selection of cells, ensuring the selection of non-contiguous shapes, while approximately maximizing coverage within a restricted tissue area.
+[CellPick](https://cellpick.app) es una herramienta gráfica para seleccionar células en flujos de trabajo de microdisección láser, como [Deep Visual Proteomics](https://www.nature.com/articles/s41587-022-01302-5). Estos experimentos pueden medir miles de proteínas por célula, pero solo para un número limitado de células por sección de tejido. Por eso, elegir un subconjunto representativo y no contiguo de células es un paso central: una selección aleatoria puede agrupar células en zonas densas, perder regiones poco representadas y seleccionar células vecinas que podrían dañarse durante la microdisección.
 
-![CellPick landing page](../workflow_step0_init_screen.png)
+CellPick formula esta tarea como un problema de optimización combinatoria y lo presenta en una interfaz interactiva que no requiere programar. La herramienta permite cargar imágenes de microscopía multicanal, máscaras de segmentación celular y etiquetas opcionales; definir regiones activas; y seleccionar células distribuidas a lo largo del tejido, evitando formas contiguas siempre que sea posible. El software soporta formatos de imagen comunes como TIFF, CZI y Zarr, además de integrarse de forma nativa con SpatialData y el ecosistema scverse.
 
-CellPick allows the specification of two regions of interest, called landmarks, thus establishing a gradient along a relevant axis. Examples of landmarks can be, e.g., two types of veins in the liver. The selected shapes are then automatically endowed with a value indicating how close they are to the two points of interest. This allows to find their position on the gradient of interest, which allows to correlate protein intensity levels and the closeness to the landmarks.
+![Resumen del flujo de trabajo de CellPick](../cellpick_workflow.png)
 
-![CellPick landing page](../workflow_step6_gradient.png)
+*Figura 1. CellPick apoya flujos de trabajo de proteómica espacial basados en LMD mediante la selección de células no contiguas y espacialmente representativas, selecciones con restricciones por categoría, anotación de gradientes espaciales definidos por el usuario y exportación para análisis posteriores.*
+
+El algoritmo principal usa una estrategia de tipo k-center que busca maximizar la cobertura espacial dentro de la región seleccionada. Cuando existen etiquetas categóricas, por ejemplo tipos celulares, CellPick también puede seleccionar un número específico de células por categoría manteniendo las mismas restricciones espaciales. Esto resulta útil en experimentos donde es importante balancear el muestreo entre clases biológicas.
+
+CellPick también permite anotar posición espacial. El usuario puede dibujar landmarks, como venas centrales y portales en tejido hepático, y el software calcula un puntaje de gradiente espacial para cada célula según su distancia relativa a esos landmarks. Estas anotaciones se pueden exportar para análisis posteriores, por ejemplo para correlacionar intensidades proteicas con la posición a lo largo de un eje tisular, como en nuestro [estudio de proteómica espacial de célula única sobre zonación hepática humana](https://www.nature.com/articles/s42255-026-01459-2).
+
+![Anotación de gradientes espaciales en CellPick](../cellpick_gradient.webp)
+
+Los resultados se pueden exportar como XML para compatibilidad con microdisección láser, CSV para análisis estadísticos posteriores o SpatialData para integrarse con pipelines de ómicas espaciales. El software está disponible en el [sitio web del proyecto](https://cellpick.app), con [documentación y tutoriales](https://cellpick.readthedocs.io/en/latest/) y código fuente en [GitHub](https://github.com/BorgwardtLab/CellPick).

@@ -8,10 +8,10 @@
 <meta name="robots" content="index, follow">
 <title>CellPick | Lucas Miranda</title>
 <meta name="keywords" content="Software, CellPick, Deep Visual Proteomics, Spatial Transcriptomics">
-<meta name="description" content="A cell selection tool for spatial proteomics powered by combinatorial optimization.">
+<meta name="description" content="A graphical tool for strategic cell selection and spatial annotation in spatial proteomics.">
 <meta name="author" content="Lucas Miranda">
 <link rel="canonical" href="/en/software/cellpick/cellpick/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.cd03392754f7a7285951e0509105f4f63a226a6232bd596efdba7bbaea048c90.css" integrity="sha256-zQM5J1T3pyhZUeBQkQX09joiamIyvVlu/bp7uuoEjJA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5288d25acabac415642e814352f2aff4d1a0b9aafcfbb9e3b1a8a23cfacfe4a5.css" integrity="sha256-UojSWsq6xBVkLoFDUvKv9NGguar8&#43;7njsaiiPPrP5KU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -58,7 +58,7 @@
 
     </style>
 </noscript><meta property="og:title" content="CellPick" />
-<meta property="og:description" content="A cell selection tool for spatial proteomics powered by combinatorial optimization." />
+<meta property="og:description" content="A graphical tool for strategic cell selection and spatial annotation in spatial proteomics." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/en/software/cellpick/cellpick/" />
 <meta property="og:image" content="/cellpick_cover.png" /><meta property="article:section" content="software" />
@@ -70,7 +70,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="/cellpick_cover.png" />
 <meta name="twitter:title" content="CellPick"/>
-<meta name="twitter:description" content="A cell selection tool for spatial proteomics powered by combinatorial optimization."/>
+<meta name="twitter:description" content="A graphical tool for strategic cell selection and spatial annotation in spatial proteomics."/>
 
 
 <script type="application/ld+json">
@@ -99,12 +99,12 @@
   "@type": "BlogPosting",
   "headline": "CellPick",
   "name": "CellPick",
-  "description": "A cell selection tool for spatial proteomics powered by combinatorial optimization.",
+  "description": "A graphical tool for strategic cell selection and spatial annotation in spatial proteomics.",
   "keywords": [
     "Software", "CellPick", "Deep Visual Proteomics", "Spatial Transcriptomics"
   ],
-  "articleBody": "CellPick is a A cell selection tool for spatial proteomics powered by combinatorial optimization. Understanding how proteins are distributed across the spatial architecture of tissues is essential to unravel the functional organization of organs in both healthy and diseased states. Techniques such as Deep Visual Proteomics rely on single-cell laser-capture microdissection. CellPick facilitates the selection of cells for laser microdissection, as it strategically selects cells from any tissue region, and endows them with spatial information with respect to landmarks of interest.\nLaser microdissection is a technique that allows the dissection of single cells from tissues via a high- powered laser. A naive selection of the cells to be cut, such as random selection, is usually effective in contexts with abundant cells. However, it often results in the selection of contiguous shapes when applied to tissue regions with sparse cellular distribution, thereby risking damaging the cells during microdissection. To overcome this, we introduce a custom shape selection technique that employs a combinatorial optimization procedure for the selection of cells, ensuring the selection of non-contiguous shapes, while approximately maximizing coverage within a restricted tissue area.\nCellPick allows the specification of two regions of interest, called landmarks, thus establishing a gradient along a relevant axis. Examples of landmarks can be, e.g., two types of veins in the liver. The selected shapes are then automatically endowed with a value indicating how close they are to the two points of interest. This allows to find their position on the gradient of interest, which allows to correlate protein intensity levels and the closeness to the landmarks.\n",
-  "wordCount" : "260",
+  "articleBody": "Strategic cell selection and positional annotation for spatial proteomics Website · Documentation · Code\nCellPick is a graphical tool for selecting cells in laser-capture microdissection workflows such as Deep Visual Proteomics. These experiments can measure thousands of proteins per cell, but only for a limited number of cells per tissue section. Picking a representative, non-contiguous subset of cells is therefore a central step: random selection can cluster cells in dense areas, miss sparse regions, and select neighboring cells that may be damaged during microdissection.\nCellPick formulates this task as a combinatorial optimization problem and exposes it through an interactive interface that does not require programming. Users can load multichannel microscopy images, cell segmentation masks, and optional cell labels; define active regions; and select cells that are spread across the tissue while avoiding contiguous shapes whenever possible. The software supports standard image inputs such as TIFF, CZI, and Zarr, as well as native integration with SpatialData and the broader scverse ecosystem.\nFigure 1. CellPick supports LMD-based spatial proteomics workflows by selecting non-contiguous, spatially representative cells, supporting category-constrained selections, annotating cells along user-defined spatial gradients, and exporting results for downstream analysis.\nThe core selection routine is based on a k-center-style strategy that aims to maximize spatial coverage within the selected region. When categorical labels are available, such as cell types, CellPick can also select a specified number of cells from each category while maintaining the same spatial constraints. This makes it useful for experiments where balanced sampling across biological classes matters.\nCellPick also supports positional annotation. Users can draw landmarks, such as central and portal veins in liver tissue, and the software computes a spatial gradient score for each cell based on its relative distance to those landmarks. These annotations can then be exported for downstream analyses, for example to correlate protein intensities with position along a tissue axis, as in our single-cell spatial proteomics study of human liver zonation.\nOutputs can be exported as XML for laser microdissection compatibility, CSV for downstream statistics, or SpatialData for integration into spatial omics pipelines. The software is available from the project website, with documentation and tutorials and source code on GitHub.\n",
+  "wordCount" : "357",
   "inLanguage": "en",
   "image":"/cellpick_cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -219,19 +219,21 @@
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="/cellpick_cover.png" alt="CellPick landing screen">
+<figure class="entry-cover"><img loading="eager" src="/cellpick_cover.png" alt="CellPick logo">
         
 </figure>
-  <div class="post-content"><h3 id="cellpick-is-a-a-cell-selection-tool-for-spatial-proteomics-powered-by-combinatorial-optimization">CellPick is a A cell selection tool for spatial proteomics powered by combinatorial optimization.<a hidden class="anchor" aria-hidden="true" href="#cellpick-is-a-a-cell-selection-tool-for-spatial-proteomics-powered-by-combinatorial-optimization">#</a></h3>
-<p>Understanding how proteins are distributed across the spatial architecture of tissues is essential to unravel the functional organization of organs in both healthy and diseased states.
-Techniques such as Deep Visual Proteomics rely on single-cell laser-capture microdissection.
-CellPick facilitates the selection of cells for laser microdissection, as it strategically selects cells from any tissue region, and endows them with spatial information with respect to landmarks of interest.</p>
-<p>Laser microdissection is a technique that allows the dissection of single cells from tissues via a high- powered laser. A naive selection of the cells to be cut, such as random selection, is usually effective in contexts with abundant cells. However, it often results in the selection of contiguous shapes when applied to tissue regions with sparse cellular distribution, thereby risking damaging the cells during microdissection. To overcome this, we introduce a custom shape selection technique that employs a combinatorial optimization procedure for the selection of cells, ensuring the selection of non-contiguous shapes, while approximately maximizing coverage within a restricted tissue area.</p>
-<p><img loading="lazy" src="../workflow_step0_init_screen.png" alt="CellPick landing page"  />
+  <div class="post-content"><h3 id="strategic-cell-selection-and-positional-annotation-for-spatial-proteomics">Strategic cell selection and positional annotation for spatial proteomics<a hidden class="anchor" aria-hidden="true" href="#strategic-cell-selection-and-positional-annotation-for-spatial-proteomics">#</a></h3>
+<p><a href="https://cellpick.app">Website</a> · <a href="https://cellpick.readthedocs.io/en/latest/">Documentation</a> · <a href="https://github.com/BorgwardtLab/CellPick">Code</a></p>
+<p><a href="https://cellpick.app">CellPick</a> is a graphical tool for selecting cells in laser-capture microdissection workflows such as <a href="https://www.nature.com/articles/s41587-022-01302-5">Deep Visual Proteomics</a>. These experiments can measure thousands of proteins per cell, but only for a limited number of cells per tissue section. Picking a representative, non-contiguous subset of cells is therefore a central step: random selection can cluster cells in dense areas, miss sparse regions, and select neighboring cells that may be damaged during microdissection.</p>
+<p>CellPick formulates this task as a combinatorial optimization problem and exposes it through an interactive interface that does not require programming. Users can load multichannel microscopy images, cell segmentation masks, and optional cell labels; define active regions; and select cells that are spread across the tissue while avoiding contiguous shapes whenever possible. The software supports standard image inputs such as TIFF, CZI, and Zarr, as well as native integration with SpatialData and the broader scverse ecosystem.</p>
+<p><img loading="lazy" src="../cellpick_workflow.png" alt="CellPick workflow overview"  />
 </p>
-<p>CellPick allows the specification of two regions of interest, called landmarks, thus establishing a gradient along a relevant axis. Examples of landmarks can be, e.g., two types of veins in the liver. The selected shapes are then automatically endowed with a value indicating how close they are to the two points of interest. This allows to find their position on the gradient of interest, which allows to correlate protein intensity levels and the closeness to the landmarks.</p>
-<p><img loading="lazy" src="../workflow_step6_gradient.png" alt="CellPick landing page"  />
+<p><em>Figure 1. CellPick supports LMD-based spatial proteomics workflows by selecting non-contiguous, spatially representative cells, supporting category-constrained selections, annotating cells along user-defined spatial gradients, and exporting results for downstream analysis.</em></p>
+<p>The core selection routine is based on a k-center-style strategy that aims to maximize spatial coverage within the selected region. When categorical labels are available, such as cell types, CellPick can also select a specified number of cells from each category while maintaining the same spatial constraints. This makes it useful for experiments where balanced sampling across biological classes matters.</p>
+<p>CellPick also supports positional annotation. Users can draw landmarks, such as central and portal veins in liver tissue, and the software computes a spatial gradient score for each cell based on its relative distance to those landmarks. These annotations can then be exported for downstream analyses, for example to correlate protein intensities with position along a tissue axis, as in our <a href="https://www.nature.com/articles/s42255-026-01459-2">single-cell spatial proteomics study of human liver zonation</a>.</p>
+<p><img loading="lazy" src="../cellpick_gradient.webp" alt="CellPick spatial gradient annotation"  />
 </p>
+<p>Outputs can be exported as XML for laser microdissection compatibility, CSV for downstream statistics, or SpatialData for integration into spatial omics pipelines. The software is available from the <a href="https://cellpick.app">project website</a>, with <a href="https://cellpick.readthedocs.io/en/latest/">documentation and tutorials</a> and source code on <a href="https://github.com/BorgwardtLab/CellPick">GitHub</a>.</p>
 
 
   </div>

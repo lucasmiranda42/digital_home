@@ -1,3 +1,9 @@
+{{- if .Params.website }}
+<a href="{{ .Params.website }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "paperplane" }} Website</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.docs }}
+<a href="{{ .Params.docs }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "file" }} Docs</a>&nbsp;&nbsp;
+{{- end }}
 {{- if .Params.page }}
 <a href="{{ .Params.page }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "paperplane" }} Page</a>&nbsp;&nbsp;
 {{- end }}
@@ -14,6 +20,12 @@
 <a href="{{ .Params.video }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "youtube" }} Video</a>&nbsp;&nbsp;
 {{- end }}
 
+{{- if .Params.website_es }}
+<a href="{{ .Params.website_es }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "paperplane" }} Sitio web</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.docs_es }}
+<a href="{{ .Params.docs_es }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "file" }} Documentación</a>&nbsp;&nbsp;
+{{- end }}
 {{- if .Params.page_es }}
 <a href="{{ .Params.page_es }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "paperplane" }} Página</a>&nbsp;&nbsp;
 {{- end }}

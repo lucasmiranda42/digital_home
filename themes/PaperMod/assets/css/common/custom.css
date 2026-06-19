@@ -68,6 +68,13 @@
     flex: 5;
 }
 
+.post-entry .entry-cover img[src*="cellpick_cover"],
+.post-single .entry-cover img[src*="cellpick_cover"] {
+    max-height: 260px;
+    object-fit: contain;
+    background: #fff;
+}
+
 .home-news-heading {
     margin-top: 8px;
 }
