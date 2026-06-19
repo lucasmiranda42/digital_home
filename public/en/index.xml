@@ -6,7 +6,7 @@
     <description>Recent content on Lucas Miranda</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CellPick</title>
@@ -51,6 +51,34 @@
       <description>My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.</description>
     </item>
     <item>
+      <title>Nuclear proteome reveals microtubule-associated protein regulating fate and disease</title>
+      <link>//localhost:1313/en/pubs/nuclear_proteome_map1b/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/nuclear_proteome_map1b/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Cell paper led by Florencia Merino</title>
+      <link>//localhost:1313/en/news/cell_merino_paper/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/news/cell_merino_paper/</guid>
+      <description>Thrilled to have contributed to &lt;a href=&#34;https://www.cell.com/cell/fulltext/S0092-8674%2826%2900578-7&#34;&gt;&amp;ldquo;Nuclear proteome reveals microtubule-associated protein regulating fate and disease&amp;rdquo;&lt;/a&gt;, led by Florencia Merino. Now out in Cell!</description>
+    </item>
+    <item>
+      <title>46. Epigenomic Embedding of Childhood Adversity Links to Disease Risk and Chronic Inflammation</title>
+      <link>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Started a new postdoc at EPFL</title>
+      <link>//localhost:1313/en/news/epfl_postdoc/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/news/epfl_postdoc/</guid>
+      <description>I started a new job as a postdoctoral researcher at EPFL, as part of &lt;a href=&#34;https://brbiclab.epfl.ch/&#34;&gt;MLBIO&lt;/a&gt;.</description>
+    </item>
+    <item>
       <title>Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture</title>
       <link>//localhost:1313/en/pubs/liver_dvp/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
@@ -93,6 +121,13 @@
       <description></description>
     </item>
     <item>
+      <title>Highlighting Genetic Differences between Barlow&#39;s Disease and Fibroelastic Deficiency via Genome-Wide Association Study Meta-Analyses</title>
+      <link>//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Sex-specific fear acquisition following early life stress is linked to amygdala and hippocampal purine and glutamate metabolism</title>
       <link>//localhost:1313/en/pubs/early_life_stress_metabolism/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
@@ -115,6 +150,13 @@
 &lt;p&gt;You have reached my digital home. Here you&amp;rsquo;ll find content about my professional life, including scientific publications, projects, software, and (some) general interest blog entries.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;My name is Lucas Miranda. I was born and raised in &lt;a href=&#34;https://www.youtube.com/watch?v=Pb9Hv9lw5Tw&#34;&gt;Buenos Aires, Argentina&lt;/a&gt;, where I studied molecular biology and bioinformatics at the &lt;a href=&#34;https://www.uba.ar/&#34;&gt;University of Buenos Aires&lt;/a&gt;. I recently completed my doctorate at the &lt;a href=&#34;https://www.tum.de/en/&#34;&gt;Technical University of Munich&lt;/a&gt;, directed by Bertram Müller-Myhsok at the &lt;a href=&#34;https://www.psych.mpg.de/1495975/mueller_myhsok&#34;&gt;Max Planck Institute of Psychiatry&lt;/a&gt;. If you&amp;rsquo;re interested, you can read my thesis &lt;a href=&#34;https://mediatum.ub.tum.de/?id=1713444&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Genome-Wide Association Study in 2,140 Patients and Subtype Meta-analyses of Barlow&#39;s Disease and Fibroelastic Deficiency Identify Novel Risk Loci for Mitral Valve Prolapse</title>
+      <link>//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/</guid>
+      <description></description>
     </item>
     <item>
       <title>Early life adversity shapes social subordination and cell type–specific transcriptomic patterning in the ventral hippocampus</title>
