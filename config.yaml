@@ -51,7 +51,7 @@ languages:
           I am a postdoctoral researcher at [EPFL MLBio](https://brbiclab.epfl.ch/), directed by Maria Brbić.
           Previously, I was a postdoctoral researcher at the [Max Planck Institute of Biochemistry](https://www.biochem.mpg.de/en) (MLSB, Karsten Borgwardt).
           I obtained my PhD in 2024 from the Technical University of Munich (TUM), under the supervision of Bertram Müller-Myhsok.
-          My research focuses on the development of machine learning methods for biochemical and medical informatics problems.
+          My research focuses on the development of machine learning methods for biochemical and medical informatics problems, with a special focus on spatial omics.
         imageUrl: "profile.png"
         imageTitle: ProfileMode image
         imageWidth: 180
@@ -91,9 +91,9 @@ languages:
         Title: Lucas Miranda
         Content: >
           Soy investigador postdoctoral en [EPFL MLBio](https://brbiclab.epfl.ch/), dirigido por Maria Brbić.
-          Anteriormente, también fui postdoc en el [Instituto Max Planck de Bioquímica](https://www.biochem.mpg.de/en) (MLSB, Karsten Borgwardt).
+          Antes también fui postdoc en el [Instituto Max Planck de Bioquímica](https://www.biochem.mpg.de/en) (MLSB, Karsten Borgwardt).
           Obtuve mi doctorado en 2024 de la Universidad Técnica de Munich (TUM), bajo la supervisión de Bertram Müller-Myhsok.
-          Mi investigación se centra en el desarrollo de métodos de aprendizaje automático para problemas de bioinformática y medicina.
+          Mi investigación se centra en el desarrollo de métodos de aprendizaje automático para problemas de bioinformática y medicina, con un enfoque particular en ómicas espaciales.
         imageUrl: "profile.png"
         imageTitle: ProfileMode image
         imageWidth: 180
