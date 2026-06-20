@@ -17,7 +17,7 @@ Las herramientas que tenemos disponibles para cuantificar lo que hacen los anima
 
 Avances recientes en visión por computadora y aprendizaje automático permitieron a los investigadores rastrear en detalle el movimiento de animales tanto en el laboratorio como en la naturaleza, sin la necesidad de etiquetas físicas. Típicamente, estos programas se basan en _transfer learning_ (aprendizaje por transferencia) a partir de redes neuronales preentrenadas en grandes conjuntos de datos de imágenes, que primero extraen representaciones de los fotogramas de video. Al etiquetar relativamente pocos fotogramas con partes del cuerpo de interés (unos 200 suelen bastar), las redes pueden luego ajustarse para rastrear estas partes del cuerpo en todos los videos a disposición. Abajo podés ver el flujo de trabajo general del [artículo original de DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y). Modelos más modernos pueden rastrear partes del cuerpo de interés [incluso sin etiquetado previo](https://arxiv.org/abs/2203.07436), aunque siguen siendo menos precisas que estos métodos supervisados.
 
-![Supervised pipeline in DeepOF](../deeplabcut.png)
+![Supervised pipeline in DeepOF](/en/software/DeepOF/deeplabcut.png)
 
 De esta forma, transformando el video crudo en series temporales de partes del cuerpo rastreadas, estos programas (incluyendo los mencionados [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut#:~:text=DeepLabCut%E2%84%A2%20is%20an%20efficient,typically%2050%2D200%20frames) y [SLEAP](https://sleap.ai/)) allanaron el camino para herramientas de análisis que pueden etiquetar y caracterizar automáticamente el comportamiento de muchas maneras innovadoras.
 
@@ -25,7 +25,7 @@ DeepOF es nuestra humilde contribución a este esfuerzo. El programa ofrece tant
 
 En primer lugar, la anotación supervisada incluido usa una serie de reglas y modelos de aprendizaje automático preentrenados para detectar cuándo los animales que se están rastreando muestran alguno de una serie de patrones de comportamiento predefinidos.
 
-![Supervised pipeline in DeepOF](../deepof_supervised.png)
+![Supervised pipeline in DeepOF](/en/software/DeepOF/deepof_supervised.png)
 
 De esta manera, podemos etiquetar tanto comportamientos individuales como sociales con solo unas pocas líneas de código! Veamos un ejemplo básico:
 
@@ -60,7 +60,7 @@ trained_model = my_deepof_project.deep_unsupervised_embedding(
 
 Por último, DeepOF incluye un pipeline de interpretabilidad para explorar qué son estos clusters obtenidos, basándonos tanto en Shapley Additive Explanations (SHAP) como en mapeos directos de clusters a fragmentos de video. Además, independientemente del tipo de análisis que elijas, DeepOF te ofrece un extenso conjunto de herramientas de análisis y visualización post-hoc. A continuación podés ver los resultados de SHAP para un cluster enriquecido en animales expuestos a estrés crónico, junto a fragmentos de video correspondientes.
 
-![Unsupervised pipeline in DeepOF](../deepof_unsupervised.gif)
+![Unsupervised pipeline in DeepOF](/en/software/DeepOF/deepof_unsupervised.gif)
 
 ¡Eso es todo por ahora! En resumen, DeepOF es una herramienta versátil que puede ayudarte a extraer información significativa de tus datos de comportamiento animal. ¡Esperamos que la encuentres tan útil como nosotros!
 

@@ -22,7 +22,7 @@ cover:
 
 CellPick formula esta tarea como un problema de optimización combinatoria y lo presenta en una interfaz interactiva que no requiere programar. La herramienta permite cargar imágenes de microscopía multicanal, máscaras de segmentación celular y etiquetas opcionales; definir regiones activas; y seleccionar células distribuidas a lo largo del tejido, evitando formas contiguas siempre que sea posible. El software soporta formatos de imagen comunes como TIFF, CZI y Zarr, además de integrarse de forma nativa con SpatialData y el ecosistema scverse.
 
-![Resumen del flujo de trabajo de CellPick](../cellpick_workflow.png)
+![Resumen del flujo de trabajo de CellPick](/en/software/cellpick/cellpick_workflow.png)
 
 *Figura 1. CellPick apoya flujos de trabajo de proteómica espacial basados en LMD mediante la selección de células no contiguas y espacialmente representativas, selecciones con restricciones por categoría, anotación de gradientes espaciales definidos por el usuario y exportación para análisis posteriores.*
 
@@ -30,6 +30,6 @@ El algoritmo principal usa una estrategia de tipo k-center que busca maximizar l
 
 CellPick también permite anotar posición espacial. El usuario puede dibujar landmarks, como venas centrales y portales en tejido hepático, y el software calcula un puntaje de gradiente espacial para cada célula según su distancia relativa a esos landmarks. Estas anotaciones se pueden exportar para análisis posteriores, por ejemplo para correlacionar intensidades proteicas con la posición a lo largo de un eje tisular, como en nuestro [estudio de proteómica espacial de célula única sobre zonación hepática humana](https://www.nature.com/articles/s42255-026-01459-2).
 
-![Anotación de gradientes espaciales en CellPick](../cellpick_gradient.webp)
+![Anotación de gradientes espaciales en CellPick](/en/software/cellpick/cellpick_gradient.webp)
 
 Los resultados se pueden exportar como XML para compatibilidad con microdisección láser, CSV para análisis estadísticos posteriores o SpatialData para integrarse con pipelines de ómicas espaciales. El software está disponible en el [sitio web del proyecto](https://cellpick.app), con [documentación y tutoriales](https://cellpick.readthedocs.io/en/latest/) y código fuente en [GitHub](https://github.com/BorgwardtLab/CellPick).

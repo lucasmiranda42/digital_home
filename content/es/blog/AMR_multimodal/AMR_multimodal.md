@@ -8,14 +8,14 @@ aliases: ["/blog/AMR_multimodal/"]
 tags: ["Artículos", "Informática Médica", "Proteómica", "AMR", "Aprendizaje Automático", "Predicción Conformal", "Clínica"]
 author: ["Lucas Miranda"]
 cover:
-  image: cabo_frio.jpg
+  image: /cabo_frio.jpg
   alt: "Costa de Cabo Frio"
   hiddenInSingle: true
 params:
   math: true
 ---
 
-![Cabo Frio](../../../../cabo_frio.jpg "Cabo Frio")
+![Cabo Frio](/cabo_frio.jpg "Cabo Frio")
 
 En 2017 pasé unos meses en la [UNICAMP](https://unicamp.br/en/) en Brasil. Después de la pasantía, me quedaban apenas el tiempo y la plata suficientes para visitar Cabo Frio, cerca de Río de Janeiro. Fue hermoso: agua transparente, peces por todos lados, y ese tipo de paisaje costero que te hace olvidar que después de hacer snorkel al lado de un acantilado todavía tenés que volver a subir.
 
@@ -45,7 +45,7 @@ Acá entra la predicción conformal. Los clasificadores estándar suelen devolve
 
 La garantía tiene que ver con no pasar por alto la resistencia. Dado un nivel de error elegido por el clínico, el conjunto conformal se construye para que, en promedio, contenga todos los antibióticos verdaderamente resistentes con la cobertura deseada. En otras palabras, el modelo puede ser conservador y marcar fármacos de más, pero está controlado estadísticamente en cuántas veces deja sin marcar un fármaco al que la bacteria realmente es resistente.
 
-![Resumen de conformal AMR](../AMR_1.jpg "Resumen de conformal AMR")
+![Resumen de conformal AMR](/en/blog/amr_multimodal/AMR_1.jpg "Resumen de conformal AMR")
 
 **Figura 1.** Flujo completo del artículo de AMR conformal. Una muestra de paciente se cultiva, se obtiene un espectro MALDI-TOF, se identifica la especie, y se evalúa un conjunto de antibióticos clínicamente relevantes para esa especie. Un clasificador ResMLP-GNN alimenta un predictor conformal, que devuelve los antibióticos marcados como resistentes. El grafo de conocimiento de abajo codifica relaciones entre antibióticos relacionados, como carbapenems, fluoroquinolonas, penicilinas y cefalosporinas.
 
@@ -57,7 +57,7 @@ Como entrada, el modelo recibe un espectro MALDI-TOF y un panel de antibióticos
 
 La interpretación clínica exacta requiere validación cuidadosa e integración con flujos de trabajo expertos. Estos modelos no reemplazan a microbiólogos ni a los tests de susceptibilidad. La ventaja que estos modelos pueden aportar es una forma de triaje temprano: una señal rápida, consciente de su incertidumbre, que diga "evitá estos fármacos" mientras el ensayo definitivo sigue corriendo.
 
-![Resultados de AMR conformal](../AMR_2.png "Resultados de AMR conformal")
+![Resultados de AMR conformal](/en/blog/amr_multimodal/AMR_2.png "Resultados de AMR conformal")
 
 **Figura 2.** Antes de envolver el modelo con predicción conformal, igual necesitamos un clasificador que tenga señal útil. Esta figura muestra curvas ROC y de precisión-recall para *Klebsiella pneumoniae* en diez antibióticos. Las curvas ROC son en general fuertes, mientras que las curvas de precisión-recall varían más entre fármacos, algo esperable en escenarios de resistencia con clases tan desbalanceadas.
 
@@ -69,7 +69,7 @@ El caso clínico es solo una parte de la historia. La AMR también es un problem
 
 Pero los modelos de vigilancia tienen que ser robustos al cambio de distribución. Un modelo entrenado en un hospital puede encontrarse con otra prevalencia de especies, otros protocolos de preparación de muestras, otros instrumentos y otros mecanismos de resistencia en otro lugar. Esta es otra razón por la que la incertidumbre no es cosmética. Cuando un modelo se despliega fuera del entorno en el que fue entrenado, una advertencia calibrada que diga "no sé" puede ser tan importante como una predicción positiva correcta.
 
-![AMR conformal con grafo de conocimiento](../AMR_3.png "AMR conformal con grafo de conocimiento")
+![AMR conformal con grafo de conocimiento](/en/blog/amr_multimodal/AMR_3.png "AMR conformal con grafo de conocimiento")
 
 **Figura 3.** La capa conformal permite elegir un objetivo de error y observar el compromiso entre tasa de falsos descubrimientos, tasa de falsos negativos y error total. Acá, un falso negativo significa no marcar un antibiótico al que el aislado es resistente. Un falso descubrimiento significa marcar un antibiótico que en realidad habría sido efectivo. Las variantes con grafo de conocimiento reducen falsos descubrimientos preservando el comportamiento de cobertura esperado de la predicción conformal.
 
