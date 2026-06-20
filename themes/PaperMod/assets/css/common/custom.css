@@ -14,6 +14,7 @@
 
 .profile-img img {
     border-radius: 50%;
+    border: 1px solid #000;
 }
 
 @media screen and (max-width: 600px) {

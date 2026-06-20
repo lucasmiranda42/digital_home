@@ -2,842 +2,864 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/software/cellpick/cellpick/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="/es/software/cellpick/cellpick/"
-                />
+    <loc>//localhost:1313/en/software/cellpick/cellpick/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/software/cellpick/cellpick/"
+                href="//localhost:1313/en/software/cellpick/cellpick/"
                 />
-  </url><url>
-    <loc>/en/software/deepof/deepof/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/software/deepof/deepof/"
+                href="//localhost:1313/es/software/cellpick/cellpick/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/software/deepof/deepof/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/software/deepof/deepof/"
+                href="//localhost:1313/en/software/deepof/deepof/"
                 />
-  </url><url>
-    <loc>/en/blog/icml24/icml24/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/blog/icml24/icml24/"
+                href="//localhost:1313/es/software/deepof/deepof/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/blog/icml24/icml24/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/blog/icml24/icml24/"
+                href="//localhost:1313/en/blog/icml24/icml24/"
                 />
-  </url><url>
-    <loc>/en/blog/psycomm/psycomm_booklet/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/blog/psycomm/psycomm_booklet/"
+                href="//localhost:1313/es/blog/icml24/icml24/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/blog/psycomm/psycomm_booklet/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/blog/psycomm/psycomm_booklet/"
+                href="//localhost:1313/en/blog/psycomm/psycomm_booklet/"
                 />
-  </url><url>
-    <loc>/en/blog/neurips23/neurips23/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/blog/neurips23/neurips23/"
+                href="//localhost:1313/es/blog/psycomm/psycomm_booklet/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/blog/neurips23/neurips23/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/blog/neurips23/neurips23/"
+                href="//localhost:1313/en/blog/neurips23/neurips23/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/blog/neurips23/neurips23/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>//localhost:1313/en/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/"
+                hreflang="en-us"
+                href="//localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/"
+                hreflang="es-es"
+                href="//localhost:1313/es/"
                 />
   </url><url>
-    <loc>/en/pubs/nuclear_proteome_map1b/</loc>
+    <loc>//localhost:1313/en/pubs/nuclear_proteome_map1b/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/nuclear_proteome_map1b/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/nuclear_proteome_map1b/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/nuclear_proteome_map1b/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/nuclear_proteome_map1b/"
                 />
   </url><url>
-    <loc>/en/pubs/</loc>
+    <loc>//localhost:1313/en/pubs/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/"
                 />
   </url><url>
-    <loc>/en/news/cell_merino_paper/</loc>
+    <loc>//localhost:1313/en/news/cell_merino_paper/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/news/cell_merino_paper/"
+                hreflang="en-us"
+                href="//localhost:1313/en/news/cell_merino_paper/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/news/cell_merino_paper/"
+                hreflang="es-es"
+                href="//localhost:1313/es/news/cell_merino_paper/"
                 />
   </url><url>
-    <loc>/en/news/</loc>
+    <loc>//localhost:1313/en/news/</loc>
     <lastmod>2026-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/news/"
+                hreflang="en-us"
+                href="//localhost:1313/en/news/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/news/"
+                hreflang="es-es"
+                href="//localhost:1313/es/news/"
                 />
   </url><url>
-    <loc>/en/pubs/epigenomic_embedding_childhood_adversity/</loc>
+    <loc>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/epigenomic_embedding_childhood_adversity/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/epigenomic_embedding_childhood_adversity/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/"
                 />
   </url><url>
-    <loc>/en/news/epfl_postdoc/</loc>
+    <loc>//localhost:1313/en/news/epfl_postdoc/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/news/epfl_postdoc/"
+                hreflang="en-us"
+                href="//localhost:1313/en/news/epfl_postdoc/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/news/epfl_postdoc/"
+                hreflang="es-es"
+                href="//localhost:1313/es/news/epfl_postdoc/"
                 />
   </url><url>
-    <loc>/en/pubs/liver_dvp/</loc>
+    <loc>//localhost:1313/en/pubs/liver_dvp/</loc>
     <lastmod>2026-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/liver_dvp/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/liver_dvp/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/liver_dvp/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/liver_dvp/"
                 />
   </url><url>
-    <loc>/en/pubs/conformal_amr_jcb/</loc>
+    <loc>//localhost:1313/en/pubs/conformal_amr_jcb/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/conformal_amr_jcb/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/conformal_amr_jcb/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/conformal_amr_jcb/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/conformal_amr_jcb/"
                 />
   </url><url>
-    <loc>/en/pubs/fkbp5_amygdala/</loc>
+    <loc>//localhost:1313/en/pubs/fkbp5_amygdala/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/fkbp5_amygdala/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/fkbp5_amygdala/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/fkbp5_amygdala/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/fkbp5_amygdala/"
                 />
   </url><url>
-    <loc>/en/pubs/social_behavior_npp/</loc>
+    <loc>//localhost:1313/en/pubs/social_behavior_npp/</loc>
     <lastmod>2025-12-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/social_behavior_npp/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/social_behavior_npp/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/social_behavior_npp/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/social_behavior_npp/"
                 />
   </url><url>
-    <loc>/en/pubs/ampicillin_faecium/</loc>
+    <loc>//localhost:1313/en/pubs/ampicillin_faecium/</loc>
     <lastmod>2025-07-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/ampicillin_faecium/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/ampicillin_faecium/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/ampicillin_faecium/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/ampicillin_faecium/"
                 />
   </url><url>
-    <loc>/en/pubs/conformal_amr/</loc>
+    <loc>//localhost:1313/en/pubs/conformal_amr/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/conformal_amr/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/conformal_amr/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/conformal_amr/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/conformal_amr/"
                 />
   </url><url>
-    <loc>/en/pubs/barlow_fed_gwas_meta_2025/</loc>
+    <loc>//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/barlow_fed_gwas_meta_2025/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/barlow_fed_gwas_meta_2025/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/barlow_fed_gwas_meta_2025/"
                 />
   </url><url>
-    <loc>/en/pubs/early_life_stress_metabolism/</loc>
+    <loc>//localhost:1313/en/pubs/early_life_stress_metabolism/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/early_life_stress_metabolism/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/early_life_stress_metabolism/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/early_life_stress_metabolism/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/early_life_stress_metabolism/"
                 />
   </url><url>
-    <loc>/en/pubs/phd_thesis/</loc>
+    <loc>//localhost:1313/en/pubs/phd_thesis/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/phd_thesis/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/phd_thesis/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/phd_thesis/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/phd_thesis/"
                 />
   </url><url>
-    <loc>/en/about/</loc>
+    <loc>//localhost:1313/en/about/</loc>
     <lastmod>2024-01-06T15:48:02+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/about/"
+                hreflang="en-us"
+                href="//localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/about/"
+                hreflang="es-es"
+                href="//localhost:1313/es/about/"
                 />
   </url><url>
-    <loc>/en/pubs/mitral_valve_prolapse_gwas_2024/</loc>
+    <loc>//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/mitral_valve_prolapse_gwas_2024/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/mitral_valve_prolapse_gwas_2024/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/mitral_valve_prolapse_gwas_2024/"
                 />
   </url><url>
-    <loc>/en/pubs/early_life_stress_hippocampus/</loc>
+    <loc>//localhost:1313/en/pubs/early_life_stress_hippocampus/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/early_life_stress_hippocampus/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/early_life_stress_hippocampus/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/early_life_stress_hippocampus/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/early_life_stress_hippocampus/"
                 />
   </url><url>
-    <loc>/en/pubs/multimodal_amr/</loc>
+    <loc>//localhost:1313/en/pubs/multimodal_amr/</loc>
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/multimodal_amr/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/multimodal_amr/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/multimodal_amr/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/multimodal_amr/"
                 />
   </url><url>
-    <loc>/en/pubs/social_beh_ns_review/</loc>
+    <loc>//localhost:1313/en/pubs/social_beh_ns_review/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/social_beh_ns_review/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/social_beh_ns_review/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/social_beh_ns_review/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/social_beh_ns_review/"
                 />
   </url><url>
-    <loc>/en/pubs/deepof_ncomms/</loc>
+    <loc>//localhost:1313/en/pubs/deepof_ncomms/</loc>
     <lastmod>2023-06-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/deepof_ncomms/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/deepof_ncomms/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/deepof_ncomms/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/deepof_ncomms/"
                 />
   </url><url>
-    <loc>/en/pubs/deepof_joss/</loc>
+    <loc>//localhost:1313/en/pubs/deepof_joss/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/deepof_joss/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/deepof_joss/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/deepof_joss/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/deepof_joss/"
                 />
   </url><url>
-    <loc>/en/pubs/mirnas_uba/</loc>
+    <loc>//localhost:1313/en/pubs/mirnas_uba/</loc>
     <lastmod>2023-05-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/mirnas_uba/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/mirnas_uba/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/mirnas_uba/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/mirnas_uba/"
                 />
   </url><url>
-    <loc>/en/pubs/stress_commentary/</loc>
+    <loc>//localhost:1313/en/pubs/stress_commentary/</loc>
     <lastmod>2023-02-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/stress_commentary/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/stress_commentary/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/stress_commentary/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/stress_commentary/"
                 />
   </url><url>
-    <loc>/en/pubs/fmri_review/</loc>
+    <loc>//localhost:1313/en/pubs/fmri_review/</loc>
     <lastmod>2021-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/fmri_review/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/fmri_review/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/fmri_review/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/fmri_review/"
                 />
   </url><url>
-    <loc>/en/pubs/mips_uba/</loc>
+    <loc>//localhost:1313/en/pubs/mips_uba/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/mips_uba/"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/mips_uba/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="/en/pubs/mips_uba/"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/mips_uba/"
                 />
   </url><url>
-    <loc>/en/pubs/nfkb_uba/</loc>
+    <loc>//localhost:1313/en/pubs/nfkb_uba/</loc>
     <lastmod>2021-02-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es-es"
-                href="/es/pubs/nfkb_uba/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en-us"
-                href="/en/pubs/nfkb_uba/"
+                href="//localhost:1313/en/pubs/nfkb_uba/"
                 />
-  </url><url>
-    <loc>/en/series/austria/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/austria/"
+                href="//localhost:1313/es/pubs/nfkb_uba/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/amr/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/amr/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/austria/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/austria/"
+                href="//localhost:1313/en/series/austria/"
                 />
-  </url><url>
-    <loc>/en/tags/austria/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/austria/"
+                href="//localhost:1313/es/series/austria/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/austria/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/austria/"
+                href="//localhost:1313/en/tags/austria/"
                 />
-  </url><url>
-    <loc>/en/tags/behavior/</loc>
-  </url><url>
-    <loc>/en/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/blog/"
+                href="//localhost:1313/es/tags/austria/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/behavior/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/blog/"
+                href="//localhost:1313/en/blog/"
                 />
-  </url><url>
-    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/categories/"
+                href="//localhost:1313/es/blog/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/categories/"
+                href="//localhost:1313/en/categories/"
                 />
-  </url><url>
-    <loc>/en/tags/cellpick/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/cellpick/"
+                href="//localhost:1313/es/categories/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/cellpick/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/cellpick/"
+                href="//localhost:1313/en/tags/cellpick/"
                 />
-  </url><url>
-    <loc>/en/series/conferences/</loc>
-  </url><url>
-    <loc>/en/tags/conferences/</loc>
-  </url><url>
-    <loc>/en/tags/deep-learning/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/deep-learning/"
+                href="//localhost:1313/es/tags/cellpick/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/clinical/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/conferences/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/conferences/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/deep-learning/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/deep-learning/"
+                href="//localhost:1313/en/tags/deep-learning/"
                 />
-  </url><url>
-    <loc>/en/tags/deep-visual-proteomics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/deep-visual-proteomics/"
+                href="//localhost:1313/es/tags/deep-learning/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/deep-visual-proteomics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/deep-visual-proteomics/"
+                href="//localhost:1313/en/tags/deep-visual-proteomics/"
                 />
-  </url><url>
-    <loc>/en/tags/deeplabcut/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/deeplabcut/"
+                href="//localhost:1313/es/tags/deep-visual-proteomics/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/deeplabcut/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/deeplabcut/"
+                href="//localhost:1313/en/tags/deeplabcut/"
                 />
-  </url><url>
-    <loc>/en/tags/deepof/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/deepof/"
+                href="//localhost:1313/es/tags/deeplabcut/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/deepof/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/deepof/"
+                href="//localhost:1313/en/tags/deepof/"
                 />
-  </url><url>
-    <loc>/en/series/icml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/icml/"
+                href="//localhost:1313/es/tags/deepof/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/icml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/icml/"
+                href="//localhost:1313/en/series/icml/"
                 />
-  </url><url>
-    <loc>/en/tags/icml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/icml/"
+                href="//localhost:1313/es/series/icml/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/icml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/icml/"
+                href="//localhost:1313/en/tags/icml/"
                 />
-  </url><url>
-    <loc>/en/series/imprs-tp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/imprs-tp/"
+                href="//localhost:1313/es/tags/icml/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/imprs-tp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/imprs-tp/"
+                href="//localhost:1313/en/series/imprs-tp/"
                 />
-  </url><url>
-    <loc>/en/tags/imprs-tp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/imprs-tp/"
+                href="//localhost:1313/es/series/imprs-tp/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/imprs-tp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/imprs-tp/"
+                href="//localhost:1313/en/tags/imprs-tp/"
                 />
-  </url><url>
-    <loc>/en/tags/jupyter/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/jupyter/"
+                href="//localhost:1313/es/tags/imprs-tp/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/jupyter/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/jupyter/"
+                href="//localhost:1313/en/tags/jupyter/"
                 />
-  </url><url>
-    <loc>/en/tags/machine-learning/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/machine-learning/"
+                href="//localhost:1313/es/tags/jupyter/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/machine-learning/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/machine-learning/"
+                href="//localhost:1313/en/tags/machine-learning/"
                 />
-  </url><url>
-    <loc>/en/series/mahine-learning/</loc>
-  </url><url>
-    <loc>/en/series/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/max-planck/"
+                href="//localhost:1313/es/tags/machine-learning/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/mahine-learning/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/max-planck/"
+                href="//localhost:1313/en/series/max-planck/"
                 />
-  </url><url>
-    <loc>/en/tags/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/max-planck/"
+                href="//localhost:1313/es/series/max-planck/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/max-planck/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/max-planck/"
+                href="//localhost:1313/en/tags/max-planck/"
                 />
-  </url><url>
-    <loc>/en/series/mental-health/</loc>
-  </url><url>
-    <loc>/en/tags/mental-health/</loc>
-  </url><url>
-    <loc>/en/series/mpi-p/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/mpi-p/"
+                href="//localhost:1313/es/tags/max-planck/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/medical-informatics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/medical-informatics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/mental-health/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/mental-health/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/mpi-p/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/mpi-p/"
+                href="//localhost:1313/en/series/mpi-p/"
                 />
-  </url><url>
-    <loc>/en/tags/mpi-p/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/mpi-p/"
+                href="//localhost:1313/es/series/mpi-p/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/mpi-p/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/mpi-p/"
+                href="//localhost:1313/en/tags/mpi-p/"
                 />
-  </url><url>
-    <loc>/en/series/neurips/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/neurips/"
+                href="//localhost:1313/es/tags/mpi-p/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/multimodal/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/neurips/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/neurips/"
+                href="//localhost:1313/en/series/neurips/"
                 />
-  </url><url>
-    <loc>/en/tags/neurips/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/neurips/"
+                href="//localhost:1313/es/series/neurips/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/neurips/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/neurips/"
+                href="//localhost:1313/en/tags/neurips/"
                 />
-  </url><url>
-    <loc>/en/series/new-orleans/</loc>
-  </url><url>
-    <loc>/en/tags/new-orleans/</loc>
-  </url><url>
-    <loc>/en/series/outreach/</loc>
-  </url><url>
-    <loc>/en/tags/outreach/</loc>
-  </url><url>
-    <loc>/en/tags/postprocessing/</loc>
-  </url><url>
-    <loc>/en/series/psychiatry/</loc>
-  </url><url>
-    <loc>/en/tags/psychiatry/</loc>
-  </url><url>
-    <loc>/en/tags/python/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/python/"
+                href="//localhost:1313/es/tags/neurips/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/new-orleans/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/new-orleans/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/outreach/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/outreach/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/papers/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/papers/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/postprocessing/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/proteomics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/proteomics/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/psychiatry/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/psychiatry/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/python/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/python/"
+                href="//localhost:1313/en/tags/python/"
                 />
-  </url><url>
-    <loc>/en/tags/rodents/</loc>
-  </url><url>
-    <loc>/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/search/"
+                href="//localhost:1313/es/tags/python/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/rodents/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/search/"
+                href="//localhost:1313/en/search/"
                 />
-  </url><url>
-    <loc>/en/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/"
+                href="//localhost:1313/es/search/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/"
+                href="//localhost:1313/en/series/"
                 />
-  </url><url>
-    <loc>/en/tags/sleap/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/sleap/"
+                href="//localhost:1313/es/series/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/sleap/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/sleap/"
+                href="//localhost:1313/en/tags/sleap/"
                 />
-  </url><url>
-    <loc>/en/series/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/series/software/"
+                href="//localhost:1313/es/tags/sleap/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/series/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/series/software/"
+                href="//localhost:1313/en/series/software/"
                 />
-  </url><url>
-    <loc>/en/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/software/"
+                href="//localhost:1313/es/series/software/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/software/"
+                href="//localhost:1313/en/software/"
                 />
-  </url><url>
-    <loc>/en/tags/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/software/"
+                href="//localhost:1313/es/software/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/software/"
+                href="//localhost:1313/en/tags/software/"
                 />
-  </url><url>
-    <loc>/en/tags/spatial-transcriptomics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/spatial-transcriptomics/"
+                href="//localhost:1313/es/tags/software/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/spatial-transcriptomics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/spatial-transcriptomics/"
+                href="//localhost:1313/en/tags/spatial-transcriptomics/"
                 />
-  </url><url>
-    <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/"
+                href="//localhost:1313/es/tags/spatial-transcriptomics/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/"
+                href="//localhost:1313/en/tags/"
                 />
-  </url><url>
-    <loc>/en/tags/time-series/</loc>
-  </url><url>
-    <loc>/en/series/travel/</loc>
-  </url><url>
-    <loc>/en/tags/travel/</loc>
-  </url><url>
-    <loc>/en/series/usa/</loc>
-  </url><url>
-    <loc>/en/tags/usa/</loc>
-  </url><url>
-    <loc>/en/tags/videos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="/es/tags/videos/"
+                href="//localhost:1313/es/tags/"
                 />
+  </url><url>
+    <loc>//localhost:1313/en/tags/time-series/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/travel/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/travel/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/series/usa/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/usa/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/videos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/videos/"
+                href="//localhost:1313/en/tags/videos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/videos/"
                 />
   </url><url>
-    <loc>/en/series/vienna/</loc>
+    <loc>//localhost:1313/en/series/vienna/</loc>
   </url><url>
-    <loc>/en/tags/vienna/</loc>
+    <loc>//localhost:1313/en/tags/vienna/</loc>
   </url>
 </urlset>

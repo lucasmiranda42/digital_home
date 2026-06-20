@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Software on Lucas Miranda</title>
-    <link>/es/series/software/</link>
-    <description>Recent content in Software on Lucas Miranda</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <title>Software on Home</title>
+    <link>//localhost:1313/es/series/software/</link>
+    <description>Recent content in Software on Home</description>
+    <generator>Hugo -- 0.163.3</generator>
     <language>es-es</language>
-    <atom:link href="/es/series/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/series/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CellPick</title>
-      <link>/es/software/cellpick/cellpick/</link>
+      <link>//localhost:1313/es/software/cellpick/cellpick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/software/cellpick/cellpick/</guid>
+      <guid>//localhost:1313/es/software/cellpick/cellpick/</guid>
       <description>Una herramienta gráfica para selección estratégica y anotación espacial de células en proteómica espacial.</description>
     </item>
     <item>
       <title>DeepOF</title>
-      <link>/es/software/deepof/deepof/</link>
+      <link>//localhost:1313/es/software/deepof/deepof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/software/deepof/deepof/</guid>
+      <guid>//localhost:1313/es/software/deepof/deepof/</guid>
       <description>DeepOF es una herramienta de postprocesado para series temporales de datos de comportamiento animal, obtenidas a través de DeepLabCut o SLEAP.</description>
     </item>
   </channel>

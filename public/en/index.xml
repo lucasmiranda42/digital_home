@@ -1,144 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Lucas Miranda</title>
-    <link>/en/</link>
-    <description>Recent content on Lucas Miranda</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <title>Home</title>
+    <link>//localhost:1313/en/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- 0.163.3</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CellPick</title>
-      <link>/en/software/cellpick/cellpick/</link>
+      <link>//localhost:1313/en/software/cellpick/cellpick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/software/cellpick/cellpick/</guid>
+      <guid>//localhost:1313/en/software/cellpick/cellpick/</guid>
       <description>A graphical tool for strategic cell selection and spatial annotation in spatial proteomics.</description>
     </item>
     <item>
       <title>DeepOF</title>
-      <link>/en/software/deepof/deepof/</link>
+      <link>//localhost:1313/en/software/deepof/deepof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/software/deepof/deepof/</guid>
+      <guid>//localhost:1313/en/software/deepof/deepof/</guid>
       <description>A suite for postprocessing time-series extracted from videos of freely moving rodents using DeepLabCut and SLEAP.</description>
     </item>
     <item>
       <title>International Conference on Machine Learning 2024</title>
-      <link>/en/blog/icml24/icml24/</link>
+      <link>//localhost:1313/en/blog/icml24/icml24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/blog/icml24/icml24/</guid>
+      <guid>//localhost:1313/en/blog/icml24/icml24/</guid>
       <description>My impressions, thoughts, and favourite papers on the 2024 edition of ICML, which I attended in person in Vienna.</description>
     </item>
     <item>
       <title>Mental health, explained for everyone</title>
-      <link>/en/blog/psycomm/psycomm_booklet/</link>
+      <link>//localhost:1313/en/blog/psycomm/psycomm_booklet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/blog/psycomm/psycomm_booklet/</guid>
+      <guid>//localhost:1313/en/blog/psycomm/psycomm_booklet/</guid>
       <description>As part of the science communication group within the Max Planck Institute of Psychiatry, we wrote and released a booklet on mental health and mental health research for children. Come and check it out!</description>
     </item>
     <item>
-      <title>Neural Information Processing Systems 2023</title>
-      <link>/en/blog/neurips23/neurips23/</link>
+      <title>Multimodal learning in clinical proteomics</title>
+      <link>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/blog/neurips23/neurips23/</guid>
+      <guid>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</guid>
+      <description>Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models.</description>
+    </item>
+    <item>
+      <title>Neural Information Processing Systems 2023</title>
+      <link>//localhost:1313/en/blog/neurips23/neurips23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/neurips23/neurips23/</guid>
       <description>My impressions, thoughts, and favourite papers on the 2023 edition of NeurIPS, which I attended in person in New Orleans.</description>
     </item>
     <item>
       <title>Nuclear proteome reveals microtubule-associated protein regulating fate and disease</title>
-      <link>/en/pubs/nuclear_proteome_map1b/</link>
+      <link>//localhost:1313/en/pubs/nuclear_proteome_map1b/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/nuclear_proteome_map1b/</guid>
+      <guid>//localhost:1313/en/pubs/nuclear_proteome_map1b/</guid>
       <description></description>
     </item>
     <item>
       <title>New Cell paper led by Florencia Merino</title>
-      <link>/en/news/cell_merino_paper/</link>
+      <link>//localhost:1313/en/news/cell_merino_paper/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>/en/news/cell_merino_paper/</guid>
+      <guid>//localhost:1313/en/news/cell_merino_paper/</guid>
       <description>Thrilled to have contributed to &lt;a href=&#34;https://www.cell.com/cell/fulltext/S0092-8674%2826%2900578-7&#34;&gt;&amp;ldquo;Nuclear proteome reveals microtubule-associated protein regulating fate and disease&amp;rdquo;&lt;/a&gt;, led by Florencia Merino. Out now in Cell!</description>
     </item>
     <item>
       <title>46. Epigenomic Embedding of Childhood Adversity Links to Disease Risk and Chronic Inflammation</title>
-      <link>/en/pubs/epigenomic_embedding_childhood_adversity/</link>
+      <link>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <guid>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</guid>
       <description></description>
     </item>
     <item>
       <title>Started a new postdoc at EPFL</title>
-      <link>/en/news/epfl_postdoc/</link>
+      <link>//localhost:1313/en/news/epfl_postdoc/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>/en/news/epfl_postdoc/</guid>
+      <guid>//localhost:1313/en/news/epfl_postdoc/</guid>
       <description>I started a new job as a postdoctoral researcher at EPFL, as part of &lt;a href=&#34;https://brbiclab.epfl.ch/&#34;&gt;MLBIO&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture</title>
-      <link>/en/pubs/liver_dvp/</link>
+      <link>//localhost:1313/en/pubs/liver_dvp/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/liver_dvp/</guid>
+      <guid>//localhost:1313/en/pubs/liver_dvp/</guid>
       <description></description>
     </item>
     <item>
       <title>Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with MALDI-TOF Mass Spectra</title>
-      <link>/en/pubs/conformal_amr_jcb/</link>
+      <link>//localhost:1313/en/pubs/conformal_amr_jcb/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/conformal_amr_jcb/</guid>
+      <guid>//localhost:1313/en/pubs/conformal_amr_jcb/</guid>
       <description></description>
     </item>
     <item>
       <title>Loss of noradrenergic Fkbp5 disrupts social behavior and norepinephrine dynamics in the basolateral amygdala</title>
-      <link>/en/pubs/fkbp5_amygdala/</link>
+      <link>//localhost:1313/en/pubs/fkbp5_amygdala/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/fkbp5_amygdala/</guid>
+      <guid>//localhost:1313/en/pubs/fkbp5_amygdala/</guid>
       <description></description>
     </item>
     <item>
       <title>Classification of social behavioral responses in stress and non-stress adult male mice with high precision</title>
-      <link>/en/pubs/social_behavior_npp/</link>
+      <link>//localhost:1313/en/pubs/social_behavior_npp/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/social_behavior_npp/</guid>
+      <guid>//localhost:1313/en/pubs/social_behavior_npp/</guid>
       <description></description>
     </item>
     <item>
       <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF MS and machine learning</title>
-      <link>/en/pubs/ampicillin_faecium/</link>
+      <link>//localhost:1313/en/pubs/ampicillin_faecium/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/ampicillin_faecium/</guid>
+      <guid>//localhost:1313/en/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>
       <title>Detecting antimicrobial resistance through MALDI-TOF mass spectrometry with statistical guarantees using conformal prediction</title>
-      <link>/en/pubs/conformal_amr/</link>
+      <link>//localhost:1313/en/pubs/conformal_amr/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/conformal_amr/</guid>
+      <guid>//localhost:1313/en/pubs/conformal_amr/</guid>
       <description></description>
     </item>
     <item>
       <title>Highlighting Genetic Differences between Barlow&#39;s Disease and Fibroelastic Deficiency via Genome-Wide Association Study Meta-Analyses</title>
-      <link>/en/pubs/barlow_fed_gwas_meta_2025/</link>
+      <link>//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/barlow_fed_gwas_meta_2025/</guid>
+      <guid>//localhost:1313/en/pubs/barlow_fed_gwas_meta_2025/</guid>
       <description></description>
     </item>
     <item>
       <title>Sex-specific fear acquisition following early life stress is linked to amygdala and hippocampal purine and glutamate metabolism</title>
-      <link>/en/pubs/early_life_stress_metabolism/</link>
+      <link>//localhost:1313/en/pubs/early_life_stress_metabolism/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/early_life_stress_metabolism/</guid>
+      <guid>//localhost:1313/en/pubs/early_life_stress_metabolism/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep clustering of animal motion tracking data: software development and applications to psychiatric preclinical research</title>
-      <link>/en/pubs/phd_thesis/</link>
+      <link>//localhost:1313/en/pubs/phd_thesis/</link>
       <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/phd_thesis/</guid>
+      <guid>//localhost:1313/en/pubs/phd_thesis/</guid>
       <description></description>
     </item>
     <item>
       <title>About me </title>
-      <link>/en/about/</link>
+      <link>//localhost:1313/en/about/</link>
       <pubDate>Sat, 06 Jan 2024 15:48:02 +0100</pubDate>
-      <guid>/en/about/</guid>
+      <guid>//localhost:1313/en/about/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;You have reached my digital home. Here you&amp;rsquo;ll find content about my professional life, including scientific publications, projects, software, and (some) general interest blog entries.&lt;/p&gt;
 &lt;hr&gt;
@@ -146,79 +153,79 @@
     </item>
     <item>
       <title>Genome-Wide Association Study in 2,140 Patients and Subtype Meta-analyses of Barlow&#39;s Disease and Fibroelastic Deficiency Identify Novel Risk Loci for Mitral Valve Prolapse</title>
-      <link>/en/pubs/mitral_valve_prolapse_gwas_2024/</link>
+      <link>//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/mitral_valve_prolapse_gwas_2024/</guid>
+      <guid>//localhost:1313/en/pubs/mitral_valve_prolapse_gwas_2024/</guid>
       <description></description>
     </item>
     <item>
       <title>Early life adversity shapes social subordination and cell type–specific transcriptomic patterning in the ventral hippocampus</title>
-      <link>/en/pubs/early_life_stress_hippocampus/</link>
+      <link>//localhost:1313/en/pubs/early_life_stress_hippocampus/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/early_life_stress_hippocampus/</guid>
+      <guid>//localhost:1313/en/pubs/early_life_stress_hippocampus/</guid>
       <description></description>
     </item>
     <item>
       <title>Multimodal learning in clinical proteomics: enhancing antimicrobial resistance prediction models with chemical information</title>
-      <link>/en/pubs/multimodal_amr/</link>
+      <link>//localhost:1313/en/pubs/multimodal_amr/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/multimodal_amr/</guid>
+      <guid>//localhost:1313/en/pubs/multimodal_amr/</guid>
       <description></description>
     </item>
     <item>
       <title>Advancing social behavioral neuroscience by integrating ethology and comparative psychology methods through machine learning</title>
-      <link>/en/pubs/social_beh_ns_review/</link>
+      <link>//localhost:1313/en/pubs/social_beh_ns_review/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/social_beh_ns_review/</guid>
+      <guid>//localhost:1313/en/pubs/social_beh_ns_review/</guid>
       <description></description>
     </item>
     <item>
       <title>Automatically annotated motion tracking identifies a distinct social behavioral profile following chronic social defeat stress</title>
-      <link>/en/pubs/deepof_ncomms/</link>
+      <link>//localhost:1313/en/pubs/deepof_ncomms/</link>
       <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/deepof_ncomms/</guid>
+      <guid>//localhost:1313/en/pubs/deepof_ncomms/</guid>
       <description></description>
     </item>
     <item>
       <title>DeepOF: A Python package for supervised and unsupervised pattern recognition in mice motion tracking data</title>
-      <link>/en/pubs/deepof_joss/</link>
+      <link>//localhost:1313/en/pubs/deepof_joss/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/deepof_joss/</guid>
+      <guid>//localhost:1313/en/pubs/deepof_joss/</guid>
       <description></description>
     </item>
     <item>
       <title>miRNAs associated with endoplasmic reticulum stress and unfolded protein response during decidualization</title>
-      <link>/en/pubs/mirnas_uba/</link>
+      <link>//localhost:1313/en/pubs/mirnas_uba/</link>
       <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/mirnas_uba/</guid>
+      <guid>//localhost:1313/en/pubs/mirnas_uba/</guid>
       <description></description>
     </item>
     <item>
       <title>Increasing resolution in stress neurobiology: from single cells to complex group behaviors</title>
-      <link>/en/pubs/stress_commentary/</link>
+      <link>//localhost:1313/en/pubs/stress_commentary/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/stress_commentary/</guid>
+      <guid>//localhost:1313/en/pubs/stress_commentary/</guid>
       <description></description>
     </item>
     <item>
       <title>Systematic review of functional MRI applications for psychiatric disease subtyping</title>
-      <link>/en/pubs/fmri_review/</link>
+      <link>//localhost:1313/en/pubs/fmri_review/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/fmri_review/</guid>
+      <guid>//localhost:1313/en/pubs/fmri_review/</guid>
       <description></description>
     </item>
     <item>
       <title>Comprehensive identification of pathogenic gene variants in patients with neuroendocrine disorders</title>
-      <link>/en/pubs/mips_uba/</link>
+      <link>//localhost:1313/en/pubs/mips_uba/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/mips_uba/</guid>
+      <guid>//localhost:1313/en/pubs/mips_uba/</guid>
       <description></description>
     </item>
     <item>
       <title>The transcription factor NF-kB mediates thyrotropin-stimulated expression of thyroid differentiation markers</title>
-      <link>/en/pubs/nfkb_uba/</link>
+      <link>//localhost:1313/en/pubs/nfkb_uba/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/en/pubs/nfkb_uba/</guid>
+      <guid>//localhost:1313/en/pubs/nfkb_uba/</guid>
       <description></description>
     </item>
   </channel>

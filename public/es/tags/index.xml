@@ -1,234 +1,234 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Lucas Miranda</title>
-    <link>/es/tags/</link>
-    <description>Recent content in Tags on Lucas Miranda</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <title>Tags on Home</title>
+    <link>//localhost:1313/es/tags/</link>
+    <description>Recent content in Tags on Home</description>
+    <generator>Hugo -- 0.163.3</generator>
     <language>es-es</language>
-    <atom:link href="/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aprendizaje Automático</title>
-      <link>/es/tags/aprendizaje-autom%C3%A1tico/</link>
+      <link>//localhost:1313/es/tags/aprendizaje-autom%C3%A1tico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/aprendizaje-autom%C3%A1tico/</guid>
+      <guid>//localhost:1313/es/tags/aprendizaje-autom%C3%A1tico/</guid>
       <description></description>
     </item>
     <item>
       <title>Aprendizaje Profundo</title>
-      <link>/es/tags/aprendizaje-profundo/</link>
+      <link>//localhost:1313/es/tags/aprendizaje-profundo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/aprendizaje-profundo/</guid>
+      <guid>//localhost:1313/es/tags/aprendizaje-profundo/</guid>
       <description></description>
     </item>
     <item>
       <title>Austria</title>
-      <link>/es/tags/austria/</link>
+      <link>//localhost:1313/es/tags/austria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/austria/</guid>
+      <guid>//localhost:1313/es/tags/austria/</guid>
       <description></description>
     </item>
     <item>
       <title>CellPick</title>
-      <link>/es/tags/cellpick/</link>
+      <link>//localhost:1313/es/tags/cellpick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/cellpick/</guid>
+      <guid>//localhost:1313/es/tags/cellpick/</guid>
       <description></description>
     </item>
     <item>
       <title>Comportamiento Animal</title>
-      <link>/es/tags/comportamiento-animal/</link>
+      <link>//localhost:1313/es/tags/comportamiento-animal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/comportamiento-animal/</guid>
+      <guid>//localhost:1313/es/tags/comportamiento-animal/</guid>
       <description></description>
     </item>
     <item>
       <title>Conferencias</title>
-      <link>/es/tags/conferencias/</link>
+      <link>//localhost:1313/es/tags/conferencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/conferencias/</guid>
+      <guid>//localhost:1313/es/tags/conferencias/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Learning</title>
-      <link>/es/tags/deep-learning/</link>
+      <link>//localhost:1313/es/tags/deep-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/deep-learning/</guid>
+      <guid>//localhost:1313/es/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep Visual Proteomics</title>
-      <link>/es/tags/deep-visual-proteomics/</link>
+      <link>//localhost:1313/es/tags/deep-visual-proteomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/deep-visual-proteomics/</guid>
+      <guid>//localhost:1313/es/tags/deep-visual-proteomics/</guid>
       <description></description>
     </item>
     <item>
       <title>DeepLabCut</title>
-      <link>/es/tags/deeplabcut/</link>
+      <link>//localhost:1313/es/tags/deeplabcut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/deeplabcut/</guid>
+      <guid>//localhost:1313/es/tags/deeplabcut/</guid>
       <description></description>
     </item>
     <item>
       <title>DeepOF</title>
-      <link>/es/tags/deepof/</link>
+      <link>//localhost:1313/es/tags/deepof/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/deepof/</guid>
+      <guid>//localhost:1313/es/tags/deepof/</guid>
       <description></description>
     </item>
     <item>
       <title>Divulgación</title>
-      <link>/es/tags/divulgaci%C3%B3n/</link>
+      <link>//localhost:1313/es/tags/divulgaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/divulgaci%C3%B3n/</guid>
+      <guid>//localhost:1313/es/tags/divulgaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>EE.UU.</title>
-      <link>/es/tags/ee.uu./</link>
+      <link>//localhost:1313/es/tags/ee.uu./</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/ee.uu./</guid>
+      <guid>//localhost:1313/es/tags/ee.uu./</guid>
       <description></description>
     </item>
     <item>
       <title>ICML</title>
-      <link>/es/tags/icml/</link>
+      <link>//localhost:1313/es/tags/icml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/icml/</guid>
+      <guid>//localhost:1313/es/tags/icml/</guid>
       <description></description>
     </item>
     <item>
       <title>IMPRS-TP</title>
-      <link>/es/tags/imprs-tp/</link>
+      <link>//localhost:1313/es/tags/imprs-tp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/imprs-tp/</guid>
+      <guid>//localhost:1313/es/tags/imprs-tp/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter</title>
-      <link>/es/tags/jupyter/</link>
+      <link>//localhost:1313/es/tags/jupyter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/jupyter/</guid>
+      <guid>//localhost:1313/es/tags/jupyter/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>/es/tags/machine-learning/</link>
+      <link>//localhost:1313/es/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/machine-learning/</guid>
+      <guid>//localhost:1313/es/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Max Planck</title>
-      <link>/es/tags/max-planck/</link>
+      <link>//localhost:1313/es/tags/max-planck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/max-planck/</guid>
+      <guid>//localhost:1313/es/tags/max-planck/</guid>
       <description></description>
     </item>
     <item>
       <title>MPI-P</title>
-      <link>/es/tags/mpi-p/</link>
+      <link>//localhost:1313/es/tags/mpi-p/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/mpi-p/</guid>
+      <guid>//localhost:1313/es/tags/mpi-p/</guid>
       <description></description>
     </item>
     <item>
       <title>NeurIPS</title>
-      <link>/es/tags/neurips/</link>
+      <link>//localhost:1313/es/tags/neurips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/neurips/</guid>
+      <guid>//localhost:1313/es/tags/neurips/</guid>
       <description></description>
     </item>
     <item>
       <title>Nueva Orleans</title>
-      <link>/es/tags/nueva-orleans/</link>
+      <link>//localhost:1313/es/tags/nueva-orleans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/nueva-orleans/</guid>
+      <guid>//localhost:1313/es/tags/nueva-orleans/</guid>
       <description></description>
     </item>
     <item>
       <title>Postprocesado</title>
-      <link>/es/tags/postprocesado/</link>
+      <link>//localhost:1313/es/tags/postprocesado/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/postprocesado/</guid>
+      <guid>//localhost:1313/es/tags/postprocesado/</guid>
       <description></description>
     </item>
     <item>
       <title>Psiquiatría</title>
-      <link>/es/tags/psiquiatr%C3%ADa/</link>
+      <link>//localhost:1313/es/tags/psiquiatr%C3%ADa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/psiquiatr%C3%ADa/</guid>
+      <guid>//localhost:1313/es/tags/psiquiatr%C3%ADa/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>/es/tags/python/</link>
+      <link>//localhost:1313/es/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/python/</guid>
+      <guid>//localhost:1313/es/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Roedores</title>
-      <link>/es/tags/roedores/</link>
+      <link>//localhost:1313/es/tags/roedores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/roedores/</guid>
+      <guid>//localhost:1313/es/tags/roedores/</guid>
       <description></description>
     </item>
     <item>
       <title>Salud Mental</title>
-      <link>/es/tags/salud-mental/</link>
+      <link>//localhost:1313/es/tags/salud-mental/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/salud-mental/</guid>
+      <guid>//localhost:1313/es/tags/salud-mental/</guid>
       <description></description>
     </item>
     <item>
       <title>Series Temporales</title>
-      <link>/es/tags/series-temporales/</link>
+      <link>//localhost:1313/es/tags/series-temporales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/series-temporales/</guid>
+      <guid>//localhost:1313/es/tags/series-temporales/</guid>
       <description></description>
     </item>
     <item>
       <title>SLEAP</title>
-      <link>/es/tags/sleap/</link>
+      <link>//localhost:1313/es/tags/sleap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/sleap/</guid>
+      <guid>//localhost:1313/es/tags/sleap/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/es/tags/software/</link>
+      <link>//localhost:1313/es/tags/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/software/</guid>
+      <guid>//localhost:1313/es/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial Transcriptomics</title>
-      <link>/es/tags/spatial-transcriptomics/</link>
+      <link>//localhost:1313/es/tags/spatial-transcriptomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/spatial-transcriptomics/</guid>
+      <guid>//localhost:1313/es/tags/spatial-transcriptomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Viajes</title>
-      <link>/es/tags/viajes/</link>
+      <link>//localhost:1313/es/tags/viajes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/viajes/</guid>
+      <guid>//localhost:1313/es/tags/viajes/</guid>
       <description></description>
     </item>
     <item>
       <title>Videos</title>
-      <link>/es/tags/videos/</link>
+      <link>//localhost:1313/es/tags/videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/videos/</guid>
+      <guid>//localhost:1313/es/tags/videos/</guid>
       <description></description>
     </item>
     <item>
       <title>Viena</title>
-      <link>/es/tags/viena/</link>
+      <link>//localhost:1313/es/tags/viena/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/es/tags/viena/</guid>
+      <guid>//localhost:1313/es/tags/viena/</guid>
       <description></description>
     </item>
   </channel>
