@@ -17,8 +17,25 @@
 }
 
 @media screen and (max-width: 600px) {
+    .home-info .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .profile-img {
-      display: none;
+        display: block;
+        order: -1;
+        margin: 0 0 18px;
+    }
+
+    .profile-img img {
+        width: clamp(120px, 38vw, 160px);
+        height: auto;
+        max-width: 100%;
+    }
+
+    .profile-text {
+        width: 100%;
     }
 }
 
