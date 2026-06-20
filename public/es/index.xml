@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Predicción de resistencia antimicrobiana a partir de huellas microbianas</title>
+      <link>//localhost:1313/es/blog/amr_multimodal/amr_multimodal/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/amr_multimodal/amr_multimodal/</guid>
+      <description>Una cicatriz personal, una amenaza global para la salud, y nuestro trabajo prediciendo resistencia antimicrobiana con espectros MALDI-TOF y predicción conformal.</description>
+    </item>
+    <item>
       <title>CellPick</title>
       <link>//localhost:1313/es/software/cellpick/cellpick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -58,10 +65,10 @@
       <description>Feliz de haber contribuido a &lt;a href=&#34;https://www.cell.com/cell/fulltext/S0092-8674%2826%2900578-7&#34;&gt;&amp;ldquo;Nuclear proteome reveals microtubule-associated protein regulating fate and disease&amp;rdquo;&lt;/a&gt;, liderado por Florencia Merino. ¡Ya disponible en Cell!</description>
     </item>
     <item>
-      <title>46. Epigenomic Embedding of Childhood Adversity Links to Disease Risk and Chronic Inflammation</title>
-      <link>//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF/MS and machine learning</title>
+      <link>//localhost:1313/es/pubs/ampicillin_faecium/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>
@@ -93,17 +100,17 @@
       <description></description>
     </item>
     <item>
+      <title>Epigenomic embedding of childhood adversity links to disease risk and chronic immune changes</title>
+      <link>//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Classification of social behavioral responses in stress and non-stress adult male mice with high precision</title>
       <link>//localhost:1313/es/pubs/social_behavior_npp/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/pubs/social_behavior_npp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF MS and machine learning</title>
-      <link>//localhost:1313/es/pubs/ampicillin_faecium/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>

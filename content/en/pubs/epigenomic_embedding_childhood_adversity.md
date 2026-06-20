@@ -1,23 +1,45 @@
 ---
-title: "46. Epigenomic Embedding of Childhood Adversity Links to Disease Risk and Chronic Inflammation"
-date: 2026-05-15
-venue: Biological Psychiatry, 2026
+title: "Epigenomic embedding of childhood adversity links to disease risk and chronic immune changes"
+date: 2025-12-05
+venue: preprint, 2025
 authors:
   - name: D Czamara
   - name: D Juntilla
-  - name: AL Kühn
+  - name: A Nounu
+  - name: AL Weihs
   - name: M Erhart
   - name: L Maier
+  - name: M Leskien
   - name: J Tuhkanen
   - name: AD Scherff
   - name: N Yusupov
   - name: J Hagenberg
+  - name: AS Fröhlich
   - name: VN Karlbauer
+  - name: S van der Auwera
   - name: T Brückl
   - name: J Kopf-Beck
+  - name: S Egli
+  - name: H Völzke
+  - name: U Völker
+  - name: A Weihs
   - name: A Teumer
+  - name: J Winkelmann
+  - name: H Prokisch
+  - name: J Knauer-Arloth
+  - name: L Feldmann
+  - name: <strong>L Miranda</strong>
+    home: "#"
+  - name: B Müller-Myhsok
+  - name: BW Dunlop
+  - name: WE Craighead
+  - name: JC Felger
   - name: AH Miller
+  - name: CB Nemeroff
   - name: F Hoffmann
+  - name: S Entringer
+  - name: C Buss
+  - name: SM Winter
   - name: N Matosin
   - name: HS Mayberg
   - name: CM Heim
@@ -25,8 +47,10 @@ authors:
   - name: J Lahti
   - name: K Räikkönen
   - name: E Greimel
+  - name: G Schulte-Körne
   - name: HJ Grabe
+  - name: A Peters
   - name: M Waldenberger
   - name: EB Binder
-paper: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(26)00341-0/abstract
+paper: https://doi.org/10.64898/2025.12.04.25341605
 ---

@@ -6,9 +6,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Multimodal learning in clinical proteomics | Home</title>
-<meta name="keywords" content="Papers, Medical Informatics, Proteomics, AMR, Machine Learning, Deep Learning, Multimodal, Clinical">
-<meta name="description" content="Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models.">
+<title>Predicting antimicrobial resistance from microbial fingerprints | Home</title>
+<meta name="keywords" content="Papers, Medical Informatics, Proteomics, AMR, Machine Learning, Conformal Prediction, Clinical">
+<meta name="description" content="A personal scar, a global health threat, and our work on predicting antimicrobial resistance from MALDI-TOF mass spectra with conformal prediction.">
 <meta name="author" content="Lucas Miranda">
 <link rel="canonical" href="//localhost:1313/en/blog/amr_multimodal/amr_multimodal/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.7bba01c33840801507dfa4820050cc750c1a95953b230e80807aa180ae5eefb5.css" integrity="sha256-e7oBwzhAgBUH36SCAFDMdQwalZU7Iw6AgHqhgK5e77U=" rel="preload stylesheet" as="style">
@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/amr_multimodal/amr_multimodal/">
+<link rel="alternate" hreflang="es" href="//localhost:1313/es/blog/amr_multimodal/amr_multimodal/">
 <noscript>
     <style>
         #theme-toggle,
@@ -28,13 +29,13 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Multimodal learning in clinical proteomics" />
-<meta property="og:description" content="Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models." />
+</noscript><meta property="og:title" content="Predicting antimicrobial resistance from microbial fingerprints" />
+<meta property="og:description" content="A personal scar, a global health threat, and our work on predicting antimicrobial resistance from MALDI-TOF mass spectra with conformal prediction." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="//localhost:1313/en/blog/amr_multimodal/amr_multimodal/" />
-<meta property="og:image" content="//localhost:1313/AMR_multimodal.png" /><meta property="article:section" content="blog" />
-
-
+<meta property="og:image" content="//localhost:1313/cabo_frio.jpg" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2025-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-12-15T00:00:00+00:00" />
 
 
 
@@ -42,9 +43,9 @@
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="//localhost:1313/AMR_multimodal.png" />
-<meta name="twitter:title" content="Multimodal learning in clinical proteomics"/>
-<meta name="twitter:description" content="Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models."/>
+<meta name="twitter:image" content="//localhost:1313/cabo_frio.jpg" />
+<meta name="twitter:title" content="Predicting antimicrobial resistance from microbial fingerprints"/>
+<meta name="twitter:description" content="A personal scar, a global health threat, and our work on predicting antimicrobial resistance from MALDI-TOF mass spectra with conformal prediction."/>
 
 
 <script type="application/ld+json">
@@ -61,7 +62,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Multimodal learning in clinical proteomics",
+      "name": "Predicting antimicrobial resistance from microbial fingerprints",
       "item": "//localhost:1313/en/blog/amr_multimodal/amr_multimodal/"
     }
   ]
@@ -71,17 +72,17 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Multimodal learning in clinical proteomics",
-  "name": "Multimodal learning in clinical proteomics",
-  "description": "Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models.",
+  "headline": "Predicting antimicrobial resistance from microbial fingerprints",
+  "name": "Predicting antimicrobial resistance from microbial fingerprints",
+  "description": "A personal scar, a global health threat, and our work on predicting antimicrobial resistance from MALDI-TOF mass spectra with conformal prediction.",
   "keywords": [
-    "Papers", "Medical Informatics", "Proteomics", "AMR", "Machine Learning", "Deep Learning", "Multimodal", "Clinical"
+    "Papers", "Medical Informatics", "Proteomics", "AMR", "Machine Learning", "Conformal Prediction", "Clinical"
   ],
-  "articleBody": "In 2017 I had the pleasure to join an internship program at the University of Campinas, in south-east Brazil. After completing my project and courses, I had some small amount of money left, and managed to take some days off in Cabo Frio, close to Rio de Janeiro. It was a great time! But on the very last day, while trying to climb back a cliff after a snorkelling session that had extended for a bit too long, the waves pressed me to the rocks and I cut my leg. While it didn’t seem bad in the beginning, it got badly infected and, after several weeks of trying different antibiotics (back in Buenos Aires at this point), the infection was still there. After several tries and some blood analyses, the doctors found something that worked, leaving me only with a pretty big scar and a hopefully engaging introduction to this blog post. Others are not so lucky.\nAntimicrobial resistance (AMR) is a growing concern in the medical community. The World Health Organization (WHO) has declared it a global health emergency, and […]\nInclude stats Introduce the problem in the clinic Summarise the Weis et al paper Summarise the AMR multimodal paper ",
-  "wordCount" : "201",
+  "articleBody": " In 2017 I spent a few months at UNICAMP in Brazil. After the internship, I had just enough time and money left to visit Cabo Frio, close to Rio de Janeiro. It was beautiful: clear water, warm rocks, and the kind of coastal landscape that makes you forget that you still need to climb back after snorkelling.\nOn the last day, I slipped while climbing up a cliff after being pushed around by the waves. I cut my left leg. At first it looked annoying but manageable. Then it got infected. Back in Buenos Aires, the wound kept getting worse despite treatment, I spent months limping, and eventually I was left with an ugly black scar that is still there today. In the end, doctors found an antibiotic that worked. Many people with antimicrobial-resistant infections are not that lucky.\nThe World Health Organization describes antimicrobial resistance (AMR) as one of the top global public-health and development threats. The scale is hard to overstate: bacterial AMR was estimated to be directly responsible for 1.27 million deaths in 2019, and associated with 4.95 million deaths. AMR also makes routine medicine riskier. Surgery, cancer chemotherapy, caesarean sections, organ transplantation, and intensive care all rely on being able to prevent or treat infection when something goes wrong. If more infections stop responding to available drugs, modern medicine loses part of its safety net.\nAt the individual level, the problem is brutally practical. A patient arrives with an infection. The clinic needs to know which antimicrobial will work. The gold standard is antimicrobial susceptibility testing: grow the microorganism in the presence of different drugs and observe whether it survives. This is reliable, but it takes time. For serious infections, every hour matters, so clinicians often start treatment empirically and adjust once laboratory results arrive.\nThat gap between “we need to treat now” and “the definitive test will take longer” is where prediction models could help.\nMALDI-TOF as a microbial fingerprint Many clinical microbiology laboratories already use MALDI-TOF mass spectrometry to identify microorganisms. The idea is elegant: ionize a microbial sample, measure the mass-to-charge profile of abundant molecules, and compare the resulting spectrum to reference databases. In practice, MALDI-TOF is fast, comparatively cheap once the instrument is in place, and already integrated into routine diagnostic workflows.\nThe question is whether the same spectra can say more than “this is E. coli” or “this is Klebsiella pneumoniae”. Can they also reveal whether the isolate is resistant to a given antimicrobial? The seminal demonstration came from a Nature Medicine paper, which showed that MALDI-TOF spectra can contain enough signal to predict antimicrobial resistance directly from routine clinical microbiology data.\nThat was the starting point of our Bioinformatics 2023 paper, whose main contribution was to unify these predictions in a single multimodal model. Resistance is not a single binary property of a bacterium in isolation. It is always resistance to something: ampicillin, ciprofloxacin, meropenem, and so on. So instead of training separate models for each drug, we represented antimicrobials with chemical information and let one model learn across organism-drug pairs.\nThis framing matters because clinical data are sparse and uneven. Some species-drug combinations are common, others rare. Some hospitals have many examples, others few. A model that can share information across related antimicrobials has a better chance of generalizing to settings where direct training data are limited.\nFrom accuracy to reliability In our recent RECOMB 2025 paper, we moved to a different but complementary question: if a model predicts resistance from MALDI-TOF spectra, how can it produce a clinically useful warning list?\nThis is where conformal prediction enters. Standard classifiers often return probabilities, but those probabilities are not automatically trustworthy. A model can say “90%” and still be badly calibrated. In our setting, the conformal predictor does not return {susceptible} or {resistant} for each antibiotic separately. It returns a set of antibiotics predicted to be resistant for that isolate: in practice, a list of drugs that doctors should avoid, or at least treat as risky, while waiting for the slower culture-based susceptibility test.\nThe guarantee is about missing resistance. Given a clinician-chosen error level, the conformal set is constructed so that, on average, it contains all truly resistant antibiotics with the desired coverage. In other words, the model is allowed to be conservative and flag extra drugs, but it is statistically controlled in how often it fails to flag a drug to which the bacterium is actually resistant.\nFigure 1. The full setup in the conformal AMR paper. A patient sample is cultured, a MALDI-TOF spectrum is collected, the species is identified, and a species-specific set of clinically relevant antibiotics is scored. A ResMLP-GNN classifier feeds a conformal predictor, which outputs the antibiotics flagged as resistant. The knowledge graph at the bottom encodes relationships between related antibiotics, such as carbapenems, fluoroquinolones, penicillins, and cephalosporins.\nThe technical challenge is that AMR prediction is structured. Species, antimicrobials, resistance mechanisms, and laboratory measurements are not independent islands. If a Klebsiella pneumoniae isolate is resistant to one carbapenem, that should inform how we think about related carbapenems. The knowledge graph is a way to inject that structure into the prediction problem instead of treating every antibiotic independently.\nWhat the model sees, and what it returns At input time, the model receives a MALDI-TOF spectrum and a species-specific panel of clinically relevant antibiotics. The classifier assigns each antibiotic a resistance score. The conformal layer then thresholds those scores using calibration data and returns a set such as {ceftriaxone, ciprofloxacin, levofloxacin, amoxicillin-clavulanic acid}: antibiotics that should not be trusted for this isolate according to the model.\nThe exact clinical interpretation would need careful validation and integration with expert workflows. These models are not replacements for microbiologists or susceptibility testing. The attractive possibility is earlier triage: provide a fast, uncertainty-aware “avoid these drugs” signal while the slower definitive assay is still running.\nFigure 2. Before wrapping the model with conformal prediction, we still need a classifier that has useful signal. This figure shows ROC and precision-recall curves for Klebsiella pneumoniae across ten antibiotics. The ROC curves are generally strong, while the precision-recall curves vary more across drugs, which is expected in imbalanced resistance settings.\nThis is the base layer: the spectra contain information about resistance, but performance is not uniform across antibiotics. Some drugs are easier to predict than others, and class imbalance matters. That is exactly why a calibrated uncertainty layer is useful. We do not only want a score; we want an avoid-list whose probability of missing resistant antibiotics can be controlled.\nWhy this matters for AMR surveillance The clinical use case is only one part of the story. AMR is also a surveillance problem. Hospitals and public-health systems need to know which resistant strains are spreading, where, and how quickly. MALDI-TOF is attractive here because spectra are already generated at scale in many labs. If prediction models can extract resistance-relevant signals from routine spectra, they could contribute to earlier warning systems.\nBut surveillance models must be robust to distribution shift. A model trained in one hospital may face different species prevalence, different sample-preparation protocols, different instruments, and different resistance mechanisms elsewhere. This is another reason uncertainty is not cosmetic. When a model is deployed outside the setting where it was trained, a calibrated warning that says “I do not know” can be as important as a correct positive prediction.\nFigure 3. The conformal layer lets us choose an error target and then observe the trade-off between false discovery rate, false negative rate, and total error. Here, a false negative means failing to flag an antibiotic to which the isolate is resistant. A false discovery means flagging an antibiotic that would actually have been effective. The knowledge-graph variants reduce false discoveries while preserving the coverage behavior expected from conformal prediction.\nThis is the part I find most clinically relevant. If the set is too small, we may miss resistance and leave a dangerous antibiotic on the table. If the set is too large, we may discard useful drugs and push clinicians toward broader or more toxic alternatives. Conformal prediction does not remove that trade-off, but it makes the trade-off explicit and tunable.\nA scar and a modelling problem My scar from Cabo Frio is a small, personal reminder of something much larger. I had access to medical care, diagnostic follow-up, and eventually an antimicrobial that worked. The infection was painful and inconvenient, but it was not catastrophic. AMR turns that kind of episode into a much more dangerous lottery.\nMachine learning will not solve antimicrobial resistance by itself. The WHO priorities are broader and more fundamental: prevent infections, improve diagnosis, ensure appropriate treatment, strengthen surveillance, develop new diagnostics and medicines, and use antimicrobials responsibly. Prediction models sit inside that larger ecosystem.\nStill, there is a concrete role for computational work. If MALDI-TOF spectra are already being collected, and if we can turn them into early, statistically controlled lists of antibiotics to avoid, then we may be able to support faster treatment decisions and better surveillance. The key is not just to be accurate on a benchmark. It is to be reliable, transparent about uncertainty, and honest about when the model has reached the limits of what the data can say.\nFor me, that makes the problem worth working on. Somewhere between a beach in Cabo Frio, a scar on my left leg, and a mass spectrum in a microbiology lab, there is a reminder that antimicrobial resistance is not abstract. It is a modelling problem, a clinical problem, and, for many patients, a race against time.\n",
+  "wordCount" : "1592",
   "inLanguage": "en",
-  "image":"//localhost:1313/AMR_multimodal.png","datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "image":"//localhost:1313/cabo_frio.jpg","datePublished": "2025-12-15T00:00:00Z",
+  "dateModified": "2025-12-15T00:00:00Z",
   "author":[{
     "@type": "Person",
     "name": "Lucas Miranda"
@@ -178,29 +179,56 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Multimodal learning in clinical proteomics
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
+      Predicting antimicrobial resistance from microbial fingerprints
     </h1>
-    <div class="post-meta">1 min&nbsp;·&nbsp;Lucas Miranda
+    <div class="post-meta"><span title='2025-12-15 00:00:00 +0000 UTC'>December 15, 2025</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Lucas Miranda&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="//localhost:1313/es/blog/amr_multimodal/amr_multimodal/">Es</a>
+    </li>
+</ul>
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="eager" src="//localhost:1313/AMR_multimodal.png" alt="AMR main figure">
-        
-</figure>
-  <div class="post-content"><p>In 2017 I had the pleasure to join an internship program at the <a href="https://unicamp.br/en/">University of Campinas</a>, in south-east Brazil. After completing my project and courses, I had some small amount of money left, and managed to take some days off in Cabo Frio, close to Rio de Janeiro. It was a great time! But on the very last day, while trying to climb back a cliff after a snorkelling session that had extended for a bit too long, the waves pressed me to the rocks and I cut my leg. While it didn&rsquo;t seem bad in the beginning, it got badly infected and, after several weeks of trying different antibiotics (back in Buenos Aires at this point), the infection was still there. After several tries and some blood analyses, the doctors found something that worked, leaving me only with a pretty big scar and a hopefully engaging introduction to this blog post. Others are not so lucky.</p>
-<p><img loading="lazy" src="../../../../cabo_frio.jpg" alt="Cabo Frio"  title="Cabo Frio"  />
+  <div class="post-content"><p><img loading="lazy" src="../../../../cabo_frio.jpg" alt="Cabo Frio"  title="Cabo Frio"  />
 </p>
-<p>Antimicrobial resistance (AMR) is a growing concern in the medical community. The World Health Organization (WHO) has declared it a global health emergency, and [&hellip;]</p>
-<h1 id="include-stats">Include stats<a hidden class="anchor" aria-hidden="true" href="#include-stats">#</a></h1>
-<h1 id="introduce-the-problem-in-the-clinic">Introduce the problem in the clinic<a hidden class="anchor" aria-hidden="true" href="#introduce-the-problem-in-the-clinic">#</a></h1>
-<h1 id="summarise-the-weis-et-al-paper">Summarise the Weis et al paper<a hidden class="anchor" aria-hidden="true" href="#summarise-the-weis-et-al-paper">#</a></h1>
-<h1 id="summarise-the-amr-multimodal-paper">Summarise the AMR multimodal paper<a hidden class="anchor" aria-hidden="true" href="#summarise-the-amr-multimodal-paper">#</a></h1>
+<p>In 2017 I spent a few months at <a href="https://unicamp.br/en/">UNICAMP</a> in Brazil. After the internship, I had just enough time and money left to visit Cabo Frio, close to Rio de Janeiro. It was beautiful: clear water, warm rocks, and the kind of coastal landscape that makes you forget that you still need to climb back after snorkelling.</p>
+<p>On the last day, I slipped while climbing up a cliff after being pushed around by the waves. I cut my left leg. At first it looked annoying but manageable. Then it got infected. Back in Buenos Aires, the wound kept getting worse despite treatment, I spent months limping, and eventually I was left with an ugly black scar that is still there today. In the end, doctors found an antibiotic that worked. Many people with antimicrobial-resistant infections are not that lucky.</p>
+<p><a href="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance">The World Health Organization</a> describes antimicrobial resistance (AMR) as one of the top global public-health and development threats. The scale is hard to overstate: bacterial AMR was estimated to be directly responsible for 1.27 million deaths in 2019, and associated with 4.95 million deaths. AMR also makes routine medicine riskier. Surgery, cancer chemotherapy, caesarean sections, organ transplantation, and intensive care all rely on being able to prevent or treat infection when something goes wrong. If more infections stop responding to available drugs, modern medicine loses part of its safety net.</p>
+<p>At the individual level, the problem is brutally practical. A patient arrives with an infection. The clinic needs to know which antimicrobial will work. The gold standard is antimicrobial susceptibility testing: grow the microorganism in the presence of different drugs and observe whether it survives. This is reliable, but it takes time. For serious infections, every hour matters, so clinicians often start treatment empirically and adjust once laboratory results arrive.</p>
+<p>That gap between &ldquo;we need to treat now&rdquo; and &ldquo;the definitive test will take longer&rdquo; is where prediction models could help.</p>
+<h3 id="maldi-tof-as-a-microbial-fingerprint">MALDI-TOF as a microbial fingerprint<a hidden class="anchor" aria-hidden="true" href="#maldi-tof-as-a-microbial-fingerprint">#</a></h3>
+<p>Many clinical microbiology laboratories already use MALDI-TOF mass spectrometry to identify microorganisms. The idea is elegant: ionize a microbial sample, measure the mass-to-charge profile of abundant molecules, and compare the resulting spectrum to reference databases. In practice, MALDI-TOF is fast, comparatively cheap once the instrument is in place, and already integrated into routine diagnostic workflows.</p>
+<p>The question is whether the same spectra can say more than &ldquo;this is <em>E. coli</em>&rdquo; or &ldquo;this is <em>Klebsiella pneumoniae</em>&rdquo;. Can they also reveal whether the isolate is resistant to a given antimicrobial? The seminal demonstration came from a <a href="https://www.nature.com/articles/s41591-021-01619-9">Nature Medicine paper</a>, which showed that MALDI-TOF spectra can contain enough signal to predict antimicrobial resistance directly from routine clinical microbiology data.</p>
+<p>That was the starting point of our <a href="https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077">Bioinformatics 2023 paper</a>, whose main contribution was to unify these predictions in a single multimodal model. Resistance is not a single binary property of a bacterium in isolation. It is always resistance to something: ampicillin, ciprofloxacin, meropenem, and so on. So instead of training separate models for each drug, we represented antimicrobials with chemical information and let one model learn across organism-drug pairs.</p>
+<p>This framing matters because clinical data are sparse and uneven. Some species-drug combinations are common, others rare. Some hospitals have many examples, others few. A model that can share information across related antimicrobials has a better chance of generalizing to settings where direct training data are limited.</p>
+<h3 id="from-accuracy-to-reliability">From accuracy to reliability<a hidden class="anchor" aria-hidden="true" href="#from-accuracy-to-reliability">#</a></h3>
+<p>In our recent <a href="https://link.springer.com/chapter/10.1007/978-3-031-90252-9_5">RECOMB 2025 paper</a>, we moved to a different but complementary question: if a model predicts resistance from MALDI-TOF spectra, how can it produce a clinically useful warning list?</p>
+<p>This is where conformal prediction enters. Standard classifiers often return probabilities, but those probabilities are not automatically trustworthy. A model can say &ldquo;90%&rdquo; and still be badly calibrated. In our setting, the conformal predictor does not return <code>{susceptible}</code> or <code>{resistant}</code> for each antibiotic separately. It returns a set of antibiotics predicted to be resistant for that isolate: in practice, a list of drugs that doctors should avoid, or at least treat as risky, while waiting for the slower culture-based susceptibility test.</p>
+<p>The guarantee is about missing resistance. Given a clinician-chosen error level, the conformal set is constructed so that, on average, it contains all truly resistant antibiotics with the desired coverage. In other words, the model is allowed to be conservative and flag extra drugs, but it is statistically controlled in how often it fails to flag a drug to which the bacterium is actually resistant.</p>
+<p><img loading="lazy" src="../AMR_1.jpg" alt="Conformal AMR overview"  title="Conformal AMR overview"  />
+</p>
+<p><strong>Figure 1.</strong> The full setup in the conformal AMR paper. A patient sample is cultured, a MALDI-TOF spectrum is collected, the species is identified, and a species-specific set of clinically relevant antibiotics is scored. A ResMLP-GNN classifier feeds a conformal predictor, which outputs the antibiotics flagged as resistant. The knowledge graph at the bottom encodes relationships between related antibiotics, such as carbapenems, fluoroquinolones, penicillins, and cephalosporins.</p>
+<p>The technical challenge is that AMR prediction is structured. Species, antimicrobials, resistance mechanisms, and laboratory measurements are not independent islands. If a <em>Klebsiella pneumoniae</em> isolate is resistant to one carbapenem, that should inform how we think about related carbapenems. The knowledge graph is a way to inject that structure into the prediction problem instead of treating every antibiotic independently.</p>
+<h3 id="what-the-model-sees-and-what-it-returns">What the model sees, and what it returns<a hidden class="anchor" aria-hidden="true" href="#what-the-model-sees-and-what-it-returns">#</a></h3>
+<p>At input time, the model receives a MALDI-TOF spectrum and a species-specific panel of clinically relevant antibiotics. The classifier assigns each antibiotic a resistance score. The conformal layer then thresholds those scores using calibration data and returns a set such as <code>{ceftriaxone, ciprofloxacin, levofloxacin, amoxicillin-clavulanic acid}</code>: antibiotics that should not be trusted for this isolate according to the model.</p>
+<p>The exact clinical interpretation would need careful validation and integration with expert workflows. These models are not replacements for microbiologists or susceptibility testing. The attractive possibility is earlier triage: provide a fast, uncertainty-aware &ldquo;avoid these drugs&rdquo; signal while the slower definitive assay is still running.</p>
+<p><img loading="lazy" src="../AMR_2.png" alt="Conformal AMR results"  title="Conformal AMR results"  />
+</p>
+<p><strong>Figure 2.</strong> Before wrapping the model with conformal prediction, we still need a classifier that has useful signal. This figure shows ROC and precision-recall curves for <em>Klebsiella pneumoniae</em> across ten antibiotics. The ROC curves are generally strong, while the precision-recall curves vary more across drugs, which is expected in imbalanced resistance settings.</p>
+<p>This is the base layer: the spectra contain information about resistance, but performance is not uniform across antibiotics. Some drugs are easier to predict than others, and class imbalance matters. That is exactly why a calibrated uncertainty layer is useful. We do not only want a score; we want an avoid-list whose probability of missing resistant antibiotics can be controlled.</p>
+<h3 id="why-this-matters-for-amr-surveillance">Why this matters for AMR surveillance<a hidden class="anchor" aria-hidden="true" href="#why-this-matters-for-amr-surveillance">#</a></h3>
+<p>The clinical use case is only one part of the story. AMR is also a surveillance problem. Hospitals and public-health systems need to know which resistant strains are spreading, where, and how quickly. MALDI-TOF is attractive here because spectra are already generated at scale in many labs. If prediction models can extract resistance-relevant signals from routine spectra, they could contribute to earlier warning systems.</p>
+<p>But surveillance models must be robust to distribution shift. A model trained in one hospital may face different species prevalence, different sample-preparation protocols, different instruments, and different resistance mechanisms elsewhere. This is another reason uncertainty is not cosmetic. When a model is deployed outside the setting where it was trained, a calibrated warning that says &ldquo;I do not know&rdquo; can be as important as a correct positive prediction.</p>
+<p><img loading="lazy" src="../AMR_3.png" alt="Knowledge-aware conformal AMR"  title="Knowledge-aware conformal AMR"  />
+</p>
+<p><strong>Figure 3.</strong> The conformal layer lets us choose an error target and then observe the trade-off between false discovery rate, false negative rate, and total error. Here, a false negative means failing to flag an antibiotic to which the isolate is resistant. A false discovery means flagging an antibiotic that would actually have been effective. The knowledge-graph variants reduce false discoveries while preserving the coverage behavior expected from conformal prediction.</p>
+<p>This is the part I find most clinically relevant. If the set is too small, we may miss resistance and leave a dangerous antibiotic on the table. If the set is too large, we may discard useful drugs and push clinicians toward broader or more toxic alternatives. Conformal prediction does not remove that trade-off, but it makes the trade-off explicit and tunable.</p>
+<h3 id="a-scar-and-a-modelling-problem">A scar and a modelling problem<a hidden class="anchor" aria-hidden="true" href="#a-scar-and-a-modelling-problem">#</a></h3>
+<p>My scar from Cabo Frio is a small, personal reminder of something much larger. I had access to medical care, diagnostic follow-up, and eventually an antimicrobial that worked. The infection was painful and inconvenient, but it was not catastrophic. AMR turns that kind of episode into a much more dangerous lottery.</p>
+<p>Machine learning will not solve antimicrobial resistance by itself. The WHO priorities are broader and more fundamental: prevent infections, improve diagnosis, ensure appropriate treatment, strengthen surveillance, develop new diagnostics and medicines, and use antimicrobials responsibly. Prediction models sit inside that larger ecosystem.</p>
+<p>Still, there is a concrete role for computational work. If MALDI-TOF spectra are already being collected, and if we can turn them into early, statistically controlled lists of antibiotics to avoid, then we may be able to support faster treatment decisions and better surveillance. The key is not just to be accurate on a benchmark. It is to be reliable, transparent about uncertainty, and honest about when the model has reached the limits of what the data can say.</p>
+<p>For me, that makes the problem worth working on. Somewhere between a beach in Cabo Frio, a scar on my left leg, and a mass spectrum in a microbiology lab, there is a reminder that antimicrobial resistance is not abstract. It is a modelling problem, a clinical problem, and, for many patients, a race against time.</p>
 
 
   </div>
@@ -212,8 +240,7 @@
       <li><a href="//localhost:1313/en/tags/proteomics/">Proteomics</a></li>
       <li><a href="//localhost:1313/en/tags/amr/">AMR</a></li>
       <li><a href="//localhost:1313/en/tags/machine-learning/">Machine Learning</a></li>
-      <li><a href="//localhost:1313/en/tags/deep-learning/">Deep Learning</a></li>
-      <li><a href="//localhost:1313/en/tags/multimodal/">Multimodal</a></li>
+      <li><a href="//localhost:1313/en/tags/conformal-prediction/">Conformal Prediction</a></li>
       <li><a href="//localhost:1313/en/tags/clinical/">Clinical</a></li>
     </ul>
   </footer>

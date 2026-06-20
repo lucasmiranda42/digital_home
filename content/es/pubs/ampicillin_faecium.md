@@ -1,13 +1,14 @@
 ---
-title: "Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF MS and machine learning"
-date: 2025-07-14
-venue: bioRxiv, 2025
+title: "Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF/MS and machine learning"
+date: 2026-05-01
+venue: Journal of Global Antimicrobial Resistance, 2026
 authors:
   - name: T Pichl
   - name: <strong>L Miranda</strong>
     home: "#"
+  - name: MT Warkotsch
   - name: N Wantia
   - name: K Borgwardt
   - name: J Sattler
-arxiv_es: https://www.biorxiv.org/content/10.1101/2025.07.14.664787.abstract
+paper_es: https://doi.org/10.1016/j.jgar.2026.03.011
 ---

@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Predicting antimicrobial resistance from microbial fingerprints</title>
+      <link>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</guid>
+      <description>A personal scar, a global health threat, and our work on predicting antimicrobial resistance from MALDI-TOF mass spectra with conformal prediction.</description>
+    </item>
+    <item>
       <title>CellPick</title>
       <link>//localhost:1313/en/software/cellpick/cellpick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,13 +44,6 @@
       <description>As part of the science communication group within the Max Planck Institute of Psychiatry, we wrote and released a booklet on mental health and mental health research for children. Come and check it out!</description>
     </item>
     <item>
-      <title>Multimodal learning in clinical proteomics</title>
-      <link>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</guid>
-      <description>Predicting antimicrobial resistance in clinical settings could have significant impact for patients. Here, we extend the current state of the art by incorporating antibiotic structural information into our models.</description>
-    </item>
-    <item>
       <title>Neural Information Processing Systems 2023</title>
       <link>//localhost:1313/en/blog/neurips23/neurips23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,10 +65,10 @@
       <description>Thrilled to have contributed to &lt;a href=&#34;https://www.cell.com/cell/fulltext/S0092-8674%2826%2900578-7&#34;&gt;&amp;ldquo;Nuclear proteome reveals microtubule-associated protein regulating fate and disease&amp;rdquo;&lt;/a&gt;, led by Florencia Merino. Out now in Cell!</description>
     </item>
     <item>
-      <title>46. Epigenomic Embedding of Childhood Adversity Links to Disease Risk and Chronic Inflammation</title>
-      <link>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF/MS and machine learning</title>
+      <link>//localhost:1313/en/pubs/ampicillin_faecium/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>
@@ -100,17 +100,17 @@
       <description></description>
     </item>
     <item>
+      <title>Epigenomic embedding of childhood adversity links to disease risk and chronic immune changes</title>
+      <link>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Classification of social behavioral responses in stress and non-stress adult male mice with high precision</title>
       <link>//localhost:1313/en/pubs/social_behavior_npp/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/pubs/social_behavior_npp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Early detection of ampicillin susceptibility in Enterococcus faecium with MALDI-TOF MS and machine learning</title>
-      <link>//localhost:1313/en/pubs/ampicillin_faecium/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/pubs/ampicillin_faecium/</guid>
       <description></description>
     </item>
     <item>

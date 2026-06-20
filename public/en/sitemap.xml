@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/amr_multimodal/amr_multimodal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/blog/amr_multimodal/amr_multimodal/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/software/cellpick/cellpick/</loc>
     <xhtml:link
                 rel="alternate"
@@ -49,8 +62,6 @@
                 hreflang="es-es"
                 href="//localhost:1313/es/blog/psycomm/psycomm_booklet/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/blog/amr_multimodal/amr_multimodal/</loc>
   </url><url>
     <loc>//localhost:1313/en/blog/neurips23/neurips23/</loc>
     <xhtml:link
@@ -129,17 +140,17 @@
                 href="//localhost:1313/es/news/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/en/pubs/ampicillin_faecium/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/"
+                href="//localhost:1313/en/pubs/ampicillin_faecium/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-es"
-                href="//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/"
+                href="//localhost:1313/es/pubs/ampicillin_faecium/"
                 />
   </url><url>
     <loc>//localhost:1313/en/news/epfl_postdoc/</loc>
@@ -181,6 +192,108 @@
                 href="//localhost:1313/es/pubs/conformal_amr_jcb/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/series/amr/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/amr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/amr/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/amr/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/amr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/amr/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/blog/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/blog/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/clinical/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/conformal-prediction/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/machine-learning/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/machine-learning/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/series/medical-informatics/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/medical-informatics/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/series/papers/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/papers/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/series/proteomics/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/proteomics/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/series/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/series/"
+                />
+  </url><url>
+    <loc>//localhost:1313/en/tags/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/tags/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/pubs/fkbp5_amygdala/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -194,6 +307,19 @@
                 href="//localhost:1313/es/pubs/fkbp5_amygdala/"
                 />
   </url><url>
+    <loc>//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/pubs/epigenomic_embedding_childhood_adversity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-es"
+                href="//localhost:1313/es/pubs/epigenomic_embedding_childhood_adversity/"
+                />
+  </url><url>
     <loc>//localhost:1313/en/pubs/social_behavior_npp/</loc>
     <lastmod>2025-12-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -205,19 +331,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/pubs/social_behavior_npp/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/pubs/ampicillin_faecium/</loc>
-    <lastmod>2025-07-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/pubs/ampicillin_faecium/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/pubs/ampicillin_faecium/"
                 />
   </url><url>
     <loc>//localhost:1313/en/pubs/conformal_amr/</loc>
@@ -428,10 +541,6 @@
                 href="//localhost:1313/es/pubs/nfkb_uba/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/series/amr/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/amr/</loc>
-  </url><url>
     <loc>//localhost:1313/en/series/austria/</loc>
     <xhtml:link
                 rel="alternate"
@@ -458,18 +567,6 @@
   </url><url>
     <loc>//localhost:1313/en/tags/behavior/</loc>
   </url><url>
-    <loc>//localhost:1313/en/blog/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/blog/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -493,8 +590,6 @@
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/cellpick/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/tags/clinical/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/conferences/</loc>
   </url><url>
@@ -608,18 +703,6 @@
                 href="//localhost:1313/es/tags/jupyter/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/machine-learning/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/machine-learning/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/series/mahine-learning/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/max-planck/</loc>
@@ -645,10 +728,6 @@
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/max-planck/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/series/medical-informatics/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/medical-informatics/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/mental-health/</loc>
   </url><url>
@@ -677,8 +756,6 @@
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/mpi-p/"
                 />
-  </url><url>
-    <loc>//localhost:1313/en/tags/multimodal/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/neurips/</loc>
     <xhtml:link
@@ -712,15 +789,7 @@
   </url><url>
     <loc>//localhost:1313/en/tags/outreach/</loc>
   </url><url>
-    <loc>//localhost:1313/en/series/papers/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/papers/</loc>
-  </url><url>
     <loc>//localhost:1313/en/tags/postprocessing/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/series/proteomics/</loc>
-  </url><url>
-    <loc>//localhost:1313/en/tags/proteomics/</loc>
   </url><url>
     <loc>//localhost:1313/en/series/psychiatry/</loc>
   </url><url>
@@ -750,18 +819,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/search/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/series/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/sleap/</loc>
@@ -822,18 +879,6 @@
                 rel="alternate"
                 hreflang="es-es"
                 href="//localhost:1313/es/tags/spatial-transcriptomics/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-es"
-                href="//localhost:1313/es/tags/"
                 />
   </url><url>
     <loc>//localhost:1313/en/tags/time-series/</loc>

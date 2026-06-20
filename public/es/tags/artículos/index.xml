@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Artículos on Home</title>
+    <link>//localhost:1313/es/tags/art%C3%ADculos/</link>
+    <description>Recent content in Artículos on Home</description>
+    <generator>Hugo -- 0.163.3</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/es/tags/art%C3%ADculos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predicción de resistencia antimicrobiana a partir de huellas microbianas</title>
+      <link>//localhost:1313/es/blog/amr_multimodal/amr_multimodal/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/blog/amr_multimodal/amr_multimodal/</guid>
+      <description>Una cicatriz personal, una amenaza global para la salud, y nuestro trabajo prediciendo resistencia antimicrobiana con espectros MALDI-TOF y predicción conformal.</description>
+    </item>
+  </channel>
+</rss>
