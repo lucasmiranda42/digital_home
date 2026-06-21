@@ -8,7 +8,8 @@
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+{{- $browserTitle := site.Params.homeInfoParams.Title | default site.Title }}
+<title>{{ if .IsHome }}{{ $browserTitle }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ $browserTitle }}{{ end }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
