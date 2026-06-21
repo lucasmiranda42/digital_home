@@ -11,4 +11,5 @@ authors:
   - name: K Borgwardt
 paper: https://journals.sagepub.com/doi/abs/10.1177/15578666251396558
 code: https://github.com/BorgwardtLab/ConformalAMR
+blog: /en/blog/amr_multimodal/amr_multimodal/
 ---

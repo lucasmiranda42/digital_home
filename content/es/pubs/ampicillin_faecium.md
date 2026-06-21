@@ -11,4 +11,5 @@ authors:
   - name: K Borgwardt
   - name: J Sattler
 paper_es: https://doi.org/10.1016/j.jgar.2026.03.011
+blog_es: /es/blog/amr_multimodal/amr_multimodal/
 ---

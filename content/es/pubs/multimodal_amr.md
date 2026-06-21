@@ -13,4 +13,5 @@ authors:
   - name: C Oliver
 paper_es: https://academic.oup.com/bioinformatics/article/39/12/btad717/7450077
 code_es: https://github.com/BorgwardtLab/MultimodalAMR
+blog_es: /es/blog/amr_multimodal/amr_multimodal/
 ---

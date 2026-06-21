@@ -12,4 +12,5 @@ authors:
 paper: https://link.springer.com/chapter/10.1007/978-3-031-90252-9_5
 page: https://recomb.org/recomb2025/index.html
 code: https://github.com/BorgwardtLab/ConformalAMR
+blog: /en/blog/amr_multimodal/amr_multimodal/
 ---

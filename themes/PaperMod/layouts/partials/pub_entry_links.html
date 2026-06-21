@@ -16,6 +16,9 @@
 {{- if .Params.code }}
 <a href="{{ .Params.code }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "github" }} Code</a>&nbsp;&nbsp;
 {{- end }}
+{{- if .Params.blog }}
+<a href="{{ .Params.blog | absURL }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "file" }} Blog</a>&nbsp;&nbsp;
+{{- end }}
 {{- if .Params.video }}
 <a href="{{ .Params.video }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "youtube" }} Video</a>&nbsp;&nbsp;
 {{- end }}
@@ -37,6 +40,9 @@
 {{- end }}
 {{- if .Params.code_es }}
 <a href="{{ .Params.code_es }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "github" }} Código</a>&nbsp;&nbsp;
+{{- end }}
+{{- if .Params.blog_es }}
+<a href="{{ .Params.blog_es | absURL }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "file" }} Blog</a>&nbsp;&nbsp;
 {{- end }}
 {{- if .Params.video_es }}
 <a href="{{ .Params.video_es }}" target="_blank" rel="noopener noreferrer">{{ partial "icon.html" "youtube" }} Video</a>&nbsp;&nbsp;
